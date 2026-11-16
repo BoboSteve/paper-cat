@@ -1,0 +1,36 @@
+{
+  "_comment": "Windows / Linux with an NVIDIA GPU: StartLux Instant GGUF served by llama.cpp. Copy to runtime.local.json and replace every <...> path. Verified on Windows 10 + RTX 3060 6GB (Q4_K_M, 4096 context).",
+  "backend": "llamacpp",
+  "model_name": "StartLux-Decision-v1.1-4B-Instant-Q4_K_M",
+  "quantization": "Q4_K_M",
+  "tool_root": "<C:/path/to/paper-cat-tools>",
+  "python": "<C:/path/to/paper-cat-tools/.venv/Scripts/python.exe>",
+  "cache_dir": "<C:/path/to/paper-cat-tools/cache>",
+  "service_url": "http://127.0.0.1:8090",
+  "context_tokens": 4096,
+  "workers": 1,
+  "service": {
+    "mode": "managed",
+    "processes": [
+      {
+        "name": "llama",
+        "command": ["{tool_root}/llama/llama-server.exe", "-m", "{tool_root}/models/StartLux-Decision-v1.1-4B-Instant-GGUF/StartLux-Decision-v1.1-4B-Instant-Q4_K_M.gguf",
+                    "-ngl", "99", "-c", "4096", "--parallel", "1", "--ctx-checkpoints", "0", "-b", "4096", "-ub", "4096",
+                    "--host", "127.0.0.1", "--port", "8081", "--no-webui"],
+        "port": 8081,
+        "health": "http://127.0.0.1:8081/health"
+      },
+      {
+        "name": "decision",
+        "command": ["{python}", "-X", "utf8", "-m", "startlux_decide.cli", "serve",
+                    "--model", "{tool_root}/models/StartLux-Decision-v1.1-4B-Instant",
+                    "--backend", "llamacpp", "--llamacpp-url", "http://127.0.0.1:8081",
+                    "--host", "127.0.0.1", "--port", "8090", "--name", "StartLux-Decision-v1.1-4B-Instant-Q4_K_M",
+                    "--max-model-len", "4096", "--max-inflight", "1"],
+        "env": {"STARTLUX_LLAMACPP_BIDIR": "server", "HF_HUB_OFFLINE": "1"},
+        "port": 8090,
+        "health": "http://127.0.0.1:8090/health"
+      }
+    ]
+  }
+}

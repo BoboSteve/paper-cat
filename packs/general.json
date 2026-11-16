@@ -1,0 +1,9 @@
+{
+  "id": "general",
+  "name": "通用（所有学科）",
+  "description": "Default for any discipline: broad sources, Chinese Academy of Sciences journal partitions, no field-specific conference rules.",
+  "sources": ["openalex", "arxiv", "crossref", "semantic"],
+  "grading": ["cas_partition"],
+  "track_rules": false,
+  "notes": "Medicine/life science (PubMed, medRxiv, JCR) and social science (SSRN, CSSCI) packs are planned; until then this pack is used for them."
+}

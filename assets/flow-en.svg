@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 430" width="1200" height="430" role="img" aria-label="Two modes: quick digest in about 2 minutes, deep search in 30 to 60 minutes">
+  <title>Quick digest and deep search workflow</title>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#8a94a6"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="430" rx="24" fill="#f6f8fc"/>
+  <g font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">
+
+    <rect x="40" y="38" width="330" height="34" rx="17" fill="#ffd166"/>
+    <text x="205" y="61" text-anchor="middle" font-size="17" font-weight="700" fill="#3a2a00">⚡ Quick digest · ~2 min · zero config</text>
+    <g font-size="18" font-weight="700" fill="#1f2a44" text-anchor="middle">
+      <rect x="40" y="88" width="200" height="84" rx="14" fill="#fff" stroke="#f0c14b" stroke-width="2"/>
+      <text x="140" y="124">① Ask in a sentence</text>
+      <rect x="270" y="88" width="200" height="84" rx="14" fill="#fff" stroke="#f0c14b" stroke-width="2"/>
+      <text x="370" y="124">② Confirm scope</text>
+      <rect x="500" y="88" width="200" height="84" rx="14" fill="#fff" stroke="#f0c14b" stroke-width="2"/>
+      <text x="600" y="124">③ Search</text>
+      <rect x="730" y="88" width="200" height="84" rx="14" fill="#fff" stroke="#f0c14b" stroke-width="2"/>
+      <text x="830" y="124">④ AI reads abstracts</text>
+      <rect x="960" y="88" width="200" height="84" rx="14" fill="#fff8e1" stroke="#f0c14b" stroke-width="2"/>
+      <text x="1060" y="124">⑤ Card report</text>
+    </g>
+    <g font-size="14" fill="#5b6475" text-anchor="middle">
+      <text x="140" y="152">"What's new on …?"</text>
+      <text x="370" y="152">keywords · dates · options</text>
+      <text x="600" y="152">arXiv + OpenAlex</text>
+      <text x="830" y="152">picks 10 out of 40</text>
+      <text x="1060" y="152">grouped · screenshot-ready</text>
+    </g>
+    <g stroke="#8a94a6" stroke-width="2" marker-end="url(#arrow)">
+      <line x1="242" y1="130" x2="266" y2="130"/><line x1="472" y1="130" x2="496" y2="130"/>
+      <line x1="702" y1="130" x2="726" y2="130"/><line x1="932" y1="130" x2="956" y2="130"/>
+    </g>
+
+    <rect x="40" y="208" width="350" height="34" rx="17" fill="#2d4a7a"/>
+    <text x="215" y="231" text-anchor="middle" font-size="17" font-weight="700" fill="#ffffff">🔬 Deep search · 30–60 min · citable</text>
+    <g font-size="17" font-weight="700" fill="#1f2a44" text-anchor="middle">
+      <rect x="40" y="258" width="163" height="84" rx="14" fill="#fff" stroke="#7d9bd1" stroke-width="2"/>
+      <text x="121" y="294">Plan</text>
+      <rect x="231" y="258" width="163" height="84" rx="14" fill="#fff" stroke="#7d9bd1" stroke-width="2"/>
+      <text x="312" y="294">Multi-source</text>
+      <rect x="422" y="258" width="163" height="84" rx="14" fill="#fff" stroke="#7d9bd1" stroke-width="2"/>
+      <text x="503" y="294">Rank &amp; grade</text>
+      <rect x="613" y="258" width="163" height="84" rx="14" fill="#fff" stroke="#7d9bd1" stroke-width="2"/>
+      <text x="694" y="294">Read full text</text>
+      <rect x="804" y="258" width="163" height="84" rx="14" fill="#fff" stroke="#7d9bd1" stroke-width="2"/>
+      <text x="885" y="294">Verify quotes</text>
+      <rect x="995" y="258" width="165" height="84" rx="14" fill="#eaf0fb" stroke="#7d9bd1" stroke-width="2"/>
+      <text x="1077" y="294">Report + snowball</text>
+    </g>
+    <g font-size="13" fill="#5b6475" text-anchor="middle">
+      <text x="121" y="322">concepts · date window</text>
+      <text x="312" y="322">dedupe · date filter</text>
+      <text x="503" y="322">CCF · CAS · tracks</text>
+      <text x="694" y="322">batched · resumable</text>
+      <text x="885" y="322">matched to the page</text>
+      <text x="1077" y="322">finds missed papers</text>
+    </g>
+    <g stroke="#8a94a6" stroke-width="2" marker-end="url(#arrow)">
+      <line x1="205" y1="300" x2="227" y2="300"/><line x1="396" y1="300" x2="418" y2="300"/>
+      <line x1="587" y1="300" x2="609" y2="300"/><line x1="778" y1="300" x2="800" y2="300"/>
+      <line x1="969" y1="300" x2="991" y2="300"/>
+    </g>
+
+    <rect x="40" y="370" width="1120" height="40" rx="12" fill="#ffffff" stroke="#dde3ee"/>
+    <text x="600" y="396" text-anchor="middle" font-size="16" fill="#3b4558">✋ A checkpoint card after every step: numbered options, nothing continues until you confirm  ·  papers come only from real search results</text>
+  </g>
+</svg>

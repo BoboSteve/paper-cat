@@ -1,0 +1,6 @@
+interface:
+  display_name: "论文喵 PaperCat"
+  short_description: "两分钟论文速递；需要可引用的结论时通读全文、原文证据逐字核对"
+  default_prompt: "使用 $paper-cat（论文喵）帮我找论文：先两分钟速览，需要时再做深度检索。"
+policy:
+  allow_implicit_invocation: true

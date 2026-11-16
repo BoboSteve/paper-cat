@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360" role="img" aria-label="PaperCat: one sentence, two minutes, a beautiful paper digest">
+  <title>PaperCat</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1f2a44"/>
+      <stop offset="1" stop-color="#2d4a7a"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#eef2f8"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#0b1220" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="360" rx="24" fill="url(#bg)"/>
+  <g fill="#ffffff" opacity="0.06">
+    <circle cx="1120" cy="40" r="90"/><circle cx="60" cy="330" r="70"/><circle cx="700" cy="-20" r="60"/>
+  </g>
+
+  <g font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">
+    <text x="64" y="104" font-size="56" font-weight="800" fill="#ffffff">PaperCat<tspan dx="16" font-size="30" font-weight="700" fill="#ffd166" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">论文喵</tspan></text>
+    <text x="66" y="154" font-size="28" fill="#dbe6ff">One sentence. Two minutes. A beautiful paper digest.</text>
+    <text x="66" y="194" font-size="18" fill="#9fb4dc">Need citable answers? Upgrade to full-text reading with verbatim-checked evidence.</text>
+    <g font-size="17" font-weight="600">
+      <rect x="64" y="236" width="150" height="38" rx="19" fill="#ffd166"/>
+      <text x="139" y="261" text-anchor="middle" fill="#3a2a00">⚡ Zero config</text>
+      <rect x="226" y="236" width="200" height="38" rx="19" fill="#ffffff" opacity="0.14"/>
+      <text x="326" y="261" text-anchor="middle" fill="#ffffff">📄 Verbatim evidence</text>
+      <rect x="438" y="236" width="160" height="38" rx="19" fill="#ffffff" opacity="0.14"/>
+      <text x="518" y="261" text-anchor="middle" fill="#ffffff">🏷️ Venue ranks</text>
+      <rect x="610" y="236" width="196" height="38" rx="19" fill="#ffffff" opacity="0.14"/>
+      <text x="708" y="261" text-anchor="middle" fill="#ffffff">💬 Community buzz</text>
+    </g>
+    <text x="66" y="318" font-size="15" fill="#8ea3cc">Any field · deep support for CS (CCF ranks, main vs. Findings tracks) · Claude Code / Codex</text>
+  </g>
+
+  <g transform="translate(820 52)">
+    <g transform="rotate(-8 140 130)" filter="url(#shadow)">
+      <rect x="40" y="30" width="230" height="200" rx="16" fill="#c9d6ee"/>
+    </g>
+    <g transform="rotate(4 140 130)" filter="url(#shadow)">
+      <rect x="50" y="22" width="230" height="200" rx="16" fill="#e3eaf6"/>
+    </g>
+    <g stroke="#6b4a2b" stroke-width="3" stroke-linejoin="round">
+      <path d="M118 22 L128 -14 L150 10 Z" fill="#f7c58b"/>
+      <path d="M202 22 L192 -14 L170 10 Z" fill="#f7c58b"/>
+      <ellipse cx="160" cy="34" rx="50" ry="38" fill="#f7c58b"/>
+    </g>
+    <path d="M126 12 L130 -4 L141 9 Z" fill="#f4a6a6"/>
+    <path d="M194 12 L190 -4 L179 9 Z" fill="#f4a6a6"/>
+    <path d="M138 30 q7 -8 14 0" fill="none" stroke="#3b2a1a" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M168 30 q7 -8 14 0" fill="none" stroke="#3b2a1a" stroke-width="3.5" stroke-linecap="round"/>
+    <ellipse cx="132" cy="40" rx="7" ry="4" fill="#f4a6a6" opacity="0.85"/>
+    <ellipse cx="188" cy="40" rx="7" ry="4" fill="#f4a6a6" opacity="0.85"/>
+    <g filter="url(#shadow)">
+      <rect x="44" y="44" width="236" height="200" rx="16" fill="url(#card)"/>
+      <rect x="66" y="70" width="70" height="18" rx="9" fill="#dbe7ff"/>
+      <rect x="66" y="100" width="180" height="12" rx="6" fill="#2d4a7a"/>
+      <rect x="66" y="120" width="140" height="12" rx="6" fill="#2d4a7a" opacity="0.75"/>
+      <rect x="66" y="146" width="190" height="8" rx="4" fill="#9aa8bf"/>
+      <rect x="66" y="162" width="170" height="8" rx="4" fill="#9aa8bf"/>
+      <rect x="66" y="186" width="180" height="40" rx="8" fill="#eaf6ee"/>
+      <text x="80" y="212" font-size="15" fill="#1e7a3c" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">✓ Verified on page 3</text>
+    </g>
+    <ellipse cx="136" cy="46" rx="12" ry="8" fill="#f7c58b" stroke="#6b4a2b" stroke-width="3"/>
+    <ellipse cx="184" cy="46" rx="12" ry="8" fill="#f7c58b" stroke="#6b4a2b" stroke-width="3"/>
+    <g transform="translate(250 128)">
+      <circle cx="0" cy="0" r="42" fill="#ffffff" fill-opacity="0.25" stroke="#ffd166" stroke-width="10"/>
+      <line x1="30" y1="30" x2="66" y2="66" stroke="#ffd166" stroke-width="14" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>

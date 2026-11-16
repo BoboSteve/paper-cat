@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 430" width="1200" height="430" role="img" aria-label="两种模式的流程：速览约 2 分钟，深度检索约 30–60 分钟">
+  <title>速览与深度检索流程</title>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#8a94a6"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="430" rx="24" fill="#f6f8fc"/>
+  <g font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC','Source Han Sans SC',sans-serif">
+
+    <!-- lane 1: quick -->
+    <rect x="40" y="38" width="290" height="34" rx="17" fill="#ffd166"/>
+    <text x="185" y="61" text-anchor="middle" font-size="17" font-weight="700" fill="#3a2a00">⚡ 速览 · 约 2 分钟 · 零配置</text>
+    <g font-size="18" font-weight="700" fill="#1f2a44" text-anchor="middle">
+      <rect x="40" y="88" width="200" height="84" rx="14" fill="#fff" stroke="#f0c14b" stroke-width="2"/>
+      <text x="140" y="124">① 说一句话</text>
+      <rect x="270" y="88" width="200" height="84" rx="14" fill="#fff" stroke="#f0c14b" stroke-width="2"/>
+      <text x="370" y="124">② 确认范围</text>
+      <rect x="500" y="88" width="200" height="84" rx="14" fill="#fff" stroke="#f0c14b" stroke-width="2"/>
+      <text x="600" y="124">③ 检索</text>
+      <rect x="730" y="88" width="200" height="84" rx="14" fill="#fff" stroke="#f0c14b" stroke-width="2"/>
+      <text x="830" y="124">④ AI 读摘要</text>
+      <rect x="960" y="88" width="200" height="84" rx="14" fill="#fff8e1" stroke="#f0c14b" stroke-width="2"/>
+      <text x="1060" y="124">⑤ 卡片报告</text>
+    </g>
+    <g font-size="14" fill="#5b6475" text-anchor="middle">
+      <text x="140" y="152">「帮我看看…的论文」</text>
+      <text x="370" y="152">关键词 · 时间 · 给你选项</text>
+      <text x="600" y="152">arXiv + OpenAlex</text>
+      <text x="830" y="152">从 40 篇里挑 10 篇</text>
+      <text x="1060" y="152">按类别分组 · 可截图</text>
+    </g>
+    <g stroke="#8a94a6" stroke-width="2" marker-end="url(#arrow)">
+      <line x1="242" y1="130" x2="266" y2="130"/><line x1="472" y1="130" x2="496" y2="130"/>
+      <line x1="702" y1="130" x2="726" y2="130"/><line x1="932" y1="130" x2="956" y2="130"/>
+    </g>
+
+    <!-- lane 2: deep -->
+    <rect x="40" y="208" width="330" height="34" rx="17" fill="#2d4a7a"/>
+    <text x="205" y="231" text-anchor="middle" font-size="17" font-weight="700" fill="#ffffff">🔬 深度检索 · 30–60 分钟 · 可引用</text>
+    <g font-size="18" font-weight="700" fill="#1f2a44" text-anchor="middle">
+      <rect x="40" y="258" width="163" height="84" rx="14" fill="#fff" stroke="#7d9bd1" stroke-width="2"/>
+      <text x="121" y="294">检索计划</text>
+      <rect x="231" y="258" width="163" height="84" rx="14" fill="#fff" stroke="#7d9bd1" stroke-width="2"/>
+      <text x="312" y="294">多源检索</text>
+      <rect x="422" y="258" width="163" height="84" rx="14" fill="#fff" stroke="#7d9bd1" stroke-width="2"/>
+      <text x="503" y="294">排序标注</text>
+      <rect x="613" y="258" width="163" height="84" rx="14" fill="#fff" stroke="#7d9bd1" stroke-width="2"/>
+      <text x="694" y="294">通读全文</text>
+      <rect x="804" y="258" width="163" height="84" rx="14" fill="#fff" stroke="#7d9bd1" stroke-width="2"/>
+      <text x="885" y="294">逐字核对</text>
+      <rect x="995" y="258" width="165" height="84" rx="14" fill="#eaf0fb" stroke="#7d9bd1" stroke-width="2"/>
+      <text x="1077" y="294">报告 + 补检</text>
+    </g>
+    <g font-size="14" fill="#5b6475" text-anchor="middle">
+      <text x="121" y="322">概念组 · 时间窗</text>
+      <text x="312" y="322">去重 · 时间过滤</text>
+      <text x="503" y="322">CCF · 分区 · 轨道</text>
+      <text x="694" y="322">分批 · 断点续读</text>
+      <text x="885" y="322">引句定位到页码</text>
+      <text x="1077" y="322">滚雪球找漏掉的</text>
+    </g>
+    <g stroke="#8a94a6" stroke-width="2" marker-end="url(#arrow)">
+      <line x1="205" y1="300" x2="227" y2="300"/><line x1="396" y1="300" x2="418" y2="300"/>
+      <line x1="587" y1="300" x2="609" y2="300"/><line x1="778" y1="300" x2="800" y2="300"/>
+      <line x1="969" y1="300" x2="991" y2="300"/>
+    </g>
+
+    <!-- footer -->
+    <rect x="40" y="370" width="1120" height="40" rx="12" fill="#ffffff" stroke="#dde3ee"/>
+    <text x="600" y="396" text-anchor="middle" font-size="16" fill="#3b4558">✋ 每一步都有检查点卡片，给出编号选项，你确认后才继续　·　论文只来自真实检索结果，不编造</text>
+  </g>
+</svg>

@@ -1,0 +1,9 @@
+{
+  "id": "cs",
+  "name": "计算机科学",
+  "description": "Computer science: adds DBLP, CCF conference/journal grades and conference-track rules (main vs Findings/Workshop); Crossref is off because it adds many non-CS records.",
+  "sources": ["openalex", "arxiv", "dblp", "semantic"],
+  "grading": ["ccf", "cas_partition"],
+  "track_rules": true,
+  "notes": "OpenReview enumeration (venue-complete search, Path A) is available when an account is configured."
+}

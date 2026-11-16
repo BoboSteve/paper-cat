@@ -1,0 +1,69 @@
+{
+  "comment": "载体别名表 + 轨道规则表（MVP 种子版）。等级判定 = (DBLP 载体键, 卷, 版块) → (会议或期刊, 轨道, CCF 条目)。长期维护：随 CCF 版本与社区变化更新，每次更新跑边界用例回归集。",
+  "snapshot": "2026-10-25",
+  "carrier_alias": {
+    "journals/pacmpl": {"venue": "conf/popl|conf/pldi|conf/oopsla|conf/icfp", "type": "conference", "note": "PACMPL 按期号映射 POPL/PLDI/OOPSLA/ICFP；卷内会议由期号决定，MVP 期映射待补全 → 期号不在表内标待核实"},
+    "journals/pacmmod": {"venue": "conf/sigmod", "type": "conference"},
+    "journals/pacmse": {"venue": "conf/fse", "type": "conference"},
+    "journals/pacmhci": {"venue": "conf/cscw", "type": "conference"},
+    "journals/imwut": {"venue": "conf/ubicomp", "type": "conference"},
+    "journals/pomacs": {"venue": "conf/sigmetrics", "type": "conference"},
+    "journals/tog": {"venue": "conf/siggraph", "type": "conference"},
+    "journals/pvldb": {"venue": "conf/vldb", "type": "conference"},
+    "journals/corr": {"venue": null, "type": "preprint", "note": "arXiv 预印本，publtype=informal，不参与等级判定"}
+  },
+  "track_rules": {
+    "volume_suffix": {
+      "f": "findings",
+      "w": "workshop",
+      "ws": "workshop",
+      "demo": "demo",
+      "industry": "industry"
+    },
+    "volume_contains": {
+      "workshop": "workshop",
+      "findings": "findings",
+      "demo": "demo",
+      "doctoral": "doctoral_consortium",
+      "student": "student_abstract"
+    },
+    "note": "卷尾部字母后缀与关键词仅是启发式（emnlp2024f=Findings）；命中启发式但不确定 → track=unknown + 待核实。CCF 第七版口径：只认 Full/Regular paper，Findings/Workshop/Demo/Short/Technical Brief 不计入。页数阈值（如 ≤4 页疑似 short）只作最后兜底。"
+  },
+  "paper_type_doi_prefix": {
+    "10.48550": "arxiv_preprint"
+  },
+  "open_channel_seed": {
+    "conf/acl": "acl_anthology", "conf/emnlp": "acl_anthology", "conf/naacl": "acl_anthology", "conf/coling": "acl_anthology",
+    "conf/icml": "pmlr", "conf/aistats": "pmlr", "conf/uai": "pmlr", "conf/colt": "pmlr", "conf/acml": "pmlr",
+    "conf/neurips": "neurips_proceedings", "conf/iclr": "openreview",
+    "conf/cvpr": "cvf", "conf/iccv": "cvf", "conf/wacv": "cvf",
+    "conf/eccv": "ecva",
+    "conf/osdi": "usenix", "conf/nsdi": "usenix", "conf/atc": "usenix", "conf/fast": "usenix", "conf/usenix": "usenix", "conf/hotos": "usenix",
+    "conf/aaai": "aaai_ojs", "conf/ijcai": "ijcai",
+    "conf/ndss": "ndss",
+    "conf/mlsys": "mlsys",
+    "conf/vldb": "pvldb",
+    "conf/edbt": "openproceedings", "conf/icdt": "openproceedings",
+    "conf/sosp": "acm_dl", "conf/asplos": "acm_dl", "conf/sigmod": "acm_dl", "conf/pods": "acm_dl", "conf/stoc": "acm_dl", "conf/focs": "acm_dl",
+    "conf/ccs": "acm_dl", "conf/chi": "acm_dl", "conf/kdd": "acm_dl", "conf/sigir": "acm_dl", "conf/www": "acm_dl",
+    "conf/sigcomm": "acm_dl", "conf/mobicom": "acm_dl", "conf/mm": "acm_dl", "conf/pldi": "acm_dl", "conf/popl": "acm_dl",
+    "conf/oopsla": "acm_dl", "conf/fse": "acm_dl", "conf/eurosys": "acm_dl", "conf/siggraph": "acm_dl",
+    "journals/pacmpl": "acm_dl", "journals/pacmmod": "acm_dl", "journals/pacmse": "acm_dl", "journals/tog": "acm_dl"
+  },
+  "open_channel_meta": {
+    "acm_dl": {"kind": "free_with_browser", "note": "ACM 2026-01 起全面 OA；程序直连触发浏览器验证 → agent 浏览器自动化优先，人机协作兜底"},
+    "acl_anthology": {"kind": "api_data", "url": "https://aclanthology.org"},
+    "pmlr": {"kind": "stable_page", "url": "https://proceedings.mlr.press"},
+    "neurips_proceedings": {"kind": "api_data", "url": "https://proceedings.neurips.cc"},
+    "openreview": {"kind": "api_account", "url": "https://api2.openreview.net", "note": "需账号；按 venueid 过滤录用"},
+    "cvf": {"kind": "stable_page", "url": "https://openaccess.thecvf.com"},
+    "ecva": {"kind": "stable_page", "url": "https://www.ecva.net/papers.php"},
+    "usenix": {"kind": "stable_page", "url": "https://www.usenix.org"},
+    "aaai_ojs": {"kind": "stable_page", "url": "https://ojs.aaai.org"},
+    "ijcai": {"kind": "stable_page", "url": "https://www.ijcai.org/proceedings"},
+    "ndss": {"kind": "stable_page", "url": "https://www.ndss-symposium.org"},
+    "mlsys": {"kind": "stable_page", "url": "https://proceedings.mlsys.org"},
+    "pvldb": {"kind": "stable_page", "url": "https://www.vldb.org/pvldb"},
+    "openproceedings": {"kind": "stable_page", "url": "https://openproceedings.org"}
+  }
+}

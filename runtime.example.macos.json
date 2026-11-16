@@ -1,0 +1,25 @@
+{
+  "_comment": "macOS on Apple Silicon: StartLux Instant MLX 8-bit (the original author's setup). Copy to runtime.local.json and replace every <...> path. Not re-verified on this project's Windows machine.",
+  "backend": "mlx",
+  "model_name": "StartLux-Decision-v1.1-4B-Instant-MLX-8bit",
+  "quantization_bits": 8,
+  "tool_root": "<~/paper-cat-tools>",
+  "python": "<~/paper-cat-tools/.venv/bin/python>",
+  "cache_dir": "<~/.cache/paper-cat>",
+  "service_url": "http://127.0.0.1:8090",
+  "workers": 1,
+  "service": {
+    "mode": "managed",
+    "processes": [
+      {
+        "name": "decision",
+        "command": ["{python}", "-m", "startlux_decide.cli", "serve",
+                    "--model", "{tool_root}/models/StartLux-Decision-v1.1-4B-Instant-MLX-8bit",
+                    "--backend", "mlx", "--host", "127.0.0.1", "--port", "8090",
+                    "--name", "StartLux-Decision-v1.1-4B-Instant-MLX-8bit", "--max-inflight", "1"],
+        "port": 8090,
+        "health": "http://127.0.0.1:8090/health"
+      }
+    ]
+  }
+}
