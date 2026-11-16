@@ -7,7 +7,7 @@
 ![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-3776AB?logo=python&logoColor=white)
 ![Zero config](https://img.shields.io/badge/setup-zero%20config-ffd166)
 ![Stdlib only](https://img.shields.io/badge/deps-stdlib%20only-2d4a7a)
-![Agents](https://img.shields.io/badge/agent-Claude%20Code%20%7C%20Codex-8a63d2)
+![Agents](https://img.shields.io/badge/agent-Claude%20Code%20%7C%20Codex%20%7C%20CodeArts-8a63d2)
 
 **Ask PaperCat "what's new on X lately?" and get a beautiful one-page paper digest two minutes later.**<br>
 Writing a survey and need citable answers? Upgrade to deep search: the agent reads the full papers, and every claim comes with a verbatim quote and page number.
@@ -58,7 +58,7 @@ So I turned every one of my advisor's demands into code. That's **PaperCat**:
 
 > No account, no API key, no config file to edit. If you have Python 3.9+, you're ready.
 
-**① Install.** Download this repository (or `paper-cat-<version>.zip` from a release), unzip it, and run inside the unzipped folder:
+**① Install.** `git clone https://github.com/Kristy-Nora/paper-cat` (or download `paper-cat-<version>.zip` from a release and unzip it), then run inside the folder:
 
 ```bash
 python scripts/install_skill.py --target claude     # Claude Code; use --target codex for Codex
@@ -156,7 +156,7 @@ Packs for medicine (PubMed / medRxiv) and social sciences (SSRN / CSSCI) are pla
 
 ## 💻 Agents and platforms
 
-Claude Code, Codex and any other agent that reads `SKILL.md` (`install_skill.py --target <skills folder>`); Windows, macOS, Linux. The scripts use only the Python standard library (verified on Python 3.9+); `pip install pymupdf` is recommended for PDF text in deep mode.
+Claude Code, Codex, Huawei Cloud CodeArts (`install_skill.py --target .codeartsdoer/skills`) and any other agent that reads `SKILL.md` (`install_skill.py --target <skills folder>`); the same Skill follows the open Agent Skills format and can be published to the Xiaohongshu Skill marketplace for agents to call. Windows, macOS, Linux. The scripts use only the Python standard library (verified on Python 3.9+); `pip install pymupdf` is recommended for PDF text in deep mode.
 
 <p align="center"><img src="assets/tested-on-windows.svg" width="200" alt="PaperCat holding an empty wallet: tested on Windows only"></p>
 

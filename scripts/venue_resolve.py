@@ -44,8 +44,13 @@ def openalex_by_doi(dois, settings, timeout):
             "per-page": 50,
             "select": "id,doi,type,primary_location,locations,best_oa_location",
         }
-        payload = http_json("https://api.openalex.org/works?" + urllib.parse.urlencode(params, safe=":|/"),
-                            headers=headers, timeout=timeout)
+        try:  # optional enrichment: one short retry, keep what was found, never stall the run
+            payload = http_json("https://api.openalex.org/works?" + urllib.parse.urlencode(params, safe=":|/"),
+                                headers=headers, timeout=timeout, retries=1, max_wait=15)
+        except Exception:
+            if not found:
+                raise
+            break
         for work in payload.get("results") or []:
             found[normalize_doi(work.get("doi"))] = work
     return found
@@ -69,7 +74,12 @@ def arxiv_metadata(ids, timeout):
         chunk = ids[start:start + 50]
         url = "https://export.arxiv.org/api/query?" + urllib.parse.urlencode(
             {"id_list": ",".join(chunk), "max_results": len(chunk)})
-        root = ET.fromstring(http_get(url, timeout=timeout))
+        try:  # optional enrichment: one short retry, keep what was found, never stall the run
+            root = ET.fromstring(http_get(url, timeout=timeout, retries=1, max_wait=15))
+        except Exception:
+            if not found:
+                raise
+            break
         for entry in root.findall(ATOM + "entry"):
             match = re.search(r"(\d{4}\.\d{4,5})", entry.findtext(ATOM + "id") or "")
             if match:

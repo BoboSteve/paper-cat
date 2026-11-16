@@ -20,12 +20,12 @@ from pathlib import Path
 
 
 def utf8_output():
-    """Agents read our output through a pipe; on Chinese Windows that pipe defaults to GBK, which cannot
-    encode ✓, emoji or many paper titles and crashes the script. Pipes get UTF-8; real consoles are
-    already Unicode-safe and are left alone."""
+    """Agents read our output through a pipe; on Chinese Windows that pipe (and NUL, which Python reports
+    as a terminal) defaults to GBK, which cannot encode ✓, emoji or many paper titles and crashes the
+    script. Any non-UTF-8 stream is switched to UTF-8; a real Windows console already reports UTF-8."""
     for stream in (sys.stdout, sys.stderr):
         try:
-            if not stream.isatty() and (stream.encoding or "").lower().replace("-", "") != "utf8":
+            if (stream.encoding or "").lower().replace("-", "") != "utf8":
                 stream.reconfigure(encoding="utf-8", errors="replace")
         except (AttributeError, ValueError, OSError):
             pass
@@ -35,7 +35,7 @@ utf8_output()
 
 SKILL_DIR = Path(__file__).resolve().parents[1]
 DEFAULT_ENV_FILE = Path.home() / ".config" / "paper-search-mcp" / ".env"
-USER_AGENT = "PaperCat/2.0 (academic literature screening)"
+USER_AGENT = "PaperCat/1.0 (academic literature screening)"
 ENV_KEYS = (
     "SEMANTIC_SCHOLAR_API_KEY", "OPENALEX_API_KEY", "OPENALEX_EMAIL", "UNPAYWALL_EMAIL",
     "OPENREVIEW_USERNAME", "OPENREVIEW_PASSWORD", "OPENREVIEW_TOTP_SECRET",

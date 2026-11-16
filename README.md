@@ -7,7 +7,7 @@
 ![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-3776AB?logo=python&logoColor=white)
 ![Zero config](https://img.shields.io/badge/setup-zero%20config-ffd166)
 ![Stdlib only](https://img.shields.io/badge/deps-stdlib%20only-2d4a7a)
-![Agents](https://img.shields.io/badge/agent-Claude%20Code%20%7C%20Codex-8a63d2)
+![Agents](https://img.shields.io/badge/agent-Claude%20Code%20%7C%20Codex%20%7C%20CodeArts-8a63d2)
 
 **跟论文喵说一句「帮我看看 XX 最近有什么论文」，两分钟后拿到一页好看的论文速递。**<br>
 要写综述、要能引用？一键升级成深度检索：通读全文，每条结论都附原文原句和页码。
@@ -58,7 +58,7 @@
 
 > 不需要注册账号，不需要 API key，不需要改任何配置文件。有 Python 3.9+ 就能用。
 
-**① 安装**：下载本仓库（或 release 里的 `paper-cat-<版本>.zip`）并解压，在解压出的文件夹里运行：
+**① 安装**：`git clone https://github.com/Kristy-Nora/paper-cat`（或下载 release 里的 `paper-cat-<版本>.zip` 并解压），在文件夹里运行：
 
 ```bash
 python scripts/install_skill.py --target claude     # Claude Code；Codex 用 --target codex
@@ -156,7 +156,7 @@ python scripts/doctor.py                            # 1 秒自检：告诉你现
 
 ## 💻 适配的 Agent 与系统
 
-Claude Code、Codex，以及其他读取 `SKILL.md` 的 Agent（`install_skill.py --target <skills 目录>`）；Windows、macOS、Linux。脚本只依赖 Python 标准库（Python 3.9 起实测可用）；深度模式抽取 PDF 文本建议 `pip install pymupdf`。
+Claude Code、Codex、华为云码道（CodeArts，`install_skill.py --target .codeartsdoer/skills`），以及其他读取 `SKILL.md` 的 Agent（`install_skill.py --target <skills 目录>`）；同一份 Skill 也遵循 Agent Skills 开放格式，可发布到小红书 Skill 市场供智能体调用。Windows、macOS、Linux。脚本只依赖 Python 标准库（Python 3.9 起实测可用）；深度模式抽取 PDF 文本建议 `pip install pymupdf`。
 
 <p align="center"><img src="assets/tested-on-windows.svg" width="200" alt="捧着空钱包的论文喵：仅 Windows 实测"></p>
 

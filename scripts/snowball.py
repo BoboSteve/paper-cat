@@ -68,7 +68,12 @@ def cmd_find(args, task):
             if doi and not doi.startswith("10.48550/"):
                 cited_by["doi:" + doi].add(judgment["idx"])
     fresh = {key: idxs for key, idxs in cited_by.items() if key not in known}
-    arxiv_meta = resolve_arxiv([k[6:] for k in fresh if k.startswith("arxiv:")])
+    try:
+        arxiv_meta = resolve_arxiv([k[6:] for k in fresh if k.startswith("arxiv:")])
+    except Exception as error:  # rate limit or offline: continue with DOI references, say what is missing
+        arxiv_meta = {}
+        print(f"  note: arXiv lookup unavailable ({type(error).__name__}); arXiv references skipped this time, "
+              "run snowball.py find again later to include them")
     settings, records = load_env(), []
     dois = sorted((k for k in fresh if k.startswith("doi:")), key=lambda k: -len(fresh[k]))[: args.max_doi_lookups]
     for key in [k for k in fresh if k.startswith("arxiv:")] + dois:

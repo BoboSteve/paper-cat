@@ -21,7 +21,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from common import utf8_output  # noqa: E402  (GBK pipes on Chinese Windows)
 
 utf8_output()
-EXCLUDED_NAMES = {"runtime.local.json", ".DS_Store", "Thumbs.db"}
+EXCLUDED_NAMES = {"runtime.local.json", ".DS_Store", "Thumbs.db", "build_compact.py"}  # last: local dev tool
 EXCLUDED_DIRS = {"__pycache__", ".git", ".pytest_cache", ".venv", "dist"}
 EXCLUDED_PATTERNS = (r"\.pyc$", r"\.part$", r"\.tmp$", r"\.log$", r"^\.env", r"cookies.*\.json$")
 TEXT_SUFFIXES = {".md", ".py", ".json", ".jsonl", ".yaml", ".yml", ".txt", ".toml", ".ps1", ".csv", ".svg", ".html"}

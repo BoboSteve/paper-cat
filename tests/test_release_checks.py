@@ -214,6 +214,10 @@ class GbkPipeTest(unittest.TestCase):
             result = subprocess.run([sys.executable, str(ROOT / "scripts" / args[0]), *args[1:]], env=env,
                                     capture_output=True)
             self.assertEqual(result.returncode, 0, (args, result.stderr.decode("utf-8", "replace")[-300:]))
+        with open(os.devnull, "w") as null:  # NUL looks like a terminal to Python on Windows
+            result = subprocess.run([sys.executable, str(ROOT / "scripts" / "doctor.py")], env=env, stdout=null,
+                                    stderr=subprocess.PIPE)
+        self.assertEqual(result.returncode, 0, result.stderr.decode("utf-8", "replace")[-300:])
 
 
 class MissingGradeTablesTest(unittest.TestCase):

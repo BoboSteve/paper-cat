@@ -2,7 +2,7 @@
 name: paper-cat
 description: 论文喵 PaperCat：学术论文检索、筛选与核实（所有学科可用，计算机方向深度定制）。两种模式：两分钟速览（零配置，检索 arXiv/OpenAlex，读摘要挑出最值得看的论文并生成好看的卡片报告）；深度检索（多源检索、本地或 Agent 排序、下载并通读全文、引用原文逐字核对、标注 CCF 等级/中科院分区/会议轨道、滚雪球补检、小红书口碑参考）。当用户提到"论文喵 / PaperCat"，或要"找论文 / 看看某方向最近有什么论文 / 文献调研 / 写综述前摸底 / 某会议某主题论文找全 / 查会议等级或期刊分区 / 核实小红书推荐的论文"时使用。Use for literature search, screening and verification in any field.
 metadata:
-  version: "2.0.0"
+  version: "1.0.0"
   requires: "Python 3.9+; network access to arXiv/OpenAlex"
 ---
 
