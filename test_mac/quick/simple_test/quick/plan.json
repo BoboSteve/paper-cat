@@ -1,0 +1,16 @@
+{
+  "topic": "数据可视化",
+  "concepts": [
+    [
+      "data visualization",
+      "information visualization"
+    ]
+  ],
+  "since": "2026-05-25",
+  "until": "2026-11-24",
+  "queries": {
+    "arxiv": "(ti:\"data visualization\" OR abs:\"data visualization\" OR ti:\"information visualization\" OR abs:\"information visualization\")",
+    "openalex": "(\"data visualization\" OR \"information visualization\")"
+  },
+  "created_at": "2026-11-24T20:01:27"
+}

@@ -1,0 +1,14 @@
+{
+  "input": "/Users/bobo/05_Project/06_curiosity/paper-cat/test_mac/deep/final_actual_test/candidates.jsonl",
+  "input_sha256": "c38e5cbf881d8211806452e5c66dff9ae18d905716a6d1042c0d32aa272a47d6",
+  "records": 24,
+  "stats": {
+    "openalex": 9,
+    "abstracts_filled": 9,
+    "skipped_complete": 7,
+    "unchanged": 8
+  },
+  "source_counts": {
+    "openalex": 9
+  }
+}

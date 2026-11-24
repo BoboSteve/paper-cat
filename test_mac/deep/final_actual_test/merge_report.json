@@ -1,0 +1,856 @@
+{
+  "created_at": "2026-11-24T12:30:35.093270+00:00",
+  "inputs": [
+    {
+      "label": "psm",
+      "path": "/Users/bobo/05_Project/06_curiosity/paper-cat/test_mac/deep/final_actual_test/psm_candidates.jsonl",
+      "rows": 24,
+      "sha256": "e3d5f25d81c80900faf6d88a25d08e10193f45521d741a82651717cac3e6cf6a"
+    }
+  ],
+  "counts": {
+    "input_rows": 24,
+    "candidates": 24,
+    "merged_rows": 0,
+    "multi_record_groups": 0,
+    "groups_with_review_flags": 0,
+    "possible_duplicate_groups": 0,
+    "near_duplicate_candidates": 0
+  },
+  "groups": [
+    {
+      "record_id": "doi:10.1109/icmsci67830.2026.11469659",
+      "title": "Generative and Cognitive Artificial Intelligence for Adaptive Human-Machine Collaboration",
+      "merged_from": 1,
+      "input_labels": [
+        "psm"
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "query_ids": [
+        "concepts"
+      ],
+      "years": [
+        2026
+      ],
+      "first_authors": [
+        "mishr"
+      ],
+      "formal_venues": [],
+      "merge_flags": [],
+      "records": [
+        {
+          "input": "psm",
+          "input_row": 0,
+          "record_sha256": "34bd85acbc5b578947f726ca6b6d15fbf955907c32f19e43055177c0c9b3ac9b",
+          "source": "crossref",
+          "title": "Generative and Cognitive Artificial Intelligence for Adaptive Human-Machine Collaboration",
+          "doi": "10.1109/icmsci67830.2026.11469659",
+          "query_id": "concepts",
+          "query_hash": "22516a83a7e2bdb4b3c92d55d7bc5ccbffc0dbf983e34651565469ef13ed0e4d",
+          "raw_path": "raw/psm/concepts.json"
+        }
+      ]
+    },
+    {
+      "record_id": "doi:10.70675/6601c7deza7f1z464bzbd28z88b10567bd6c",
+      "title": "Probabilistic Decision-Making Models for Multi-Agent Systems and Human-Robot Collaboration",
+      "merged_from": 1,
+      "input_labels": [
+        "psm"
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "query_ids": [
+        "concepts"
+      ],
+      "years": [
+        1970
+      ],
+      "first_authors": [
+        "you"
+      ],
+      "formal_venues": [],
+      "merge_flags": [],
+      "records": [
+        {
+          "input": "psm",
+          "input_row": 1,
+          "record_sha256": "15553a75bdd1add4576c4b0e3f7f9bcc0a99eb183d1413950458be2c79a8ddfd",
+          "source": "crossref",
+          "title": "Probabilistic Decision-Making Models for Multi-Agent Systems and Human-Robot Collaboration",
+          "doi": "10.70675/6601c7deza7f1z464bzbd28z88b10567bd6c",
+          "query_id": "concepts",
+          "query_hash": "22516a83a7e2bdb4b3c92d55d7bc5ccbffc0dbf983e34651565469ef13ed0e4d",
+          "raw_path": "raw/psm/concepts.json"
+        }
+      ]
+    },
+    {
+      "record_id": "doi:10.1093/oso/9780198862536.003.0008",
+      "title": "Too Many cooks: Bayesian inference for coordinating Multi-agent Collaboration",
+      "merged_from": 1,
+      "input_labels": [
+        "psm"
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "query_ids": [
+        "concepts"
+      ],
+      "years": [
+        2021
+      ],
+      "first_authors": [
+        "wang"
+      ],
+      "formal_venues": [],
+      "merge_flags": [],
+      "records": [
+        {
+          "input": "psm",
+          "input_row": 2,
+          "record_sha256": "60820a3c4cacb3209c000cedb71b8fd215bf3b4ba700d39a8246defbee154938",
+          "source": "crossref",
+          "title": "Too Many cooks: Bayesian inference for coordinating Multi-agent Collaboration",
+          "doi": "10.1093/oso/9780198862536.003.0008",
+          "query_id": "concepts",
+          "query_hash": "22516a83a7e2bdb4b3c92d55d7bc5ccbffc0dbf983e34651565469ef13ed0e4d",
+          "raw_path": "raw/psm/concepts.json"
+        }
+      ]
+    },
+    {
+      "record_id": "doi:10.1109/cts.2009.5067503",
+      "title": "Human agent collaboration in a simulated combat medical scenario",
+      "merged_from": 1,
+      "input_labels": [
+        "psm"
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "query_ids": [
+        "concepts"
+      ],
+      "years": [
+        2009
+      ],
+      "first_authors": [
+        "chen"
+      ],
+      "formal_venues": [],
+      "merge_flags": [],
+      "records": [
+        {
+          "input": "psm",
+          "input_row": 3,
+          "record_sha256": "b5c52c69323a2c681ddf41f645252f1a6d3158d6880783e04c8c663565a34081",
+          "source": "crossref",
+          "title": "Human agent collaboration in a simulated combat medical scenario",
+          "doi": "10.1109/cts.2009.5067503",
+          "query_id": "concepts",
+          "query_hash": "22516a83a7e2bdb4b3c92d55d7bc5ccbffc0dbf983e34651565469ef13ed0e4d",
+          "raw_path": "raw/psm/concepts.json"
+        }
+      ]
+    },
+    {
+      "record_id": "doi:10.1145/3749421.3749432",
+      "title": "Bias Correction and Data Synthesis through Reflective LLM Collaboration",
+      "merged_from": 1,
+      "input_labels": [
+        "psm"
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "query_ids": [
+        "concepts"
+      ],
+      "years": [
+        2025
+      ],
+      "first_authors": [],
+      "formal_venues": [],
+      "merge_flags": [],
+      "records": [
+        {
+          "input": "psm",
+          "input_row": 4,
+          "record_sha256": "b89ea672ea436515c86bb3e96e86e60f144d6998b52746e211c1bb013df51165",
+          "source": "crossref",
+          "title": "Bias Correction and Data Synthesis through Reflective LLM Collaboration",
+          "doi": "10.1145/3749421.3749432",
+          "query_id": "concepts",
+          "query_hash": "22516a83a7e2bdb4b3c92d55d7bc5ccbffc0dbf983e34651565469ef13ed0e4d",
+          "raw_path": "raw/psm/concepts.json"
+        }
+      ]
+    },
+    {
+      "record_id": "doi:10.36227/techrxiv.172902764.41177581/v1",
+      "title": "Collaboration and Coordination in Multi-Agent Systems",
+      "merged_from": 1,
+      "input_labels": [
+        "psm"
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "query_ids": [
+        "concepts"
+      ],
+      "years": [
+        2024
+      ],
+      "first_authors": [
+        "ignise"
+      ],
+      "formal_venues": [],
+      "merge_flags": [],
+      "records": [
+        {
+          "input": "psm",
+          "input_row": 5,
+          "record_sha256": "13f06107fab78b96042b388d6ffba68f8e197a0afbe8543a53799b995107f3be",
+          "source": "crossref",
+          "title": "Collaboration and Coordination in Multi-Agent Systems",
+          "doi": "10.36227/techrxiv.172902764.41177581/v1",
+          "query_id": "concepts",
+          "query_hash": "22516a83a7e2bdb4b3c92d55d7bc5ccbffc0dbf983e34651565469ef13ed0e4d",
+          "raw_path": "raw/psm/concepts.json"
+        }
+      ]
+    },
+    {
+      "record_id": "doi:10.3390/drones10100770",
+      "title": "Beyond Optimization: A Multi-Agent Systems and Human–Agent Collaboration Perspective on Decentralized Multi-UAV Task Allocation",
+      "merged_from": 1,
+      "input_labels": [
+        "psm"
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "query_ids": [
+        "concepts"
+      ],
+      "years": [
+        2026
+      ],
+      "first_authors": [
+        "hafızoğlu"
+      ],
+      "formal_venues": [],
+      "merge_flags": [],
+      "records": [
+        {
+          "input": "psm",
+          "input_row": 6,
+          "record_sha256": "18bb4974cda21ababd0292032752475fef4712ab753a6a30bcf7aa11c8f3f998",
+          "source": "crossref",
+          "title": "Beyond Optimization: A Multi-Agent Systems and Human–Agent Collaboration Perspective on Decentralized Multi-UAV Task Allocation",
+          "doi": "10.3390/drones10100770",
+          "query_id": "concepts",
+          "query_hash": "22516a83a7e2bdb4b3c92d55d7bc5ccbffc0dbf983e34651565469ef13ed0e4d",
+          "raw_path": "raw/psm/concepts.json"
+        }
+      ]
+    },
+    {
+      "record_id": "doi:10.4324/9780203475782-31",
+      "title": "Multi-agent collaboration in integrated information systems",
+      "merged_from": 1,
+      "input_labels": [
+        "psm"
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "query_ids": [
+        "concepts"
+      ],
+      "years": [
+        2003
+      ],
+      "first_authors": [],
+      "formal_venues": [],
+      "merge_flags": [],
+      "records": [
+        {
+          "input": "psm",
+          "input_row": 7,
+          "record_sha256": "e2cc2051eeb034f49af9c1ffdd6d2c8675a46cf08754c44e73fc0b4824ecec1a",
+          "source": "crossref",
+          "title": "Multi-agent collaboration in integrated information systems",
+          "doi": "10.4324/9780203475782-31",
+          "query_id": "concepts",
+          "query_hash": "22516a83a7e2bdb4b3c92d55d7bc5ccbffc0dbf983e34651565469ef13ed0e4d",
+          "raw_path": "raw/psm/concepts.json"
+        }
+      ]
+    },
+    {
+      "record_id": "doi:10.2139/ssrn.5371788",
+      "title": "Ai-Centric Design 2.0: Orchestrating Human-Ai Collaboration Through Multi-Agent Systems for Scalable and Ethical Design Innovation",
+      "merged_from": 1,
+      "input_labels": [
+        "psm"
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "query_ids": [
+        "concepts"
+      ],
+      "years": [
+        2025
+      ],
+      "first_authors": [
+        "martinez"
+      ],
+      "formal_venues": [],
+      "merge_flags": [],
+      "records": [
+        {
+          "input": "psm",
+          "input_row": 8,
+          "record_sha256": "2f91d7ebbc43a01eb545b507318098c187aaddbbf12bd7787517962d67740041",
+          "source": "crossref",
+          "title": "Ai-Centric Design 2.0: Orchestrating Human-Ai Collaboration Through Multi-Agent Systems for Scalable and Ethical Design Innovation",
+          "doi": "10.2139/ssrn.5371788",
+          "query_id": "concepts",
+          "query_hash": "22516a83a7e2bdb4b3c92d55d7bc5ccbffc0dbf983e34651565469ef13ed0e4d",
+          "raw_path": "raw/psm/concepts.json"
+        }
+      ]
+    },
+    {
+      "record_id": "doi:10.24425/ijet.2025.155474",
+      "title": "Human-AI collaboration in Hybrid Multi-Agent Systems",
+      "merged_from": 1,
+      "input_labels": [
+        "psm"
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "query_ids": [
+        "concepts"
+      ],
+      "years": [
+        2025
+      ],
+      "first_authors": [
+        "labedzki"
+      ],
+      "formal_venues": [],
+      "merge_flags": [],
+      "records": [
+        {
+          "input": "psm",
+          "input_row": 9,
+          "record_sha256": "d5f597827731a6e8f1ee6b2425402600b9171a00268f460bfb822c36c97185e6",
+          "source": "crossref",
+          "title": "Human-AI collaboration in Hybrid Multi-Agent Systems",
+          "doi": "10.24425/ijet.2025.155474",
+          "query_id": "concepts",
+          "query_hash": "22516a83a7e2bdb4b3c92d55d7bc5ccbffc0dbf983e34651565469ef13ed0e4d",
+          "raw_path": "raw/psm/concepts.json"
+        }
+      ]
+    },
+    {
+      "record_id": "doi:10.2139/ssrn.5236721",
+      "title": "Modeling AI-Human Collaboration as a Multi-Agent Adaptation",
+      "merged_from": 1,
+      "input_labels": [
+        "psm"
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "query_ids": [
+        "concepts"
+      ],
+      "years": [
+        2025
+      ],
+      "first_authors": [
+        "sen"
+      ],
+      "formal_venues": [],
+      "merge_flags": [],
+      "records": [
+        {
+          "input": "psm",
+          "input_row": 10,
+          "record_sha256": "2cb8dcfc731f3a24763decd75165eb3dbff05357a6659b9c06fa2737c56acf6c",
+          "source": "crossref",
+          "title": "Modeling AI-Human Collaboration as a Multi-Agent Adaptation",
+          "doi": "10.2139/ssrn.5236721",
+          "query_id": "concepts",
+          "query_hash": "22516a83a7e2bdb4b3c92d55d7bc5ccbffc0dbf983e34651565469ef13ed0e4d",
+          "raw_path": "raw/psm/concepts.json"
+        }
+      ]
+    },
+    {
+      "record_id": "doi:10.1109/kimas.2005.1427048",
+      "title": "A new formal model of collaboration by multi-agent systems",
+      "merged_from": 1,
+      "input_labels": [
+        "psm"
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "query_ids": [
+        "concepts"
+      ],
+      "years": [
+        1970
+      ],
+      "first_authors": [
+        "khezami"
+      ],
+      "formal_venues": [],
+      "merge_flags": [],
+      "records": [
+        {
+          "input": "psm",
+          "input_row": 11,
+          "record_sha256": "872a8e1a6f76bedb024bcc24f78bdf66c5d788c327e4dd288dd3dd47ab0447d5",
+          "source": "crossref",
+          "title": "A new formal model of collaboration by multi-agent systems",
+          "doi": "10.1109/kimas.2005.1427048",
+          "query_id": "concepts",
+          "query_hash": "22516a83a7e2bdb4b3c92d55d7bc5ccbffc0dbf983e34651565469ef13ed0e4d",
+          "raw_path": "raw/psm/concepts.json"
+        }
+      ]
+    },
+    {
+      "record_id": "doi:10.1109/kimas.2005.1427042",
+      "title": "Session TM1: autonomy and collaboration in agent systems",
+      "merged_from": 1,
+      "input_labels": [
+        "psm"
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "query_ids": [
+        "concepts"
+      ],
+      "years": [
+        2005
+      ],
+      "first_authors": [],
+      "formal_venues": [],
+      "merge_flags": [],
+      "records": [
+        {
+          "input": "psm",
+          "input_row": 12,
+          "record_sha256": "67009b540962c11378216bc19b28efda45eaef2ef4005221dc61d9934c962f7b",
+          "source": "crossref",
+          "title": "Session TM1: autonomy and collaboration in agent systems",
+          "doi": "10.1109/kimas.2005.1427042",
+          "query_id": "concepts",
+          "query_hash": "22516a83a7e2bdb4b3c92d55d7bc5ccbffc0dbf983e34651565469ef13ed0e4d",
+          "raw_path": "raw/psm/concepts.json"
+        }
+      ]
+    },
+    {
+      "record_id": "doi:10.4324/9780203305607_chapter_9",
+      "title": "Collaboration, Task Decomposition and Allocation",
+      "merged_from": 1,
+      "input_labels": [
+        "psm"
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "query_ids": [
+        "concepts"
+      ],
+      "years": [
+        1970
+      ],
+      "first_authors": [],
+      "formal_venues": [],
+      "merge_flags": [],
+      "records": [
+        {
+          "input": "psm",
+          "input_row": 13,
+          "record_sha256": "d0a2999c19b716f5b825919d4eaebf51d4f48224bbb18b5de45cc6c9493df309",
+          "source": "crossref",
+          "title": "Collaboration, Task Decomposition and Allocation",
+          "doi": "10.4324/9780203305607_chapter_9",
+          "query_id": "concepts",
+          "query_hash": "22516a83a7e2bdb4b3c92d55d7bc5ccbffc0dbf983e34651565469ef13ed0e4d",
+          "raw_path": "raw/psm/concepts.json"
+        }
+      ]
+    },
+    {
+      "record_id": "doi:10.1007/978-3-642-01665-3_73",
+      "title": "Distributed Data Reduction through Agent Collaboration",
+      "merged_from": 1,
+      "input_labels": [
+        "psm"
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "query_ids": [
+        "concepts"
+      ],
+      "years": [
+        2009
+      ],
+      "first_authors": [
+        "czarnowski"
+      ],
+      "formal_venues": [],
+      "merge_flags": [],
+      "records": [
+        {
+          "input": "psm",
+          "input_row": 14,
+          "record_sha256": "f1d8949377ed4b61f6926d8f384c6584aa25518e1c4a5678ec3f21e8d1cd85f8",
+          "source": "crossref",
+          "title": "Distributed Data Reduction through Agent Collaboration",
+          "doi": "10.1007/978-3-642-01665-3_73",
+          "query_id": "concepts",
+          "query_hash": "22516a83a7e2bdb4b3c92d55d7bc5ccbffc0dbf983e34651565469ef13ed0e4d",
+          "raw_path": "raw/psm/concepts.json"
+        }
+      ]
+    },
+    {
+      "record_id": "doi:10.1109/icmsci62561.2025.10894052",
+      "title": "Multi-Modal Analysis of Presentation Media Data",
+      "merged_from": 1,
+      "input_labels": [
+        "psm"
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "query_ids": [
+        "concepts"
+      ],
+      "years": [
+        2025
+      ],
+      "first_authors": [
+        "li"
+      ],
+      "formal_venues": [],
+      "merge_flags": [],
+      "records": [
+        {
+          "input": "psm",
+          "input_row": 15,
+          "record_sha256": "e7ae680529881fe929a92f018a881f3443738b111f026e5c2de603117a906635",
+          "source": "crossref",
+          "title": "Multi-Modal Analysis of Presentation Media Data",
+          "doi": "10.1109/icmsci62561.2025.10894052",
+          "query_id": "concepts",
+          "query_hash": "22516a83a7e2bdb4b3c92d55d7bc5ccbffc0dbf983e34651565469ef13ed0e4d",
+          "raw_path": "raw/psm/concepts.json"
+        }
+      ]
+    },
+    {
+      "record_id": "doi:10.62791/20403",
+      "title": "Multi-agent collaboration toolkit tested with simulated real-world physics",
+      "merged_from": 1,
+      "input_labels": [
+        "psm"
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "query_ids": [
+        "concepts"
+      ],
+      "years": [
+        1970
+      ],
+      "first_authors": [
+        "vardhineni"
+      ],
+      "formal_venues": [],
+      "merge_flags": [],
+      "records": [
+        {
+          "input": "psm",
+          "input_row": 16,
+          "record_sha256": "e30131239232d20648ff35a640f30b127db48bfd757558d461036d759abc878c",
+          "source": "crossref",
+          "title": "Multi-agent collaboration toolkit tested with simulated real-world physics",
+          "doi": "10.62791/20403",
+          "query_id": "concepts",
+          "query_hash": "22516a83a7e2bdb4b3c92d55d7bc5ccbffc0dbf983e34651565469ef13ed0e4d",
+          "raw_path": "raw/psm/concepts.json"
+        }
+      ]
+    },
+    {
+      "record_id": "doi:10.1007/978-3-030-69178-3_1",
+      "title": "Human–Robot Collaboration in Manufacturing: A Multi-agent View",
+      "merged_from": 1,
+      "input_labels": [
+        "psm"
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "query_ids": [
+        "concepts"
+      ],
+      "years": [
+        2021
+      ],
+      "first_authors": [
+        "kemény"
+      ],
+      "formal_venues": [],
+      "merge_flags": [],
+      "records": [
+        {
+          "input": "psm",
+          "input_row": 17,
+          "record_sha256": "594b1069eca001f3364004a79c1a0164ebab5b15c264100d62101cea9d521188",
+          "source": "crossref",
+          "title": "Human–Robot Collaboration in Manufacturing: A Multi-agent View",
+          "doi": "10.1007/978-3-030-69178-3_1",
+          "query_id": "concepts",
+          "query_hash": "22516a83a7e2bdb4b3c92d55d7bc5ccbffc0dbf983e34651565469ef13ed0e4d",
+          "raw_path": "raw/psm/concepts.json"
+        }
+      ]
+    },
+    {
+      "record_id": "doi:10.1109/tkde.2026.3735040",
+      "title": "MASK: Multi-Agent Collaboration for Optimizing Adversarial Attacks on Multi-Agent Systems",
+      "merged_from": 1,
+      "input_labels": [
+        "psm"
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "query_ids": [
+        "concepts"
+      ],
+      "years": [
+        2026
+      ],
+      "first_authors": [
+        "yu"
+      ],
+      "formal_venues": [],
+      "merge_flags": [],
+      "records": [
+        {
+          "input": "psm",
+          "input_row": 18,
+          "record_sha256": "442096b340cb647a11a35f394c477a18fa2807d8aeefacf1ca7935a23ee77297",
+          "source": "crossref",
+          "title": "MASK: Multi-Agent Collaboration for Optimizing Adversarial Attacks on Multi-Agent Systems",
+          "doi": "10.1109/tkde.2026.3735040",
+          "query_id": "concepts",
+          "query_hash": "22516a83a7e2bdb4b3c92d55d7bc5ccbffc0dbf983e34651565469ef13ed0e4d",
+          "raw_path": "raw/psm/concepts.json"
+        }
+      ]
+    },
+    {
+      "record_id": "doi:10.1016/j.jmsy.2025.09.011",
+      "title": "Multi-scenario digital twin-driven human-robot collaboration multi-task disassembly process planning based on dynamic time petri-net and heterogeneous multi-agent double deep Q-learning network",
+      "merged_from": 1,
+      "input_labels": [
+        "psm"
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "query_ids": [
+        "concepts"
+      ],
+      "years": [
+        2025
+      ],
+      "first_authors": [
+        "xiao"
+      ],
+      "formal_venues": [],
+      "merge_flags": [],
+      "records": [
+        {
+          "input": "psm",
+          "input_row": 19,
+          "record_sha256": "178a48157e722f2f7a56076d5575439b893095135dd0be590e1857cbe77b7847",
+          "source": "crossref",
+          "title": "Multi-scenario digital twin-driven human-robot collaboration multi-task disassembly process planning based on dynamic time petri-net and heterogeneous multi-agent double deep Q-learning network",
+          "doi": "10.1016/j.jmsy.2025.09.011",
+          "query_id": "concepts",
+          "query_hash": "22516a83a7e2bdb4b3c92d55d7bc5ccbffc0dbf983e34651565469ef13ed0e4d",
+          "raw_path": "raw/psm/concepts.json"
+        }
+      ]
+    },
+    {
+      "record_id": "doi:10.1109/cts.2012.6261030",
+      "title": "Multi-agent coordination techniques for multi-robot task allocation and multi-robot area coverage",
+      "merged_from": 1,
+      "input_labels": [
+        "psm"
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "query_ids": [
+        "concepts"
+      ],
+      "years": [
+        2012
+      ],
+      "first_authors": [
+        "dasgupta"
+      ],
+      "formal_venues": [],
+      "merge_flags": [],
+      "records": [
+        {
+          "input": "psm",
+          "input_row": 20,
+          "record_sha256": "40beac134061c457b1b16134de19d99c25b7dc1f81353bba0b03a206ba224beb",
+          "source": "crossref",
+          "title": "Multi-agent coordination techniques for multi-robot task allocation and multi-robot area coverage",
+          "doi": "10.1109/cts.2012.6261030",
+          "query_id": "concepts",
+          "query_hash": "22516a83a7e2bdb4b3c92d55d7bc5ccbffc0dbf983e34651565469ef13ed0e4d",
+          "raw_path": "raw/psm/concepts.json"
+        }
+      ]
+    },
+    {
+      "record_id": "doi:10.1109/cts.2016.0085",
+      "title": "Social Modeling for Multi-agent Systems",
+      "merged_from": 1,
+      "input_labels": [
+        "psm"
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "query_ids": [
+        "concepts"
+      ],
+      "years": [
+        2016
+      ],
+      "first_authors": [
+        "sukthankar"
+      ],
+      "formal_venues": [],
+      "merge_flags": [],
+      "records": [
+        {
+          "input": "psm",
+          "input_row": 21,
+          "record_sha256": "db8c8d4d1bda8083dd8c7c0844581d20bab01c53d24e15f6717cc88ce3274b5c",
+          "source": "crossref",
+          "title": "Social Modeling for Multi-agent Systems",
+          "doi": "10.1109/cts.2016.0085",
+          "query_id": "concepts",
+          "query_hash": "22516a83a7e2bdb4b3c92d55d7bc5ccbffc0dbf983e34651565469ef13ed0e4d",
+          "raw_path": "raw/psm/concepts.json"
+        }
+      ]
+    },
+    {
+      "record_id": "doi:10.20944/preprints202511.1370.v1",
+      "title": "Multi-Agent LLM Systems: From Emergent Collaboration to Structured Collective Intelligence",
+      "merged_from": 1,
+      "input_labels": [
+        "psm"
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "query_ids": [
+        "concepts"
+      ],
+      "years": [
+        2025
+      ],
+      "first_authors": [
+        "chen"
+      ],
+      "formal_venues": [],
+      "merge_flags": [],
+      "records": [
+        {
+          "input": "psm",
+          "input_row": 22,
+          "record_sha256": "a3bfc5336f63d5167e976e6ddd9062d2ea9f188a9331b159abafac7400db2aac",
+          "source": "crossref",
+          "title": "Multi-Agent LLM Systems: From Emergent Collaboration to Structured Collective Intelligence",
+          "doi": "10.20944/preprints202511.1370.v1",
+          "query_id": "concepts",
+          "query_hash": "22516a83a7e2bdb4b3c92d55d7bc5ccbffc0dbf983e34651565469ef13ed0e4d",
+          "raw_path": "raw/psm/concepts.json"
+        }
+      ]
+    },
+    {
+      "record_id": "doi:10.1109/enabl.2004.6",
+      "title": "Agent-based computing for enterprise collaboration - human-agent and agent-agent collaboration",
+      "merged_from": 1,
+      "input_labels": [
+        "psm"
+      ],
+      "sources": [
+        "crossref"
+      ],
+      "query_ids": [
+        "concepts"
+      ],
+      "years": [
+        1970
+      ],
+      "first_authors": [
+        "bergenti"
+      ],
+      "formal_venues": [],
+      "merge_flags": [],
+      "records": [
+        {
+          "input": "psm",
+          "input_row": 23,
+          "record_sha256": "f33116eb3a613a0d3c6282ace630781afb502ec7836037699a072ffcb1615c16",
+          "source": "crossref",
+          "title": "Agent-based computing for enterprise collaboration - human-agent and agent-agent collaboration",
+          "doi": "10.1109/enabl.2004.6",
+          "query_id": "concepts",
+          "query_hash": "22516a83a7e2bdb4b3c92d55d7bc5ccbffc0dbf983e34651565469ef13ed0e4d",
+          "raw_path": "raw/psm/concepts.json"
+        }
+      ]
+    }
+  ],
+  "possible_duplicates": [],
+  "near_duplicate_candidates": []
+}

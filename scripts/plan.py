@@ -52,7 +52,7 @@ def main():
     parser.add_argument("--out", required=True)
     args = parser.parse_args()
     brief = json.loads(Path(args.brief).read_text(encoding="utf-8-sig"))
-    missing = [key for key in REQUIRED_BRIEF if not brief.get(key)]
+    missing = [key for key in REQUIRED_BRIEF if key not in brief]
     if missing:
         parser.error("brief missing fields: " + ", ".join(missing))
     queries = [

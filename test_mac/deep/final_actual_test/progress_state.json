@@ -1,0 +1,13 @@
+{
+  "stage": "fulltext",
+  "status": "done",
+  "completed": 1,
+  "total": 5,
+  "message": "Full text complete: ok=1, unverified=0, failed=0",
+  "started_at": "2026-11-24T12:30:16.971729+00:00",
+  "stage_started_at": "2026-11-24T12:31:46.727528+00:00",
+  "eta_seconds": 1,
+  "percent": 20.0,
+  "updated_at": "2026-11-24T12:31:46.881673+00:00",
+  "errors": 0
+}

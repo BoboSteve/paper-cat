@@ -1,0 +1,13 @@
+{
+  "topic": "数据可视化",
+  "topic_description": "Data visualization",
+  "time_window": "2023-01-01 to 2026-11-24",
+  "concepts": [
+    ["data visualization", "information visualization"]
+  ],
+  "selected_k": 3,
+  "pack": "general",
+  "inclusion": [],
+  "exclusion": [],
+  "sources": ["openalex", "arxiv"]
+}

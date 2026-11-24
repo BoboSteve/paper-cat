@@ -1,0 +1,844 @@
+[
+  {
+    "id": "p01",
+    "title": "Data Visualization Influencers: Tracing the Creation and Curation Strategies Behind Propagandist Visualizations on X",
+    "date": "2026-11-11",
+    "authors": [
+      "Priya Dhawka",
+      "Nina Lutz"
+    ],
+    "venue": "",
+    "url": "https://doi.org/10.48550/arxiv.2611.15042",
+    "pdf": "https://arxiv.org/pdf/2611.15042",
+    "abstract": "Data visualization is increasingly understood as a political process shaped by creators' editorial design and data choices. Prior research has examined how such choices produce deceptive visualizations, focusing on social media users' misleading visualizations of public data. This overlooks how creators draw on professional expertise to produce propagandist visualizations of political narratives. We investigate visualization creators who design and share propagandist visualizations of political claims, such as immigration, criminality, and others, in US online discourse. Extending prior work on data visualization as propaganda, we present an exploratory study of 17 creators and the propagandist visualizations they create and curate for political discourse on X. We introduce the notion of a ``data visualization influencer'': an online creator who (1) leverages perceived credibility as a data expert, and (2) engages in epistemic capture of the credibility aesthetics of data and visualizations to manufacture propaganda. We discuss implications for research and practice.",
+    "coverage": 1.0,
+    "matched_terms": [
+      "data visualization"
+    ],
+    "sources": [
+      "openalex"
+    ],
+    "identity": "arxiv:2611.15042"
+  },
+  {
+    "id": "p02",
+    "title": "Research on the Application of Data Visualization in Management Accounting Decision-Making",
+    "date": "2026-11-10",
+    "authors": [
+      "Siyu Wang"
+    ],
+    "venue": "Advances in Economics Management and Political Sciences",
+    "url": "https://doi.org/10.54254/2754-1169/2026.ld38710",
+    "pdf": "https://aemps.ewapub.com/article/view/38710.pdf",
+    "abstract": "In the era of digital economy, enterprise financial management is faced with the dilemma of data overload and lack of information, and data visualization has become an important tool to connect data and management accounting decision-making. This paper studies the application areas and implementation effects of data visualization in management accounting decision-making, aiming to provide a reference for the digital transformation of enterprise finance. This study adopted the literature review method and conducted an inductive analysis based on the relevant theme literature included in CNKI. Through the literature review, it is found that data visualization can improve the readability and interactivity of financial information, and help management accounting not only to output information, but also to participate more in the business decision-making of enterprises. Sound data governance, suitable analysis tools and interdisciplinary professionals are an important basis for the application of visualization technology. This study also discusses the challenges in practice and provides suggestions for future research.",
+    "coverage": 1.0,
+    "matched_terms": [
+      "data visualization"
+    ],
+    "sources": [
+      "openalex"
+    ],
+    "identity": "doi:10.54254/2754-1169/2026.ld38710"
+  },
+  {
+    "id": "p03",
+    "title": "The Role of Python and SQL in Transforming Data Visualization for Enhanced Analytical Efficiency",
+    "date": "2026-10-11",
+    "authors": [
+      "Subodh Kumar Yadav, Dr. Renu Bagoria, Mr. Suraj Yadav",
+      "Renu Bagoria",
+      "Suraj Yadav"
+    ],
+    "venue": "",
+    "url": "https://doi.org/10.5281/zenodo.23293501",
+    "pdf": null,
+    "abstract": "These days, we’re dealing with more data than ever before. To make sense of it all, we need good data visualization. It’s not just nice to have – it’s a must-have for making smart decisions in any industry. This study systematically investigates how the integration of Python and SQL can streamline and optimize data visualization workflows, offering a reproducible and scalable analyt-ical framework. Through a systematic review of five key studies, we examine how Python’s visualization libraries (Matplotlib, Seaborn, Plotly) provide flexibility, customization, and interactivity, while SQL enables efficient data extraction, aggregation, and preparation. We˛cławski et al. (2026) compared commercial tools and Python li-braries, concluding that Python offers greater programmability for complex visualizations. Guo et al. (2024) demonstrated a real-world pipeline using Python for data collection and MySQL for storage, with Flask and ECharts for frontend visualization. Kabir et al. (2024) systematically reviewed Python’s capabilities across data cleaning, manipulation, and visualization, highlighting NumPy and Pandas as foundational libraries. Han and Kwak (2023) provided practical insights into Matplotlib and Seaborn, emphasizing their importance for exploratory data analysis and trend identification. Taleska et al. (2008), though foundational in nature, established the significance of SQL-based data preparation techniques — including views and star schemas — that continue to underpin modern visu-alization pipelines. Together, these studies confirm that Python and SQL work synergistically: SQL handles data extraction and pre-processing efficiently, while Python creates customized, interactive visualizations. This integration significantly enhances analytical ef-ficiency, reduce",
+    "coverage": 1.0,
+    "matched_terms": [
+      "data visualization"
+    ],
+    "sources": [
+      "openalex"
+    ],
+    "identity": "doi:10.5281/zenodo.23293501"
+  },
+  {
+    "id": "p04",
+    "title": "Vibe Analysis: Exploring LLM Adoption by Data Visualization Practitioners",
+    "date": "2026-09-28",
+    "authors": [
+      "Shani Claire Spivak",
+      "Aditi Krishna",
+      "Mahsan Nourani"
+    ],
+    "venue": "IEEE Computer Graphics and Applications",
+    "url": "https://doi.org/10.1109/mcg.2026.3738283",
+    "pdf": "https://arxiv.org/pdf/2609.31922",
+    "abstract": "Large language models (LLMs) are enticing in their promise to support data visualization (Vis) through faster and simpler workflows for data prep, analysis, and visualization creation. Yet LLMs are notoriously error-prone and not built for data visualization tasks. Few studies have explored LLM adoption among Vis practitioners. To fill this gap, we conducted semi-structured interviews with members of the Data Visualization Society, a global community of data visualization designers. Our findings show that Vis designers actively use LLMs for both creative and technical aspects of the visualization process. A new visualization workflow is emerging, a process we call vibe analysis, analogous to vibe coding. Some key challenges raised by participants parallel those of vibe coding, while others are Vis-specific, like gaps in Vis knowledge and chart verification. This work opens up opportunities for research combining LLM-mediated work with Vis tools that incorporate data visualization guidance, constraints, and best practices.",
+    "coverage": 1.0,
+    "matched_terms": [
+      "data visualization"
+    ],
+    "sources": [
+      "openalex"
+    ],
+    "identity": "arxiv:2609.31922"
+  },
+  {
+    "id": "p05",
+    "title": "A systematic literature review of LLM-based data visualization",
+    "date": "2026-09-24",
+    "authors": [
+      "Chiara Ceccarini",
+      "Paola Salomoni",
+      "Silvia Mirri"
+    ],
+    "venue": "Discover Artificial Intelligence",
+    "url": "https://doi.org/10.1007/s44163-026-02291-z",
+    "pdf": "https://link.springer.com/content/pdf/10.1007/s44163-026-02291-z.pdf",
+    "abstract": "The increasing popularity of Large Language Models (LLMs) has sparked growing interest in their application across a wide range of tasks, including data visualization. This study presents a Systematic Literature Review (SLR) aimed at investigating how LLMs are exploited to create data visualizations, addressing the research question: How can LLMs be used to create data visualizations? To this end, we identified ten dimensions of analysis, covering the study context, visualization-related aspects, and LLM-related characteristics. The visualization dimensions examine the types of visualizations produced, their outputs and interactivity, the underlying visualization theories or grammars, the intended target users, and the evaluation methodologies adopted. The remaining dimensions focus on the role and configuration of LLMs within the proposed approaches. Our findings provide a structured overview of current research trends, highlight how LLMs are currently leveraged to support or automate visualization creation, and identify open challenges and research gaps, offering directions for future work at the intersection of generative AI and data visualization.",
+    "coverage": 1.0,
+    "matched_terms": [
+      "data visualization"
+    ],
+    "sources": [
+      "openalex"
+    ],
+    "identity": "doi:10.1007/s44163-026-02291-z"
+  },
+  {
+    "id": "p06",
+    "title": "Data Visualization improves Business Decision-Making.",
+    "date": "2026-09-22",
+    "authors": [
+      "Sharvari More",
+      "Shreyash Patil",
+      "Needhumol Pillai"
+    ],
+    "venue": "",
+    "url": "https://doi.org/10.5281/zenodo.22899974",
+    "pdf": null,
+    "abstract": "Abstract Organizations generate and collect large amount of data through their daily business activities.However ,raw data presentation in tables and numerical format it is difficult and time consuming for the managers to interpret the data.Data visualizations provides a better way to present the data in form of charts,graphs,dashboards and other visualization techniques which helps manager understand the patterns and trends more easily.There are more techniques like scatter charts,histograms and clustered charts etc,but we are mainly focusing on the particular four types of techniques. This research focuses on different data visualization techniques and identifying which visualization technique is more effective and useful for the decision-makers.The study will compare visualization techniques based on factors such as ease of understanding,ability to find trends and patterns and usefulness in decision-making.The study reviews existing literatures , and a practical comparison conducted using same business datasets represented through different visualization techniques.The study will identify strengths and limitations of each techniques and determine which techniques are more suitable for specific business information and decision-making requirements. Keywords: business decision-making,comparative study,data visualization,dashboards.",
+    "coverage": 1.0,
+    "matched_terms": [
+      "data visualization"
+    ],
+    "sources": [
+      "openalex"
+    ],
+    "identity": "doi:10.5281/zenodo.22899974"
+  },
+  {
+    "id": "p07",
+    "title": "Evaluating the Impact of Data Visualization Professional Development on Early Childhood Educators",
+    "date": "2026-08-31",
+    "authors": [
+      "Karen Walker"
+    ],
+    "venue": "Texas Educator Preparation",
+    "url": "https://doi.org/10.59719/txep.v10i1.95",
+    "pdf": "https://txep.csotte.com/index.php/txep/article/download/95/61",
+    "abstract": "Many early childhood educators (ECE) lack confidence in using data visualization for classroom analysis, despite its effectiveness in making information accessible to young learners. This study examined whether a one-hour online professional development (PD) session could improve data visualization knowledge, self-efficacy, and implementation intentions among approximately 100 ECE participants. Using a pre-post quasi-experimental design with mixed methods, findings revealed a notable paradox, while technical knowledge remained stable, educators’ self-efficacy and implementation intentions increased significantly. Qualitative responses showed that educators view data visualization as a tool for inclusion that supports diverse learning styles and creates opportunities for all children to participate in mathematical thinking. This study aligns with the Texas Prekindergarten Guidelines (2022) and addresses the need for accessible, scalable PD for the Texas ECE workforce.",
+    "coverage": 1.0,
+    "matched_terms": [
+      "data visualization"
+    ],
+    "sources": [
+      "openalex"
+    ],
+    "identity": "doi:10.59719/txep.v10i1.95"
+  },
+  {
+    "id": "p08",
+    "title": "Using data visualizations for reading the word and the world",
+    "date": "2026-07-23",
+    "authors": [
+      "Travis Weiland",
+      "Anita Sundrani",
+      "Shelton Shelton"
+    ],
+    "venue": "Educação Matemática Pesquisa Revista do Programa de Estudos Pós-Graduados em Educação Matemática",
+    "url": "https://doi.org/10.23925/1983-3156.2026.v28.e77361",
+    "pdf": "https://revistas.pucsp.br/index.php/emp/article/download/77361/50972",
+    "abstract": "People are frequently exposed to a wide variety of data visualization in their daily lives. Though there is a long history of mathematics and statistics educators investigating ways to support people in reading graphs of data the demands of today’s diverse data visualizations are different and furthermore sociopolitical. In this paper we present the development process we went through to create a theory rich and empirical explored framework for reading data visualizations by investigating how teachers read data visualization in critical ways. We do this by presenting two iterations of a design research project aimed at developing mathematics teachers’ critical statistical literacy for doing and teaching data investigations of sociopolitical issues. From our two qualitative studies we found three meaningful conclusions: 1) What questions we ask in a data visualization activity seem to help create opportunities for people to read graphs in different ways. 2) How a data visualization relates to a person’s lived experience seems to impact how they read the data visualization. 3) Data visualization activities can serve as a starting point to developing critical statistical literacy connecting people’s current reading of the world with reading the word. Keywords: Statistics education; Data visualization; Critical literacy; Critical statistical ltieracy. Resumo As pessoas são frequentemente expostas a uma grande variedade de visualizações de dados em suas vidas diárias. Embora haja uma longa história de educadores de matemática e estatística investigando maneiras de ajudar as pessoas a ler gráficos de dados, as demandas das diversas visualizações de dados atuais são diferentes e, além disso, sociopolíticas. Neste artigo, apresentamos o processo de desenvolvimento pelo qual pas",
+    "coverage": 1.0,
+    "matched_terms": [
+      "data visualization"
+    ],
+    "sources": [
+      "openalex"
+    ],
+    "identity": "arxiv:3156.2026"
+  },
+  {
+    "id": "p09",
+    "title": "Data Visualization",
+    "date": "2026-07-16",
+    "authors": [
+      "Mike Reilley"
+    ],
+    "venue": "",
+    "url": "https://doi.org/10.4324/9781003682486-11",
+    "pdf": null,
+    "abstract": "Infographics are like glasses, says Alberto Cairo, who teaches data visualization at the University of Miami. If you take your glasses off, everything is blurry, but with your glasses on, everything comes into focus and makes sense. That analogy describes the impact of effective data visualizations. This chapter discusses various types of charts (such as pie, line and bar/column) and maps (including locator, thematic and symbol maps), and it explains how to know which type is right for your data. It includes Lena Groeger's “seeing” versus “thinking” framework for optimizing graphics for an audience. We then provide an overview of free tools for creating data visualizations, such as Infogram, Datawrapper, Flourish and Tableau. The chapter discusses how to choose the right colors, fonts and size for your graphic. Using Flourish, AI tools like Claude, Gemini, ChatGPT and NotebookLM with real-world data, we will walk through the process of making a variety of charts and maps. At the end of the chapter are exercises in which readers match datasets with the appropriate chart and map types. In addition, we point readers to various datasets and data visualization software to have them create data visualizations.",
+    "coverage": 1.0,
+    "matched_terms": [
+      "data visualization"
+    ],
+    "sources": [
+      "openalex"
+    ],
+    "identity": "doi:10.4324/9781003682486-11"
+  },
+  {
+    "id": "p10",
+    "title": "Less Is More? The Impact of Focusing Techniques on Recall Accuracy for Data Visualizations",
+    "date": "2026-07-07",
+    "authors": [
+      "Fanny Bogren",
+      "Isabella Garneij"
+    ],
+    "venue": "",
+    "url": "https://hdl.handle.net/2077/92416",
+    "pdf": null,
+    "abstract": "Although visualization design guidelines commonly recommend using focusing techniques to guide viewers’ attention, the individual cognitive effects of color highlighting and annotation on recall remain unclear. Previous research has shown that focused visualizations can improve recall of emphasized information. However, it remains unclear whether this effect is driven by using color highlighting or annotation separately, or their combination, and whether focusing a visualization comes with a potential cost to recall of non-focused information. This study examined how color highlighting and annotation affect recall of focused and non-focused information in data visualizations. It was hypothesized that both color highlighting and annotation would lead to higher recall for focused information and lower recall for non-focused information, especially when combined. Participants ( N = 137) viewed eight data visualizations across four conditions: color highlighting, annotation, both techniques combined, and a decluttered design. The decluttered design served as a baseline condition without additional focusing cues. Participants answered cued free-response recall questions about both focused and non-focused information, and recall accuracy was measured as the percentage of correct answers. Results showed that both color highlighting and annotation led to higher recall accuracy for focused information. However, annotation was also associated with lower recall accuracy for non-focused information, whereas color highlighting had no significant effect. Combining the two techniques did not produce a stronger recall effect than using either technique alone. Overall, these findings support the use of focusing techniques in data visualizations, while suggesting that designers should co",
+    "coverage": 1.0,
+    "matched_terms": [
+      "data visualization"
+    ],
+    "sources": [
+      "openalex"
+    ],
+    "identity": "title:lessismoretheimpactoffocusingtechniquesonrecallaccuracyfordatavisualizations"
+  },
+  {
+    "id": "p11",
+    "title": "Challenges and Opportunities for Theory-Grounded Data Visualization in Extended Reality",
+    "date": "2026-07-01",
+    "authors": [
+      "Andreas Bueckle",
+      "Christiane V. R. Hütter",
+      "Renata G. Raidou"
+    ],
+    "venue": "IEEE Computer Graphics and Applications",
+    "url": "https://doi.org/10.1109/mcg.2026.3685140",
+    "pdf": null,
+    "abstract": "Numerous frameworks have been developed for creating, interpreting, and teaching data visualizations. The past decade has seen advances in visualization paradigms beyond keyboard and mouse (e.g., immersive analytics). While mature visualization libraries exist for screen-based technologies, no comparable counterparts have emerged for immersive visualization due to scattered platforms, while theoretical frameworks require inclusion of extended reality (XR) and 3-D visualizations tailored to embodied exploration. Here, we synthesize challenges and opportunities for theory-grounded data visualization in XR to examine how established principles translate and expand to immersive environments. This work supports the development of both theory and practical tools for principled data visualization and exploration using XR in support of real-world applications.",
+    "coverage": 1.0,
+    "matched_terms": [
+      "data visualization"
+    ],
+    "sources": [
+      "openalex"
+    ],
+    "identity": "doi:10.1109/mcg.2026.3685140"
+  },
+  {
+    "id": "p12",
+    "title": "Data Visualization with ggplot2",
+    "date": "2026-06-18",
+    "authors": [
+      "Konstantinos I. Bougioukas"
+    ],
+    "venue": "",
+    "url": "https://doi.org/10.1201/9781003458098-11",
+    "pdf": null,
+    "abstract": "In this chapter, we explore the power of data visualization in R, focusing on the ggplot2 package and its extensions. The ggplot2 package provides a graphical environment for creating a wide range of plots, from basic scatterplots to complex data visualizations. Through examples and practical tips, we examine the fundamental principles for producing custom data visualizations in R.",
+    "coverage": 1.0,
+    "matched_terms": [
+      "data visualization"
+    ],
+    "sources": [
+      "openalex"
+    ],
+    "identity": "doi:10.1201/9781003458098-11"
+  },
+  {
+    "id": "p13",
+    "title": "Modeling the adoption of AI-driven data visualization for service innovation in university libraries",
+    "date": "2026-06-17",
+    "authors": [
+      "Khurshid Ahmad",
+      "Anas Alhur",
+      "Mehreen Azam"
+    ],
+    "venue": "Reference Services Review",
+    "url": "https://doi.org/10.1108/rsr-11-2025-0099",
+    "pdf": null,
+    "abstract": "Purpose The study examines the adoption of general-purpose generative artificial intelligence (GenAI) tools (e.g. ChatGPT, DeepSeek, Gemini) for data visualization tasks among academic librarians and its subsequent impact on library services innovation. Design/methodology/approach A quantitative research method was used, in which a cross-sectional survey on the extended model of the Unified Theory of Acceptance and Use of Technology (UTAUT) constructs was chosen in 100 universities of the Punjab province (both public and private sectors) in Pakistan with the help of a purposive sampling technique. Statistical Package for Social Sciences and Analysis of Moment Structure (SPSS-AMOS v-26) were applied to collect data and analyze it. Findings The findings of the study demonstrated that effort expectancy, social influence and facilitating conditions have a statistically significant influence on the behavioral intention to adopt GenAI tools for data visualization. Furthermore, the GenAI adoption has a significant positive impact on library service innovation. However, performance expectancy, hedonic motivation and price value have statistically insignificant impact on library professionals' behavioral intention to adopt GenAI tools. Originality/value This research provides original quantitative evidence from Pakistan, identifying the key factors influencing AI data visualization adoption in university libraries and its significant positive impact on service innovation.",
+    "coverage": 1.0,
+    "matched_terms": [
+      "data visualization"
+    ],
+    "sources": [
+      "openalex"
+    ],
+    "identity": "doi:10.1108/rsr-11-2025-0099"
+  },
+  {
+    "id": "p14",
+    "title": "Data Visualization in Ukrainian Media: Typical Errors and Communicative Implications",
+    "date": "2026-05-30",
+    "authors": [
+      "Anna Lichenko"
+    ],
+    "venue": "Integrated communications",
+    "url": "https://doi.org/10.28925/2524-2652.2026.111",
+    "pdf": "https://intcom.kubg.edu.ua/index.php/journal/article/download/471/367",
+    "abstract": "The contemporary media landscape is characterised by a rapid increase in the volume of data analysed by journalists. At the same time, data visualization has become an integral tool for presenting information and shaping meaning in media publications. Large volumes of data can be transformed into a single static or dynamic visualization that is often more expressive than text. In this context, the quality of visual data representation in the media becomes particularly important, especially given the prevalence of common errors that affect the accuracy of data interpretation and the overall effectiveness of communication with mass audiences. The purpose of the study is to identify typical errors in data visualization in Ukrainian media and to determine their communicative implications. To achieve this aim, a set of methods was employed, including content analysis of media materials, the comparative-descriptive method, and elements of visual analysis. The empirical basis of the study consists of examples of data visualizations published in Ukrainian online media. The study identifies the main types of errors, including the incorrect use of color, visual clutter, inappropriate chart types, the absence of essential components (such as data sources, legends, and axis labels), and violations of scale and proportionality. Such errors complicate the process of information decoding, may lead to misinterpretation, reduce communication effectiveness, and undermine trust in media content. It is also emphasised that, in the digital environment, data visualizations can function as independent units of content, being disseminated across media platforms or social networks separately from the original text, often without additional clarification or explanation. This increases the import",
+    "coverage": 1.0,
+    "matched_terms": [
+      "data visualization"
+    ],
+    "sources": [
+      "openalex"
+    ],
+    "identity": "arxiv:2652.2026"
+  },
+  {
+    "id": "p15",
+    "title": "Optimizing Supply Chain Analytics with SAP S/4 HANA and Data Visualization Tools",
+    "date": "2026-11-03",
+    "authors": [
+      "Deng Yu"
+    ],
+    "venue": "Global Journal of Innovative Research Perspectives (GJIRP)",
+    "url": "https://gjirp.org/index.php/gjirp/article/view/61",
+    "pdf": "https://gjirp.org/index.php/gjirp/article/download/61/148",
+    "abstract": "Supply chain optimization is critical for achieving operational efficiency and reducing costs in today's competitive business environment. SAP S/4 HANA, an enterprise resource planning (ERP) software, offers advanced capabilities for integrating, analyzing, and improving supply chain processes. Combined with modern data visualization tools, businesses can extract actionable insights and enhance decision-making. This paper explores the integration of SAP S/4 HANA with data visualization platforms like Power BI and Tableau to address challenges such as demand forecasting, inventory management, and supplier performance analysis. By leveraging real-time data analytics and intuitive visual representations, organizations can achieve significant performance improvements in their supply chain operations.",
+    "coverage": 1.0,
+    "matched_terms": [
+      "data visualization"
+    ],
+    "sources": [
+      "openalex"
+    ],
+    "identity": "title:optimizingsupplychainanalyticswithsaps4hanaanddatavisualizationtools"
+  },
+  {
+    "id": "p16",
+    "title": "Information Visualization for Hainan Li Pottery: An Intangible Cultural Heritage Perspective",
+    "date": "2026-10-30",
+    "authors": [
+      "Baiyun Li",
+      "Wenbo Hu"
+    ],
+    "venue": "Highlights in Art and Design",
+    "url": "https://doi.org/10.54097/0g2gb053",
+    "pdf": "https://drpress.org/ojs/index.php/hiaad/article/download/36321/35419",
+    "abstract": "Hainan Li pottery is a traditional pottery-making practice of the Li ethnic group in Hainan and contains information related to craft history, daily life, and cultural memory. At present, its communication mainly relies on object display, textual explanation, cultural experience activities, and tourism promotion. However, existing approaches often focus on individual objects and lack systematic presentation of historical development, production procedures, vessel types, decorative motifs, and cultural relationships. This study applies information visualization design to reorganize and represent the cultural information of Hainan Li pottery. Through literature review, exhibition observation, and visual material analysis, relevant information was classified into five aspects: historical development, cultural relationships, vessel types, production processes, and decorative motifs. Based on this classification, the Tao Qi Li Feng information visualization series was developed through visual elements, diagrams, and graphic structures. The study explores a design approach for transforming fragmented intangible cultural heritage information into a visual system. It provides a reference for the contemporary communication of Hainan Li pottery and other forms of traditional craftsmanship.",
+    "coverage": 1.0,
+    "matched_terms": [
+      "information visualization"
+    ],
+    "sources": [
+      "openalex"
+    ],
+    "identity": "doi:10.54097/0g2gb053"
+  },
+  {
+    "id": "p17",
+    "title": "Visualize It: Designing Impactful and Accessible Data Visualizations",
+    "date": "2026-10-15",
+    "authors": [
+      "Peter J. Lawson"
+    ],
+    "venue": "",
+    "url": "https://doi.org/10.5281/zenodo.23396237",
+    "pdf": null,
+    "abstract": "Data visualization is essential in library work, yet few practitioners receive formal training in it. This workshop equips library professionals at any level with a practical foundation in the design of accessible and effective data visualizations, combining theory with hands-on practice, leaving participants with a framework they can immediately apply.",
+    "coverage": 1.0,
+    "matched_terms": [
+      "data visualization"
+    ],
+    "sources": [
+      "openalex"
+    ],
+    "identity": "doi:10.5281/zenodo.23396237"
+  },
+  {
+    "id": "p18",
+    "title": "Healthy skepticism in AI: a data visualization research agenda",
+    "date": "2026-10-07",
+    "authors": [
+      "G. Elisabeta Marai",
+      "Marc Baaden",
+      "Michael Behrisch"
+    ],
+    "venue": "",
+    "url": "https://hal.science/hal-05791343v1",
+    "pdf": "https://arxiv.org/pdf/2610.09740",
+    "abstract": "Research in data visualization of artificial intelligence (AI) models has historically focused on enhancing trust through visual explanations of AI. The trustworthiness line of work was built at least partially on an assumption that humans were critical users unlikely to adopt AI technology. It is increasingly clear that human trust levels in AI span, in fact, a wide range from critical to over-reliant. There is an urgent need to support both trust and healthy skepticism in AI solutions. We argue that it is healthy for humans to adopt a skeptical view both on the results of AI models and on the use of such AI models. We share our thoughts on the rising phenomenon of over-reliance on AI models, the risks and opportunities in using AI models, and the role of data visualization in over-reliance situations where humans are not motivated to engage in critical thinking.",
+    "coverage": 1.0,
+    "matched_terms": [
+      "data visualization"
+    ],
+    "sources": [
+      "openalex"
+    ],
+    "identity": "arxiv:2610.09740"
+  },
+  {
+    "id": "p19",
+    "title": "Advanced Data Visualization Strategies for Communicating Complex Marketing Analytics to Executive Stakeholders",
+    "date": "2026-09-29",
+    "authors": [
+      "Asmita Basnet"
+    ],
+    "venue": "INTERNATIONAL JOURNAL OF MARKETING AND COMMUNICATION STUDIES",
+    "url": "https://doi.org/10.56201/ijmcs.v10.no1.2026.pg78.116",
+    "pdf": "https://iiardjournals.org/get/IJMCS/VOL. 10 NO. 1 2026/Advanced Data Visualization Strategies 78-116.pdf",
+    "abstract": "Advanced data visualization strategies are increasingly critical for communicating complex marketing analytics to executive stakeholders who require timely, accurate, and actionable insights. This study examines how sophisticated visualization techniques translate multidimensional marketing data into clear strategic narratives that support executive decision making. Drawing on contemporary literature in marketing analytics, information design, and executive cognition, the paper synthesizes best practices for visual abstraction, interactivity, and storytelling within dashboards and analytical reports. The study adopts a conceptual and analytical approach, reviewing empirical and practitioner-oriented studies on visualization use in executive environments. It evaluates visualization methods including interactive dashboards, heat maps, network graphs, temporal trend visualizations, and scenario-based simulations, emphasizing their suitability for summarizing performance metrics, forecasting outcomes, and communicating uncertainty. Findings indicate that well-designed visualizations significantly enhance comprehension, reduce cognitive overload, and improve alignment between marketing teams and executive leadership. By integrating key performance indicators with contextual annotations and drill-down capabilities, visualization tools enable executives to move beyond descriptive metrics toward strategic interpretation. The paper further explores the role of automation, artificial intelligence, and real-time data pipelines in supporting adaptive visualization systems. These systems allow dynamic updates, personalized executive views, and rapid comparison across channels, segments, and time horizons. Importantly, the study highlights common pitfalls, including misleading visual",
+    "coverage": 1.0,
+    "matched_terms": [
+      "data visualization"
+    ],
+    "sources": [
+      "openalex"
+    ],
+    "identity": "doi:10.56201/ijmcs.v10.no1.2026.pg78.116"
+  },
+  {
+    "id": "p20",
+    "title": "Spaciousness and Style: Finding Old Rhetoric in Data Visualizations",
+    "date": "2026-09-24",
+    "authors": [
+      "Christine Masters-Wheeler"
+    ],
+    "venue": "Rhetoric Review",
+    "url": "https://doi.org/10.1080/07350198.2026.2732468",
+    "pdf": null,
+    "abstract": "This article revisits Richard Weaver’s concept of spaciousness as a rhetorical effect and repositions it within contemporary visual rhetoric, particularly data visualizations. Although Weaver’s account of spaciousness is rooted in a political ideology that presumes shared cultural values, the concept offers a useful lens for understanding how style operates in visual communication. Drawing on the classical Ciceronian styles, this article argues that spaciousness functions as a visual analogue of the grand style, emphasizing abstraction rather than detail. Analyses of sparklines, cartographic maps, network visualizations, and metaphor-based displays show how plain style prioritizes instruction and transparency, grand style cultivates openness and shared meaning, and middle style modulates between visual scales through perceptual or interactive zooming. The article demonstrates how stylistic spaciousness in data visualization reinforces cultural assumptions about connectivity, complexity, and knowledge, offering a rhetorically grounded approach to studying visual style.",
+    "coverage": 1.0,
+    "matched_terms": [
+      "data visualization"
+    ],
+    "sources": [
+      "openalex"
+    ],
+    "identity": "doi:10.1080/07350198.2026.2732468"
+  },
+  {
+    "id": "p21",
+    "title": "Data Visualization Tools and Techniques",
+    "date": "2026-09-17",
+    "authors": [
+      "Ijaz Muhammad Zeeshan"
+    ],
+    "venue": "",
+    "url": "https://doi.org/10.5281/zenodo.22817862",
+    "pdf": null,
+    "abstract": "This research paper provides an overview of Data Visualization Tools and Techniques and examines their role in Business Analytics and data-driven decision-making. It explains how large and complex datasets can be transformed into clear and meaningful visual representations that help analysts and decision-makers identify patterns, trends, relationships, and important business information. The study discusses commonly used data visualization techniques, including line plots, bar charts, pie and donut charts, histograms, scatter plots, box-and-whisker plots, and network diagrams. It also reviews several widely used visualization tools, including Tableau, Dundas BI, Jupyter, Google Charts, IBM Watson, and Microsoft Power BI, highlighting their capabilities and applications in handling, analyzing, and presenting data. The paper further explores the importance of visualization in business environments, particularly for dashboards, reports, sales and marketing analysis, investor presentations, and other decision-support activities. Overall, the research demonstrates how appropriate visualization techniques and tools can make complex data easier to understand, improve the communication of analytical insights, and support more informed business decisions.",
+    "coverage": 1.0,
+    "matched_terms": [
+      "data visualization"
+    ],
+    "sources": [
+      "openalex"
+    ],
+    "identity": "doi:10.5281/zenodo.22817862"
+  },
+  {
+    "id": "p22",
+    "title": "Impact of Tableau Data Visualization on Business Decision-Making",
+    "date": "2026-09-12",
+    "authors": [
+      "Vaishnavi Chavan and Dr. Kiran Tikar"
+    ],
+    "venue": "International Journal of Advanced Research in Science Communication and Technology",
+    "url": "https://doi.org/10.48175/ijarsct-38257",
+    "pdf": "https://doi.org/10.48175/ijarsct-38257",
+    "abstract": "Data has become an important resource for modern businesses, as organizations generate large volumes of information through sales, customer activities, finance, marketing, and operations. However, raw data is often difficult to interpret and use effectively for business decisions. Data visualization helps address this problem by presenting complex information through charts, graphs, and interactive dashboards. Tableau is a widely used business intelligence and visualization platform that allows users to explore data, identify trends, monitor performance, and generate business insights. This paper examines the impact of Tableau data visualization on business decision-making, with particular emphasis on interactive dashboards, filters, charts, drill-down analysis, and visual exploration. The study follows a descriptive and analytical approach and is based on secondary information obtained from academic publications and other credible research sources. Greater emphasis is given to studies published in 2024 and 2025 to reflect recent developments in dashboard-based decision support and Tableau applications. The reviewed literature suggests that well-designed dashboards can improve information understanding, reduce task complexity, support performance analysis, and assist managers in making timely and informed decisions. Recent Tableau-related research also shows the practical value of interactive dashboards for sales analysis in MSMEs. Overall, Tableau can support business decision-making when reliable data, suitable visualization design, relevant business context, and user skills are considered together",
+    "coverage": 1.0,
+    "matched_terms": [
+      "data visualization"
+    ],
+    "sources": [
+      "openalex"
+    ],
+    "identity": "doi:10.48175/ijarsct-38257"
+  },
+  {
+    "id": "p23",
+    "title": "Creating Understandable Data Visualizations in R",
+    "date": "2026-09-07",
+    "authors": [
+      "Soundarya Soundararajan",
+      "Valliappan Muthu"
+    ],
+    "venue": "Journal of Postgraduate Medicine Education and Research",
+    "url": "https://doi.org/10.5005/jp-journals-10028-1816",
+    "pdf": "https://doi.org/10.5005/jp-journals-10028-1816",
+    "abstract": "Data visualization is central to scientific communication, yet many clinicians and early-career researchers struggle to create clear and interpretable figures.This article presents a beginner-friendly approach to building charts in R using the grammar of graphics framework.Every element of a chart is a choice, and the default is rarely the best one.Using a simulated clinical dataset of systolic blood pressure across treatment groups, we demonstrate how plots are constructed explicitly by combining data, aesthetic mappings, and geometric representations.Through stepby-step examples, we show how deliberate layering of axis labels, titles, color palettes, and themes transforms a bare-minimum plot into a publication-ready figure.By emphasizing deliberate decision-making over reliance on software defaults, this work aims to lower barriers to effective data visualization and support transparent scientific reporting.",
+    "coverage": 1.0,
+    "matched_terms": [
+      "data visualization"
+    ],
+    "sources": [
+      "openalex"
+    ],
+    "identity": "doi:10.5005/jp-journals-10028-1816"
+  },
+  {
+    "id": "p24",
+    "title": "Data Visualization",
+    "date": "2026-09-01",
+    "authors": [
+      "Megan Shields Formato",
+      "Kevin C. Moore",
+      "Sarah Peterson Pittock"
+    ],
+    "venue": "",
+    "url": "https://doi.org/10.1201/9781003520887-12",
+    "pdf": null,
+    "abstract": "This chapter introduces data visualization as a central practice in science communication, showing how well-designed charts translate complex evidence into clear visual insights for diverse audiences. It traces the evolution of visualization from early tabular records and cartography through Enlightenment statistical graphics, nineteenth-century public health maps, and modern interactive and AI-supported visualizations, demonstrating how graphics have shaped scientific reasoning and public decision-making throughout history. It then presents core principles for effective chart design: understanding audience and purpose, visual and statistical integrity, appropriate chart types, and designing with an eye toward decluttering, visual hierarchy, and contextual annotation to support accurate viewer interpretation. As with other chapters in this book, it also examines how emerging technologies and AI tools are transforming data visualization while emphasizing the continued importance of human judgment, ethics, and credibility. Emphasizing visualization as a rhetorical act, this chapter explains how effective charts communicate arguments, not just data. This chapter concludes with a practical process—from defining a “big idea” to sketching, feedback, prototyping, and refinement—equipping readers with strategies and tools to create ethical and effective visualizations.",
+    "coverage": 1.0,
+    "matched_terms": [
+      "data visualization"
+    ],
+    "sources": [
+      "openalex"
+    ],
+    "identity": "doi:10.1201/9781003520887-12"
+  },
+  {
+    "id": "p25",
+    "title": "Analysis of the Dissemination Path of Marxist Classical Theory Based on Data Visualization Technology",
+    "date": "2026-08-13",
+    "authors": [
+      "S. Q. Wang",
+      "X. X. Wu"
+    ],
+    "venue": "Advanced Electromagnetics",
+    "url": "https://doi.org/10.7716/aem.v15i3.3687",
+    "pdf": null,
+    "abstract": "This study applies data visualization technology to analyze the dissemination paths of Marxist classical theory within complex social networks. Integrating communication theory, social network analysis, and visualization techniques, the research constructs a multidimensional analytical framework to examine how Marxist theory propagates across different network structures. Based on simulation experiments involving diverse audience groups and dissemination channels, the study identifies the differentiated roles of academic, political, and mass media nodes in shaping propagation speed, coverage, and influence. The results show that scale-free networks generally exhibit faster earlystage diffusion and higher overall coverage under hub-dominated conditions, while small-world networks may achieve comparable or superior early propagation speed when initial propagators are embedded in highly clustered communities. These findings highlight the conditional effects of network topology and node roles on ideological dissemination. The study demonstrates the value of data visualization in revealing structural mechanisms of theory diffusion and provides methodological reference for network propagation analysis, information-flow modeling, and signal-diffusion studies in complex communication environments.",
+    "coverage": 1.0,
+    "matched_terms": [
+      "data visualization"
+    ],
+    "sources": [
+      "openalex"
+    ],
+    "identity": "doi:10.7716/aem.v15i3.3687"
+  },
+  {
+    "id": "p26",
+    "title": "Lumi Liu on Data Visualization, Medical Communication, and the Art of Making Complexity Clear",
+    "date": "2026-08-12",
+    "authors": [
+      "Elizaveta Akimova"
+    ],
+    "venue": "",
+    "url": "https://doi.org/10.5281/zenodo.21907946",
+    "pdf": null,
+    "abstract": "This interview documents the professional journey of Lumi Liu, focusing on the intersection of branding, data visualization, and scientific storytelling. The text explores the methodology of translating complex medical and technical information into clear, emotionally resonant visual narratives, analyzes the balance between artistic expression and scientific accuracy in medical illustration, and investigates the evolving role of the designer as a communicator across cultures and disciplines. As part of Curatone.art's research project, we feature Lumi Liu — a distinguished creative designer, art director, and co-founder of ING Studio. This interview explores how the synergy between rigorous data visualization and compelling visual storytelling defines the role of the contemporary communication designer in the 21st century.",
+    "coverage": 1.0,
+    "matched_terms": [
+      "data visualization"
+    ],
+    "sources": [
+      "openalex"
+    ],
+    "identity": "doi:10.5281/zenodo.21907946"
+  },
+  {
+    "id": "p27",
+    "title": "Application of Topic Modeling and Data Visualization in Libraries: A Review of Literature",
+    "date": "2026-08-04",
+    "authors": [
+      "Ranjan Borah",
+      "Margam Madhusudhan"
+    ],
+    "venue": "Journal of Library & Information Science (JLIS)",
+    "url": "https://dup.du.ac.in/index.php/jlis/article/view/880",
+    "pdf": null,
+    "abstract": "This study explores the evolving role of topic modeling and data visualization within Library and Information Science (LIS), focusing on their theoretical underpinnings, practical applications, and recent research trends. To clearly understand the techniques, 73 scholarly publications, published between 2003 24, were retrieved from different databases such as Scopus, Web of Science, LISA, and Google Scholar. A detailed review of the literature of the publications was done to understand the theoretical aspects of the techniques and their prospects. Topic modeling is a sophisticated text-mining technique that can be done using a variety of algorithms such as LDA, STM etc., each one suited to different types of datasets and research objectives, with diverse applications in libraries such as Enhancing Information Retrieval and Search Systems, Improving Digital Library Services, Document Clustering and Recommendation Systems, Subject Metadata and Multimedia Libraries, Topic Trends and Knowledge Discovery in LIS etc. Analytical findings of the publications reveal that 75% of the literature emerged in the past decade, with a notable concentration between 2018 and 2022, indicating heightened academic interest in these data-driven methodologies. The reviewed documents include journal articles (70%), conference papers (18%), book chapters (9%), and theses (3%), highlighting diverse scholarly contributions. Topic modeling techniques, particularly Latent Dirichlet Allocation (LDA), are recognized for uncovering hidden patterns in large text corpora, while data visualization translates complex datasets into impactful visuals. Together, these tools offer immense value to LIS professionals, data analysts, and researchers seeking to advance knowledge discovery, improve decision-making,",
+    "coverage": 1.0,
+    "matched_terms": [
+      "data visualization"
+    ],
+    "sources": [
+      "openalex"
+    ],
+    "identity": "title:applicationoftopicmodelinganddatavisualizationinlibrariesareviewofliterature"
+  },
+  {
+    "id": "p28",
+    "title": "The Science and Art of Data Visualization",
+    "date": "2026-07-23",
+    "authors": [
+      "William G. Vilchez"
+    ],
+    "venue": "",
+    "url": "https://doi.org/10.1201/9781003542889-2",
+    "pdf": null,
+    "abstract": "Before starting on the creation of graphs, this chapter discusses basic concepts of data visualization, as well as strategies for managing and organizing information in a structured way. Then, the choice of appropriate graphics according to human visual perception is explored, with emphasis on Gestalt principles and pre-attentive attributes. Finally, useful tools for data visualization are described.",
+    "coverage": 1.0,
+    "matched_terms": [
+      "data visualization"
+    ],
+    "sources": [
+      "openalex"
+    ],
+    "identity": "doi:10.1201/9781003542889-2"
+  },
+  {
+    "id": "p29",
+    "title": "Words as Data: Integrating Data Visualizations and English Language Arts for Classrooms with Multilingual Students",
+    "date": "2026-07-16",
+    "authors": [
+      "Victor R. Lee",
+      "Elizabeth Finlayson Harris",
+      "Ruishi Chen"
+    ],
+    "venue": "Journal of Statistics and Data Science Education",
+    "url": "https://doi.org/10.1080/26939169.2026.2670354",
+    "pdf": "https://www.tandfonline.com/doi/pdf/10.1080/26939169.2026.2670354?needAccess=true",
+    "abstract": ":This paper presents findings from a design-based research project that integrates quantitative text analytics data visualizations into middle school English Language Arts (ELA) classrooms, with particular attention to multilingual learners. In collaboration with a public school district, we co-designed data visualizations (e.g., word clouds, word frequency graphs) and instructional routines to support literary engagement and text comprehension using quantitative features of text. Drawing on survey data and classroom video excerpts, we examined how students engaged with these materials and how their perceptions of reading and data work changed. Participating teachers aided in visualization and routine design and implemented visualization use at least three times in their classroom. A control group of teachers proceeded with existing curriculum and activities. Compared to a control group, students who participated in these activities—especially those still developing English proficiency—showed more positive shifts in attitudes toward reading and working with data. These findings suggest that lightweight data integrations in ELA can support students' interpretive practices that are emphasized in ELA classrooms while also promoting data literacy, particularly for linguistically diverse populations.",
+    "coverage": 1.0,
+    "matched_terms": [
+      "data visualization"
+    ],
+    "sources": [
+      "openalex"
+    ],
+    "identity": "doi:10.1080/26939169.2026.2670354"
+  },
+  {
+    "id": "p30",
+    "title": "DATA ANALYTICS AND DATA VISUALIZATION",
+    "date": "2026-07-07",
+    "authors": [
+      "PRAVESH KUMAR DWIVEDI",
+      "Jyoti Pasi"
+    ],
+    "venue": "",
+    "url": "https://doi.org/10.5281/zenodo.21721774",
+    "pdf": null,
+    "abstract": "Data Analytics and Data Visualization is a comprehensive resource designed to help readers understand the principles, methodologies, and tools used to transform raw data into meaningful insights. In today's data-driven world, organizations across industries rely on data analytics and visualization techniques to make informed decisions, identify trends, improve performance, and gain a competitive advantage. This book provides a structured approach to learning the concepts and practical applications of data analytics, statistical analysis, predictive modeling, and business intelligence. The book begins by introducing the fundamentals of data analytics, including the importance of data, different types of analytics, and the roles of data professionals. It then explores essential statistical concepts and Python fundamentals that form the basis for data analysis. Readers gain an understanding of probability theory, hypothesis testing, sampling techniques, and statistical methods commonly used in analytical decision-making. Further, the book covers predictive analytics techniques such as regression, classification, and clustering, enabling readers to uncover patterns and make data-driven predictions. The final section focuses on data visualization using Power BI, one of the most widely used business intelligence platforms. Topics include data transformation, modeling, dashboard development, and report sharing for effective communication of insights. Combining theoretical concepts with practical applications, this book is ideal for students, researchers, business professionals, analysts, and aspiring data scientists. It serves as a valuable guide for developing analytical thinking and visualization skills necessary for success in the modern data economy.",
+    "coverage": 1.0,
+    "matched_terms": [
+      "data visualization"
+    ],
+    "sources": [
+      "openalex"
+    ],
+    "identity": "doi:10.5281/zenodo.21721774"
+  },
+  {
+    "id": "p31",
+    "title": "Technology Integration in Community Service: Empowering IDX Employees with Data Visualization Skills",
+    "date": "2026-06-28",
+    "authors": [
+      "Wirda Andani",
+      "Hendra Perdana",
+      "Nurfitri Imro’ah"
+    ],
+    "venue": "SPEKTA (Jurnal Pengabdian Kepada Masyarakat Teknologi dan Aplikasi)",
+    "url": "https://doi.org/10.12928/spekta.v7i1.15922",
+    "pdf": "http://journal2.uad.ac.id/index.php/spekta/article/download/15922/6727",
+    "abstract": "Background: The rapid growth of digitalization in the capital market requires the Indonesia Stock Exchange (IDX) to deliver transparent, accurate, and understandable information through data visualization. However, employees at the IDX West Kalimantan Representative Office rarely process and visualize data, even though it is essential for carrying out daily tasks. Contribution: This study fills the gap in technology-based community service programs that rarely integrate infographic training with information literacy enhancement in capital market education. The novelty of this study lies in the evaluation of the community service program, which not only measures the effectiveness of the training but also employs CB-SEM to identify the factors influencing participants’ learning outcomes. Method: The Statistics Study Program, Untan, conducted a training workshop combining theory and practice with real data. A situational analysis with IDX representatives was first carried out to identify needs and design the program. Effectiveness was evaluated using pre-tests, post-tests, and satisfaction surveys. Results: The paired t-test results at the 5% significance level demonstrating the effectiveness of infographic training in enhancing data visualization skills. In addition, CB-SEM analysis revealed that the module variable was the dominant factor, highlighting the importance of structured and relevant training materials in supporting participants’ learning outcomes. Conclusion: The training effectively enhanced the knowledge and skills of IDX West Kalimantan Representative employees in data processing and visualization.",
+    "coverage": 1.0,
+    "matched_terms": [
+      "data visualization"
+    ],
+    "sources": [
+      "openalex"
+    ],
+    "identity": "doi:10.12928/spekta.v7i1.15922"
+  },
+  {
+    "id": "p32",
+    "title": "Data Visualization On Airbnb Dataset Using Tableau",
+    "date": "2026-06-18",
+    "authors": [
+      "Syed Ibrahim Hussain",
+      "Mahad Ansari",
+      "Kareem Basha"
+    ],
+    "venue": "International Journal of Scientific Research and Engineering Trends",
+    "url": "https://doi.org/10.5281/zenodo.20747003",
+    "pdf": null,
+    "abstract": "Today, the brand new digital economy has revolutionized the way people travel and find a place to stay through platforms like Airbnb. For this purpose, this project is dedicated to delving into Airbnb data with the help of efficient data visualization methods to reveal significant patterns and insights. The study, by analyzing various factors such as pricing location types of rooms, availability, and customer reviews, is aiming at finding the answer to how different variables affect listing performance and user preferences. Through the use of visualization software, not only are complex datasets opened up in a simple and interactive visual manner like charts, graphs, and maps but it also becomes much easier to recognize the patterns and associations. Besides hosts, guests, and platform developers, the project also showcases the great potential of data visualization in enabling them to make better decisions. In short, this work illustrates the tremendous impact of visual storytelling in turning huge datasets into simpler ones and at the same time, providing useful insights in a real-life situation.",
+    "coverage": 1.0,
+    "matched_terms": [
+      "data visualization"
+    ],
+    "sources": [
+      "openalex"
+    ],
+    "identity": "doi:10.5281/zenodo.20747003"
+  },
+  {
+    "id": "p33",
+    "title": "Future of AI Jobs: A Data Visualization Analysis Using Tableau",
+    "date": "2026-06-09",
+    "authors": [
+      "Diana Moses",
+      "Prateek Dhamangave",
+      "Omair Mohiuddin"
+    ],
+    "venue": "International Scientific Journal of Engineering and Management",
+    "url": "https://doi.org/10.55041/isjem07834",
+    "pdf": null,
+    "abstract": "Artificial Intelligence (AI) is transforming the global employment landscape by influencing job roles, skill requirements, salary structures, and workforce demand. Understanding these changes requires effective analytical techniques capable of extracting meaningful insights from complex labor market datasets. This study presents a comprehensive data visualization analysis of an AI employment dataset using Tableau. The dataset contains information related to job roles, salary ranges, skill demand scores, geographic distribution, and employment characteristics. Various visualization techniques including bar charts, heat maps, histograms, funnel charts, and geographic analyses were employed to identify patterns and trends within the AI labor market. The analysis reveals significant differences in salary distribution across countries, varying levels of AI automation risk among job roles, increasing skill demand over time, and strong global demand for technical professionals. The findings demonstrate that while automation affects certain occupations, highly specialized roles continue to remain resilient due to the need for advanced problem-solving and domain expertise. The study highlights the effectiveness of Tableau as a business intelligence and visualization platform for transforming raw employment data into actionable insights. The results provide valuable information for students, professionals, recruiters, and policymakers seeking to understand emerging workforce trends in the era of Artificial Intelligence. Key Words: Artificial Intelligence, Data Visualization, Tableau, Employment Analytics, Workforce Trends, AI Job Market",
+    "coverage": 1.0,
+    "matched_terms": [
+      "data visualization"
+    ],
+    "sources": [
+      "openalex"
+    ],
+    "identity": "doi:10.55041/isjem07834"
+  },
+  {
+    "id": "p34",
+    "title": "grapesDraw : Bridging Data Visualization for Statistical Education and Research in Agriculture",
+    "date": "2026-06-08",
+    "authors": [
+      "Burra Preeti",
+      "Pratheesh Pradeep Gopinath",
+      "V. S. Adarsh"
+    ],
+    "venue": "Teaching Statistics",
+    "url": "https://doi.org/10.1002/test.70045",
+    "pdf": null,
+    "abstract": "Data visualization is pivotal in agricultural research, yet tools like R, Python, and Excel pose significant challenges. R's advanced graphics are offset by a steep learning curve, Python often encounters runtime errors, and Excel lacks robust functionality. To overcome these obstacles, we introduce grapesDraw, an open‐source web application, and R package tailored for agricultural research and education. Built on Shiny, grapesDraw integrates R's ggplot2, corrplot, packcircles, and factoextra packages, offering an intuitive interface that minimizes coding demands. This enables researchers and students to create high‐quality visualizations effortlessly. A survey across state agricultural universities (SAUs) confirmed grapesDraw's usability and effectiveness, particularly among novices. Freely available on shinyapps.io and as an R package on GitHub, with detailed documentation, grapesDraw enhances accessibility and efficiency in agricultural data visualization.",
+    "coverage": 1.0,
+    "matched_terms": [
+      "data visualization"
+    ],
+    "sources": [
+      "openalex"
+    ],
+    "identity": "doi:10.1002/test.70045"
+  },
+  {
+    "id": "p35",
+    "title": "Data visualization and visual analytics as support for the investigation of document and identity fraud in the public sector",
+    "date": "2026-11-13",
+    "authors": [
+      "William Vitor Florencio de Abreu"
+    ],
+    "venue": "RCMOS - Revista Científica Multidisciplinar O Saber",
+    "url": "https://doi.org/10.51473/rcmos.v1i2.2026.3191",
+    "pdf": "https://submissoesrevistarcmos.com.br/rcmos/article/download/3191/7518",
+    "abstract": "Verifying citizens' identities and the authenticity of documents has become a critical step in the delivery of public services, especially with the expansion of digital government and the growth of identity fraud attempts in Brazil. Much of this verification still depends on the comparison of images and records by human analysts, a task that cognitive psychology research shows to be subject to relevant error rates. This article analyzes the role of data visualization and visual analytics tools as support for the investigation of document and identity fraud in the public sector. It is a qualitative and exploratory study, based on bibliographic and documentary research, combining work on information visualization, unfamiliar face matching, cognitive load theory, visual analytics applied to fraud detection and the interaction between humans and automated systems in public administration. The analysis indicates that interfaces able to gather evidence in a single environment, support side-by-side comparison and reduce switching between systems tend to lower cognitive effort and may favor more consistent decisions. The literature also shows that combining a trained specialist with a highperforming algorithm outperforms the combination of two specialists, while warning about algorithmic bias, automation bias and harms already observed in public anti-fraud programs. The study concludes that visualization should be conceived as an instrument that amplifies human judgment, with traceable decisions and safeguards for citizens' rights.",
+    "coverage": 1.0,
+    "matched_terms": [
+      "data visualization",
+      "information visualization"
+    ],
+    "sources": [
+      "openalex"
+    ],
+    "identity": "doi:10.51473/rcmos.v1i2.2026.3191"
+  },
+  {
+    "id": "p36",
+    "title": "Enhancing Project Management Performance Through Data Visualization Using Microsoft Power BI",
+    "date": "2026-11-11",
+    "authors": [
+      "Prabhakar Edara",
+      "Surendra Reddy Alavala"
+    ],
+    "venue": "",
+    "url": "https://doi.org/10.5281/zenodo.24144627",
+    "pdf": null,
+    "abstract": "Effective project management requires continuous monitoring of schedules, budgets, resources, and project deliverables. However, organizations often collect project information from multiple sources, making it difficult for managers to obtain a clear understanding of overall project performance. Traditional reporting methods, particularly manually maintained spreadsheets and static reports, can delay the identification of project problems and limit informed decision-making. This research examines the role of data visualization and business intelligence in improving project management through Microsoft Power BI. A conceptual framework is proposed to integrate project information, transform raw data, calculate key performance indicators (KPIs), and present results through interactive dashboards. The framework focuses on project completion, schedule variance, cost variance, budget utilization, resource allocation, and risk monitoring. A literature-based research methodology is adopted to examine existing studies on project success, performance measurement, business intelligence, and dashboard visualization. The proposed approach demonstrates how Power BI can provide a centralized reporting environment and improve the accessibility and interpretation of project information. The study concludes that integrating business intelligence with project management can support transparency, performance monitoring, and evidence-based decisions, provided that the underlying data is accurate and regularly updated.",
+    "coverage": 1.0,
+    "matched_terms": [
+      "data visualization"
+    ],
+    "sources": [
+      "openalex"
+    ],
+    "identity": "doi:10.5281/zenodo.24144627"
+  },
+  {
+    "id": "p37",
+    "title": "Data Bloom 2026: XR for Data Visualization",
+    "date": "2026-11-10",
+    "authors": [
+      "Fenway Powers",
+      "Miles Vilke",
+      "Leanna Fowler"
+    ],
+    "venue": "",
+    "url": "https://doi.org/10.60593/ur.d.34930260",
+    "pdf": null,
+    "abstract": "This Studio X workshop offers an introduction to the exciting possibilities of extended reality (XR) in data representation. Discover how XR tools can transform data into immersive 3D environments, enabling dynamic, interactive exploration, and analysis. Move beyond the limitations of traditional 2D charts and graphs and learn how to create visually compelling experiences that engage users on a deeper level. No prior XR experience required!This workshop was presented on Thursday, November 5, 2026 both in-person at Studio X and via Zoom.This record contains the presentation slide deck, a short demo video of the VR data viz, a recording of the presentation, and an example Unity development package of a VR data visualization.",
+    "coverage": 1.0,
+    "matched_terms": [
+      "data visualization"
+    ],
+    "sources": [
+      "openalex"
+    ],
+    "identity": "doi:10.60593/ur.d.34930260"
+  },
+  {
+    "id": "p38",
+    "title": "DATA VISUALIZATION USING POWER BI AND TABLEAU",
+    "date": "2026-10-26",
+    "authors": [
+      "Anuja Gite",
+      "Swarupa Kamble"
+    ],
+    "venue": "",
+    "url": "https://doi.org/10.5281/zenodo.23669244",
+    "pdf": null,
+    "abstract": "This paper presents a comparative study of Power BI and Tableau, two widely used business intelligence and data visualization tools. It examines their features, data connectivity, visualization capabilities, dashboard development, usability, and applications in business decision-making. The study discusses the strengths and limitations of both tools to help users understand their suitability for different analytical requirements. The comparison highlights the importance of data quality, user requirements, cost, and technical skills when selecting a visualization platform.",
+    "coverage": 1.0,
+    "matched_terms": [
+      "data visualization"
+    ],
+    "sources": [
+      "openalex"
+    ],
+    "identity": "doi:10.5281/zenodo.23669244"
+  },
+  {
+    "id": "p39",
+    "title": "Compact Data Visualization for Feature Relationships and Class Separability",
+    "date": "2026-10-25",
+    "authors": [
+      "Shridhar B. Dandin",
+      "Santosh Kumar Das",
+      "Megha Sinha"
+    ],
+    "venue": "",
+    "url": "https://doi.org/10.5281/zenodo.23641571",
+    "pdf": null,
+    "abstract": "Data visualization is mandatory for different applications, such data interpretation, exploratory analysis, pattern identification, etc. It is rapidly used in the domain of Artificial Intelligence & Machine Learning (AI/ML), healthcare and medical analytics, cybersecurity, finance, IoT, etc. Although it is effectively used in several areas, but it has some issues such as large volume of data, choosing the right visualization technique, data quality, user interpretation, etc. In this paper, five visualization methods are used to illustrate a compact multi-view visualization in the form of an analytical. Finally, the results show that each chart illustrates a specific insight. Among all visualizations, scatter visualization provides richer information with the context of feature relationship and class separability.",
+    "coverage": 1.0,
+    "matched_terms": [
+      "data visualization"
+    ],
+    "sources": [
+      "openalex"
+    ],
+    "identity": "doi:10.5281/zenodo.23641571"
+  },
+  {
+    "id": "p40",
+    "title": "Basketball Game Data Visualization and Prediction Model Based on Voting Ensemble Learning",
+    "date": "2026-10-23",
+    "authors": [
+      "Jun Li"
+    ],
+    "venue": "IEIE Transactions on Smart Processing and Computing",
+    "url": "https://doi.org/10.5573/ieiespc.2026.15.5.670",
+    "pdf": null,
+    "abstract": "Aiming at the insufficient visualization effect of basketball game data, this paper proposes a mixed prediction model based on voting ensemble learning and improved random forest. Combined with voting ensemble algorithm to process data, the final result of basketball game data is obtained. The experiment showed that the average accuracy of the model reached 0.856, the average absolute error was stable within 0.021-0.041, and the response time of real-time event data visualization was less than 0.8 seconds. The core innovation of the research method is to propose a cluster optimization algorithm to solve the inefficient classification of unlabeled data in traditional random forests. A mixed voting strategy is designed, where hard voting is used for discrete event classification and soft voting is used for continuous index prediction to enhance the model generalization ability of complex event scenarios.",
+    "coverage": 1.0,
+    "matched_terms": [
+      "data visualization"
+    ],
+    "sources": [
+      "openalex"
+    ],
+    "identity": "doi:10.5573/ieiespc.2026.15.5.670"
+  }
+]

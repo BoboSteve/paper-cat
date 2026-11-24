@@ -1,0 +1,155 @@
+{
+  "version": 1,
+  "created_at": "2026-11-24T12:30:16.949636+00:00",
+  "topic": "面向数据可视化的多场景协同、多智能体与人机协同分析",
+  "topic_description": "Data visualization for multi-scenario collaboration, multi-agent systems, and human-machine collaborative analysis",
+  "desired_paper_profile": "Focus on recent top conferences and journals in computer science, particularly in visualization, human-computer interaction, and multi-agent systems.",
+  "pack": {
+    "id": "general",
+    "name": "通用（所有学科）",
+    "sources": [
+      "openalex",
+      "arxiv",
+      "crossref",
+      "semantic"
+    ],
+    "grading": [
+      "cas_partition"
+    ],
+    "track_rules": false
+  },
+  "concepts": [
+    [
+      "data visualization",
+      "information visualization"
+    ],
+    [
+      "multi-scenario collaboration",
+      "cross-domain collaboration"
+    ],
+    [
+      "multi-agent systems",
+      "multi-agent collaboration"
+    ],
+    [
+      "human-machine collaboration",
+      "human-computer interaction"
+    ],
+    [
+      "collaborative analysis",
+      "cooperative analysis"
+    ]
+  ],
+  "known_papers": [],
+  "exclusion_terms": [],
+  "ranker": "auto",
+  "prefilter_cap": 400,
+  "alignment": {
+    "positive_examples": [],
+    "negative_examples": [],
+    "paper_roles": [
+      "direct_competitor",
+      "method_donor",
+      "failure_warning",
+      "data_eval_support"
+    ]
+  },
+  "research_questions": [],
+  "path": "B",
+  "track_policy": "main_only",
+  "criteria_version": "v1",
+  "warnings": [],
+  "tier": "quick",
+  "run_date": "2026-11-24",
+  "time_window": "2023-01-01 to 2026-11-24",
+  "time_window_range": {
+    "start": "2023-01-01",
+    "end": "2026-11-24"
+  },
+  "clarification": "topic brief supplied by the user",
+  "inclusion": [],
+  "exclusion": [],
+  "transfer_rule": "General methods are eligible when their components can be transferred to the target topic.",
+  "catalog": {
+    "source": "OpenReview/DBLP/official proceedings",
+    "sources": []
+  },
+  "sources": [
+    "arxiv",
+    "crossref"
+  ],
+  "queries": {
+    "count": 1,
+    "requested_results": 25,
+    "sha256": "79c96107c95ed58dc8037ac32ad1d3b9a040c015ceadac8528306936ebea9228"
+  },
+  "jev": {
+    "model": "StartLux-Decision-v1.1-4B-Instant-MLX-8bit",
+    "selected_k": 5,
+    "workers": 1,
+    "estimated_seconds_at_k": 1.7
+  },
+  "fulltext": {
+    "required_for": [
+      "core",
+      "boundary",
+      "conflicting_evidence"
+    ],
+    "queries": [
+      "method",
+      "experiment",
+      "result",
+      "ablation",
+      "limitation"
+    ]
+  },
+  "regression": {
+    "scope": "target_topic_only",
+    "subtopics": [
+      "面向数据可视化的多场景协同、多智能体与人机协同分析"
+    ]
+  },
+  "stop_conditions": [
+    "all configured sources finish or their failures are recorded",
+    "Top-K final judgments have evidence quotes",
+    "full-text checks for core and boundary items are complete or marked pending",
+    "known coverage gaps are listed in the final report"
+  ],
+  "known_gaps": [],
+  "funnel": {
+    "steps": [
+      [
+        "识别（召回）",
+        0
+      ],
+      [
+        "目录/来源去重",
+        0
+      ],
+      [
+        "判定（相关性）",
+        0
+      ],
+      [
+        "纳入核心",
+        0
+      ],
+      [
+        "纳入外围",
+        0
+      ],
+      [
+        "待核实",
+        0
+      ],
+      [
+        "排序未转发",
+        0
+      ],
+      [
+        "排除",
+        0
+      ]
+    ]
+  }
+}

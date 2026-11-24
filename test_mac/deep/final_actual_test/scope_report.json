@@ -1,0 +1,16 @@
+{
+  "input_records": 24,
+  "output_records": 11,
+  "window": [
+    "2023-01-01",
+    "2026-11-24"
+  ],
+  "counts": {
+    "in_window": 11,
+    "out_of_window": 13
+  },
+  "dropped": {
+    "out_of_window": 13
+  },
+  "note": "boundary = date known only to month/year and the period straddles a window edge; kept for review"
+}

@@ -1,0 +1,9 @@
+{
+  "records": 11,
+  "stats": {
+    "openalex_formal": 6,
+    "openalex_repository_only": 4,
+    "unresolved": 5
+  },
+  "errors": []
+}

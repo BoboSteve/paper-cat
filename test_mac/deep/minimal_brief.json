@@ -1,0 +1,13 @@
+{
+  "topic": "test",
+  "topic_description": "test",
+  "time_window": "2023-01-01 to 2026-11-24",
+  "concepts": [
+    ["test", "test"]
+  ],
+  "selected_k": 1,
+  "pack": "general",
+  "inclusion": [],
+  "exclusion": [],
+  "sources": ["openalex"]
+}

@@ -1,0 +1,900 @@
+{
+  "query_id": "concepts",
+  "query": "data visualization multi-scenario collaboration multi-agent systems human-machine collaboration collaborative analysis",
+  "sources": "arxiv,crossref",
+  "max_results": 25,
+  "year": "",
+  "sort": "relevance",
+  "psm_spec": "paper-search-mcp @ git+https://github.com/openags/paper-search-mcp.git@cab1b5cc276a0cd004a0044003926a6440088049",
+  "arxiv_query": "(ti:\"data visualization\" OR abs:\"data visualization\" OR ti:\"information visualization\" OR abs:\"information visualization\") AND (ti:\"multi-scenario collaboration\" OR abs:\"multi-scenario collaboration\" OR ti:\"cross-domain collaboration\" OR abs:\"cross-domain collaboration\") AND (ti:\"multi-agent systems\" OR abs:\"multi-agent systems\" OR ti:\"multi-agent collaboration\" OR abs:\"multi-agent collaboration\") AND (ti:\"human-machine collaboration\" OR abs:\"human-machine collaboration\" OR ti:\"human-computer interaction\" OR abs:\"human-computer interaction\") AND (ti:\"collaborative analysis\" OR abs:\"collaborative analysis\" OR ti:\"cooperative analysis\" OR abs:\"cooperative analysis\")",
+  "arxiv_max_results": 300,
+  "openalex_query": "(\"data visualization\" OR \"information visualization\") AND (\"multi-scenario collaboration\" OR \"cross-domain collaboration\") AND (\"multi-agent systems\" OR \"multi-agent collaboration\") AND (\"human-machine collaboration\" OR \"human-computer interaction\") AND (\"collaborative analysis\" OR \"cooperative analysis\")",
+  "openalex_max_results": 200,
+  "date_from": "2023-01-01",
+  "date_to": "2026-11-24",
+  "query_hash": "22516a83a7e2bdb4b3c92d55d7bc5ccbffc0dbf983e34651565469ef13ed0e4d",
+  "status": "partial",
+  "started_at": "2026-11-24T12:30:19.818960+00:00",
+  "finished_at": "2026-11-24T12:30:35.054003+00:00",
+  "elapsed_ms": 15235,
+  "returncode": 0,
+  "raw_path": "raw/psm/concepts.json",
+  "stderr_path": "raw/psm/concepts.stderr.log",
+  "source_results": {
+    "crossref": 25,
+    "arxiv": 0
+  },
+  "sources_used": [
+    "crossref",
+    "arxiv"
+  ],
+  "errors": {},
+  "empty_sources": [
+    "arxiv"
+  ],
+  "raw_total": null,
+  "paper_count": 24,
+  "malformed_papers": 1,
+  "error": "",
+  "candidates": [
+    {
+      "paper_id": "10.1109/icmsci67830.2026.11469659",
+      "title": "Generative and Cognitive Artificial Intelligence for Adaptive Human-Machine Collaboration",
+      "authors": [
+        "Nidhi Mishr",
+        "Aakansha Soy"
+      ],
+      "abstract": "",
+      "doi": "10.1109/icmsci67830.2026.11469659",
+      "published_date": "2026-03-02T00:00:00",
+      "pdf_url": "",
+      "url": "https://doi.org/10.1109/icmsci67830.2026.11469659",
+      "source": "crossref",
+      "updated_date": "",
+      "categories": "proceedings-article",
+      "keywords": "",
+      "citations": 0,
+      "references": "",
+      "extra": "{'publisher': 'IEEE', 'container_title': '2026 Second International Conference on Multi-Agent Systems for Collaborative Intelligence (ICMSCI)', 'volume': '', 'issue': '', 'page': '1078-1085', 'issn': [], 'isbn': [], 'crossref_type': 'proceedings-article', 'member': '263', 'prefix': '10.1109'}",
+      "record_id": "10.1109/icmsci67830.2026.11469659",
+      "psm_authors": "Nidhi Mishr; Aakansha Soy",
+      "year": 2026,
+      "query_id": "concepts",
+      "query": "data visualization multi-scenario collaboration multi-agent systems human-machine collaboration collaborative analysis",
+      "query_hash": "22516a83a7e2bdb4b3c92d55d7bc5ccbffc0dbf983e34651565469ef13ed0e4d",
+      "psm_source_order": [
+        "arxiv",
+        "crossref"
+      ],
+      "psm_source_results": {
+        "crossref": 25,
+        "arxiv": 0
+      },
+      "psm_errors": {},
+      "psm_raw_path": "raw/psm/concepts.json"
+    },
+    {
+      "paper_id": "10.70675/6601c7deza7f1z464bzbd28z88b10567bd6c",
+      "title": "Probabilistic Decision-Making Models for Multi-Agent Systems and Human-Robot Collaboration",
+      "authors": [
+        "Yang You"
+      ],
+      "abstract": "<jats:title>Modèles de décision probabilistes pour les systèmes multi-agents et la collaboration humain-robot</jats:title>\n                <jats:p xml:lang=\"fr\">Dans cette thèse, nous nous intéressons à la prise de décision haut niveau (planification de tâches) pour la robotique à l'aide de modèles de prise de décision markoviens et sous deux aspects : la collaboration robot-robot et la collaboration homme-robot. Dans le cadre de la collaboration robot-robot (RRC), nous étudions les problèmes de décision de plusieurs robots devant atteindre un objectif commun de manière collaborative, et nous utilisons le cadre des processus de décision markoviens partiellement observables et décentralisés (Dec-POMDP) pour modéliser de tels problèmes. Nous proposons deux nouveaux algorithmes pour résoudre les Dec-POMDP. Le premier algorithme (Inf-JESP) trouve des équilibres de Nash en construisant itérativement pour chaque agent la politique meilleure réponse aux autres agents jusqu'à ce qu'aucune amélioration ne soit possible. Pour traiter les Dec-POMDP à horizon infini, nous représentons la politique de chaque agent à l'aide d'un contrôleur à états finis. Le deuxième algorithme (MC-JESP) étend Inf-JESP avec des modèles génératifs, ce qui nous permet de passer à l'échelle pour des grands problèmes. Nous démontrons expérimentalement que nos méthodes sont compétitives par rapport aux solveurs Dec-POMDP existants. Dans le cadre de la collaboration homme-robot (HRC), nous ne pouvons contrôler que le comportement du robot, lequel doit faire face à des objectifs humains et à des comportements induits incertains. Nous cherchons ainsi à dériver des politiques de robot qui sont robustes aux incertitudes sur les comportements humains. Pour cela, nous discutons des modèles mentaux qui peuvent être utilisés pour modéliser le comportement humain dans une telle tâche collaborative. Nous décrivons ensuite une approche générale pour dériver, automatiquement et sans connaissance préalable, un modèle de comportements humains basé sur l'hypothèse que l'humain contrôle aussi le robot. À partir de là, nous proposons deux algorithmes pour calculer des politiques robustes pour le robot en se basant sur la résolution d'un POMDP dont l'état contient l'état interne de l'humain. Le premier algorithme fonctionne hors ligne et fournit une politique complète qui peut être utilisée par le robot pendant son exécution. Le deuxième algorithme est une méthode en ligne, c'est-à-dire qu'il décide de l'action du robot à chaque pas de temps au cours de l'exécution. Par rapport à l'approche hors ligne, la méthode en ligne ne nécessite qu'un modèle génératif et peut donc s'adapter à de grands problèmes. Des expériences avec des humains synthétiques et réels sont menées dans un environnement simulé pour évaluer ces algorithmes. Nous observons que nos méthodes peuvent fournir des décisions robustes pour des robots collaboratifs malgré les incertitudes sur les objectifs et les comportements humains. Dans cette thèse, notre recherche sur la collaboration robot-robot fournit une base pour construire des politiques meilleure réponse dans un cadre partiellement observable et multi-agent, base qui sert d'étape intermédiaire importante pour aborder les problèmes de collaboration homme-robot. De plus, pour chaque contribution, nous fournissons des algorithmes plus flexibles utilisant des modèles génératifs dont nous pensons qu'ils faciliteront la mise en œuvre de nos contributions à des applications du monde réel.</jats:p>",
+      "doi": "10.70675/6601c7deza7f1z464bzbd28z88b10567bd6c",
+      "published_date": "1970-01-01T00:00:00",
+      "pdf_url": "",
+      "url": "https://doi.org/10.70675/6601c7deza7f1z464bzbd28z88b10567bd6c",
+      "source": "crossref",
+      "updated_date": "",
+      "categories": "dissertation",
+      "keywords": "",
+      "citations": 0,
+      "references": "",
+      "extra": "{'publisher': \"Agence Bibliographique de l'Enseignement Supérieur\", 'container_title': '', 'volume': '', 'issue': '', 'page': '', 'issn': [], 'isbn': [], 'crossref_type': 'dissertation', 'member': '51494', 'prefix': '10.70675'}",
+      "record_id": "10.70675/6601c7deza7f1z464bzbd28z88b10567bd6c",
+      "psm_authors": "Yang You",
+      "year": 1970,
+      "query_id": "concepts",
+      "query": "data visualization multi-scenario collaboration multi-agent systems human-machine collaboration collaborative analysis",
+      "query_hash": "22516a83a7e2bdb4b3c92d55d7bc5ccbffc0dbf983e34651565469ef13ed0e4d",
+      "psm_source_order": [
+        "arxiv",
+        "crossref"
+      ],
+      "psm_source_results": {
+        "crossref": 25,
+        "arxiv": 0
+      },
+      "psm_errors": {},
+      "psm_raw_path": "raw/psm/concepts.json"
+    },
+    {
+      "paper_id": "10.1093/oso/9780198862536.003.0008",
+      "title": "Too Many cooks: Bayesian inference for coordinating Multi-agent Collaboration",
+      "authors": [
+        "Rose E. Wang",
+        "Sarah A. Wu",
+        "James A. Evans",
+        "David C. Parkes",
+        "Joshua B. Tenenbaum",
+        "Max Kleiman-Weiner"
+      ],
+      "abstract": "<p>Collaboration requires agents to coordinate their behavior on the fly, sometimes cooperating to solve a single task together and other times dividing it up into sub-tasks to work on in parallel. Here, we develop Bayesian Delegation, a decentralized multi-agent learning mechanism with these abilities. Bayesian Delegation enables agents to rapidly infer the hidden intentions of others by inverse planning. We test Bayesian Delegation in a suite of multi-agent Markov decision processes inspired by cooking problems. On these tasks, agents with Bayesian Delegation coordinate both their high-level plans (e.g. what sub-task they should work on) and their low-level actions (e.g. avoiding getting in each other’s way). In a self-play evaluation, Bayesian Delegation outperforms alternative algorithms. Bayesian Delegation is also a capable ad-hoc collaborator and successfully coordinates with other agent types even in the absence of prior experience.</p>",
+      "doi": "10.1093/oso/9780198862536.003.0008",
+      "published_date": "2021-07-13T00:00:00",
+      "pdf_url": "",
+      "url": "https://doi.org/10.1093/oso/9780198862536.003.0008",
+      "source": "crossref",
+      "updated_date": "",
+      "categories": "book-chapter",
+      "keywords": "",
+      "citations": 5,
+      "references": "",
+      "extra": "{'publisher': 'Oxford University Press', 'container_title': 'Human-Like Machine Intelligence', 'volume': '', 'issue': '', 'page': '152-170', 'issn': [], 'isbn': ['9780198862536', '9780191895333'], 'crossref_type': 'book-chapter', 'member': '286', 'prefix': '10.1093'}",
+      "record_id": "10.1093/oso/9780198862536.003.0008",
+      "psm_authors": "Rose E. Wang; Sarah A. Wu; James A. Evans; David C. Parkes; Joshua B. Tenenbaum; Max Kleiman-Weiner",
+      "year": 2021,
+      "query_id": "concepts",
+      "query": "data visualization multi-scenario collaboration multi-agent systems human-machine collaboration collaborative analysis",
+      "query_hash": "22516a83a7e2bdb4b3c92d55d7bc5ccbffc0dbf983e34651565469ef13ed0e4d",
+      "psm_source_order": [
+        "arxiv",
+        "crossref"
+      ],
+      "psm_source_results": {
+        "crossref": 25,
+        "arxiv": 0
+      },
+      "psm_errors": {},
+      "psm_raw_path": "raw/psm/concepts.json"
+    },
+    {
+      "paper_id": "10.1109/cts.2009.5067503",
+      "title": "Human agent collaboration in a simulated combat medical scenario",
+      "authors": [
+        "Wei Chen",
+        "Edmund Durfee",
+        "Melanie Dumas"
+      ],
+      "abstract": "",
+      "doi": "10.1109/cts.2009.5067503",
+      "published_date": "2009-01-01T00:00:00",
+      "pdf_url": "",
+      "url": "https://doi.org/10.1109/cts.2009.5067503",
+      "source": "crossref",
+      "updated_date": "",
+      "categories": "proceedings-article",
+      "keywords": "",
+      "citations": 5,
+      "references": "",
+      "extra": "{'publisher': 'IEEE', 'container_title': '2009 International Symposium on Collaborative Technologies and Systems', 'volume': '', 'issue': '', 'page': '367-375', 'issn': [], 'isbn': [], 'crossref_type': 'proceedings-article', 'member': '263', 'prefix': '10.1109'}",
+      "record_id": "10.1109/cts.2009.5067503",
+      "psm_authors": "Wei Chen; Edmund Durfee; Melanie Dumas",
+      "year": 2009,
+      "query_id": "concepts",
+      "query": "data visualization multi-scenario collaboration multi-agent systems human-machine collaboration collaborative analysis",
+      "query_hash": "22516a83a7e2bdb4b3c92d55d7bc5ccbffc0dbf983e34651565469ef13ed0e4d",
+      "psm_source_order": [
+        "arxiv",
+        "crossref"
+      ],
+      "psm_source_results": {
+        "crossref": 25,
+        "arxiv": 0
+      },
+      "psm_errors": {},
+      "psm_raw_path": "raw/psm/concepts.json"
+    },
+    {
+      "paper_id": "10.1145/3749421.3749432",
+      "title": "Bias Correction and Data Synthesis through Reflective LLM Collaboration",
+      "authors": [],
+      "abstract": "",
+      "doi": "10.1145/3749421.3749432",
+      "published_date": "2025-12-11T00:00:00",
+      "pdf_url": "",
+      "url": "https://doi.org/10.1145/3749421.3749432",
+      "source": "crossref",
+      "updated_date": "",
+      "categories": "book-chapter",
+      "keywords": "",
+      "citations": 0,
+      "references": "",
+      "extra": "{'publisher': 'ACM', 'container_title': 'Multi-LLM Agent Collaborative Intelligence', 'volume': '', 'issue': '', 'page': '', 'issn': [], 'isbn': ['9798400731976'], 'crossref_type': 'book-chapter', 'member': '320', 'prefix': '10.1145'}",
+      "record_id": "10.1145/3749421.3749432",
+      "psm_authors": "",
+      "year": 2025,
+      "query_id": "concepts",
+      "query": "data visualization multi-scenario collaboration multi-agent systems human-machine collaboration collaborative analysis",
+      "query_hash": "22516a83a7e2bdb4b3c92d55d7bc5ccbffc0dbf983e34651565469ef13ed0e4d",
+      "psm_source_order": [
+        "arxiv",
+        "crossref"
+      ],
+      "psm_source_results": {
+        "crossref": 25,
+        "arxiv": 0
+      },
+      "psm_errors": {},
+      "psm_raw_path": "raw/psm/concepts.json"
+    },
+    {
+      "paper_id": "10.36227/techrxiv.172902764.41177581/v1",
+      "title": "Collaboration and Coordination in Multi-Agent Systems",
+      "authors": [
+        "Ashrey Ignise",
+        "Yashika Vahi"
+      ],
+      "abstract": "<jats:p>The significance of collaboration and coordination in these systems cannot be overstated. They are fundamental to ensuring that individual agents, each with their unique capabilities and roles, can function together effectively. This paper delves into the theoretical foundations and practical mechanisms of collaboration and coordination within MAS, exploring their evolution, key concepts, and real-world applications.</jats:p>",
+      "doi": "10.36227/techrxiv.172902764.41177581/v1",
+      "published_date": "2024-10-15T00:00:00",
+      "pdf_url": "",
+      "url": "https://doi.org/10.36227/techrxiv.172902764.41177581/v1",
+      "source": "crossref",
+      "updated_date": "",
+      "categories": "posted-content",
+      "keywords": "",
+      "citations": 0,
+      "references": "",
+      "extra": "{'publisher': 'Institute of Electrical and Electronics Engineers (IEEE)', 'container_title': '', 'volume': '', 'issue': '', 'page': '', 'issn': [], 'isbn': [], 'crossref_type': 'posted-content', 'member': '263', 'prefix': '10.36227'}",
+      "record_id": "10.36227/techrxiv.172902764.41177581/v1",
+      "psm_authors": "Ashrey Ignise; Yashika Vahi",
+      "year": 2024,
+      "query_id": "concepts",
+      "query": "data visualization multi-scenario collaboration multi-agent systems human-machine collaboration collaborative analysis",
+      "query_hash": "22516a83a7e2bdb4b3c92d55d7bc5ccbffc0dbf983e34651565469ef13ed0e4d",
+      "psm_source_order": [
+        "arxiv",
+        "crossref"
+      ],
+      "psm_source_results": {
+        "crossref": 25,
+        "arxiv": 0
+      },
+      "psm_errors": {},
+      "psm_raw_path": "raw/psm/concepts.json"
+    },
+    {
+      "paper_id": "10.3390/drones10100770",
+      "title": "Beyond Optimization: A Multi-Agent Systems and Human–Agent Collaboration Perspective on Decentralized Multi-UAV Task Allocation",
+      "authors": [
+        "Feyza M. Hafızoğlu",
+        "Sinan Serbestoğlu"
+      ],
+      "abstract": "<jats:p>Decentralized task allocation among multiple Unmanned Aerial Vehicles (UAVs) is a critical NP-hard combinatorial optimization problem for enabling autonomous swarms to operate without central supervision. Multi-UAV research has advanced distributed algorithms to manage physical constraints, dynamic networks, and battery limitations. However, previous work frequently reduces task allocation to abstract numerical cost minimization, largely overlooking the critical socio-cognitive coordination dynamics both among UAVs and with human partners. Furthermore, previous surveys often blend centralized and decentralized architectures, leaving a gap for a dedicated, decentralized multi-agent systems (MASs) perspective. This review addresses these limitations by framing decentralized multi-UAV task allocation as a cooperative coordination problem rather than a simple optimization task. First, we establish a taxonomy that categorizes the literature into four foundational approaches—market-based, learning-based, distributed optimization, and clustering—comprehensively mapping their characteristics and trade-offs. Second, we bridge the multi-UAV literature with broader MAS research, highlighting how socio-cognitive models can address the current optimization-versus-coordination mismatch. Third, we contrast the dominant supervisory control approach of human–UAV collaboration (HUC) with the reciprocal, peer-level teaming models found in human–agent collaboration (HAC). We advocate for the integration of socio-cognitive factors present in cooperative coordination, such as dynamic trust calibration, shared mental models, hybrid intelligence, and ethics, within the allocation loop. Finally, we present a future research roadmap focusing on richer task structures, socially aware rational agents, mixed-initiative allocation, and multi-dimensional process-level coordination metrics. This review provides a holistic understanding for investigating how decentralized multi-UAV task allocation can evolve from rigid supervisory hierarchies toward resilient, adaptive, and human-aligned cooperative teaming models.</jats:p>",
+      "doi": "10.3390/drones10100770",
+      "published_date": "2026-10-14T00:00:00",
+      "pdf_url": "",
+      "url": "https://doi.org/10.3390/drones10100770",
+      "source": "crossref",
+      "updated_date": "",
+      "categories": "journal-article",
+      "keywords": "",
+      "citations": 0,
+      "references": "",
+      "extra": "{'publisher': 'MDPI AG', 'container_title': 'Drones', 'volume': '10', 'issue': '10', 'page': '770', 'issn': ['2504-446X'], 'isbn': [], 'crossref_type': 'journal-article', 'member': '1968', 'prefix': '10.3390'}",
+      "record_id": "10.3390/drones10100770",
+      "psm_authors": "Feyza M. Hafızoğlu; Sinan Serbestoğlu",
+      "year": 2026,
+      "query_id": "concepts",
+      "query": "data visualization multi-scenario collaboration multi-agent systems human-machine collaboration collaborative analysis",
+      "query_hash": "22516a83a7e2bdb4b3c92d55d7bc5ccbffc0dbf983e34651565469ef13ed0e4d",
+      "psm_source_order": [
+        "arxiv",
+        "crossref"
+      ],
+      "psm_source_results": {
+        "crossref": 25,
+        "arxiv": 0
+      },
+      "psm_errors": {},
+      "psm_raw_path": "raw/psm/concepts.json"
+    },
+    {
+      "paper_id": "10.4324/9780203475782-31",
+      "title": "Multi-agent collaboration in integrated information systems",
+      "authors": [],
+      "abstract": "",
+      "doi": "10.4324/9780203475782-31",
+      "published_date": "2003-09-02T00:00:00",
+      "pdf_url": "",
+      "url": "https://doi.org/10.4324/9780203475782-31",
+      "source": "crossref",
+      "updated_date": "",
+      "categories": "book-chapter",
+      "keywords": "",
+      "citations": 0,
+      "references": "",
+      "extra": "{'publisher': 'Routledge', 'container_title': 'Integrated Construction Information', 'volume': '', 'issue': '', 'page': '348-357', 'issn': [], 'isbn': ['9780203475782'], 'crossref_type': 'book-chapter', 'member': '301', 'prefix': '10.4324'}",
+      "record_id": "10.4324/9780203475782-31",
+      "psm_authors": "",
+      "year": 2003,
+      "query_id": "concepts",
+      "query": "data visualization multi-scenario collaboration multi-agent systems human-machine collaboration collaborative analysis",
+      "query_hash": "22516a83a7e2bdb4b3c92d55d7bc5ccbffc0dbf983e34651565469ef13ed0e4d",
+      "psm_source_order": [
+        "arxiv",
+        "crossref"
+      ],
+      "psm_source_results": {
+        "crossref": 25,
+        "arxiv": 0
+      },
+      "psm_errors": {},
+      "psm_raw_path": "raw/psm/concepts.json"
+    },
+    {
+      "paper_id": "10.2139/ssrn.5371788",
+      "title": "Ai-Centric Design 2.0: Orchestrating Human-Ai Collaboration Through Multi-Agent Systems for Scalable and Ethical Design Innovation",
+      "authors": [
+        "Daniel Martinez"
+      ],
+      "abstract": "",
+      "doi": "10.2139/ssrn.5371788",
+      "published_date": "2025-01-01T00:00:00",
+      "pdf_url": "",
+      "url": "https://doi.org/10.2139/ssrn.5371788",
+      "source": "crossref",
+      "updated_date": "",
+      "categories": "posted-content",
+      "keywords": "",
+      "citations": 1,
+      "references": "",
+      "extra": "{'publisher': 'Elsevier BV', 'container_title': '', 'volume': '', 'issue': '', 'page': '', 'issn': [], 'isbn': [], 'crossref_type': 'posted-content', 'member': '78', 'prefix': '10.2139'}",
+      "record_id": "10.2139/ssrn.5371788",
+      "psm_authors": "Daniel Martinez",
+      "year": 2025,
+      "query_id": "concepts",
+      "query": "data visualization multi-scenario collaboration multi-agent systems human-machine collaboration collaborative analysis",
+      "query_hash": "22516a83a7e2bdb4b3c92d55d7bc5ccbffc0dbf983e34651565469ef13ed0e4d",
+      "psm_source_order": [
+        "arxiv",
+        "crossref"
+      ],
+      "psm_source_results": {
+        "crossref": 25,
+        "arxiv": 0
+      },
+      "psm_errors": {},
+      "psm_raw_path": "raw/psm/concepts.json"
+    },
+    {
+      "paper_id": "10.24425/ijet.2025.155474",
+      "title": "Human-AI collaboration in Hybrid Multi-Agent Systems",
+      "authors": [
+        "Rafal Labedzki"
+      ],
+      "abstract": "<jats:p>This paper examines Hybrid Multi-Agent Systems, integrating both human and non-human intelligent agents, as a new subject of management research. It presents original definitions of key concepts: intelligent agents, artificial intelligent agents, and Hybrid Multi-Agent Systems. These definitions are grounded in Distributed Artificial Intelligence and provide a foundation for exploring the collaboration between human and artificial intelligent agents. The study addresses fundamental research questions regarding the nature of intelligent agents and their role within Multi-Agent Systems, proposing Hybrid Multi-Agent Systems as a novel framework that allows for seamless cooperation between human and non-human entities. Through a narrative literature review, this paper highlights the potential implications of Hybrid Multi-Agent Systems for scientific research in management, offering a conceptual basis for future research in this evolving field.</jats:p>",
+      "doi": "10.24425/ijet.2025.155474",
+      "published_date": "2025-10-22T00:00:00",
+      "pdf_url": "",
+      "url": "https://doi.org/10.24425/ijet.2025.155474",
+      "source": "crossref",
+      "updated_date": "",
+      "categories": "journal-article",
+      "keywords": "",
+      "citations": 3,
+      "references": "",
+      "extra": "{'publisher': 'Polish Academy of Sciences Chancellery', 'container_title': 'International Journal of Electronics and Telecommunications', 'volume': '', 'issue': '', 'page': '1-9', 'issn': ['2300-1933', '2081-8491'], 'isbn': [], 'crossref_type': 'journal-article', 'member': '37468', 'prefix': '10.24425'}",
+      "record_id": "10.24425/ijet.2025.155474",
+      "psm_authors": "Rafal Labedzki",
+      "year": 2025,
+      "query_id": "concepts",
+      "query": "data visualization multi-scenario collaboration multi-agent systems human-machine collaboration collaborative analysis",
+      "query_hash": "22516a83a7e2bdb4b3c92d55d7bc5ccbffc0dbf983e34651565469ef13ed0e4d",
+      "psm_source_order": [
+        "arxiv",
+        "crossref"
+      ],
+      "psm_source_results": {
+        "crossref": 25,
+        "arxiv": 0
+      },
+      "psm_errors": {},
+      "psm_raw_path": "raw/psm/concepts.json"
+    },
+    {
+      "paper_id": "10.2139/ssrn.5236721",
+      "title": "Modeling AI-Human Collaboration as a Multi-Agent Adaptation",
+      "authors": [
+        "Prothit Sen",
+        "Sai Mihir Jakkaraju"
+      ],
+      "abstract": "",
+      "doi": "10.2139/ssrn.5236721",
+      "published_date": "2025-01-01T00:00:00",
+      "pdf_url": "",
+      "url": "https://doi.org/10.2139/ssrn.5236721",
+      "source": "crossref",
+      "updated_date": "",
+      "categories": "posted-content",
+      "keywords": "",
+      "citations": 3,
+      "references": "",
+      "extra": "{'publisher': 'Elsevier BV', 'container_title': '', 'volume': '', 'issue': '', 'page': '', 'issn': [], 'isbn': [], 'crossref_type': 'posted-content', 'member': '78', 'prefix': '10.2139'}",
+      "record_id": "10.2139/ssrn.5236721",
+      "psm_authors": "Prothit Sen; Sai Mihir Jakkaraju",
+      "year": 2025,
+      "query_id": "concepts",
+      "query": "data visualization multi-scenario collaboration multi-agent systems human-machine collaboration collaborative analysis",
+      "query_hash": "22516a83a7e2bdb4b3c92d55d7bc5ccbffc0dbf983e34651565469ef13ed0e4d",
+      "psm_source_order": [
+        "arxiv",
+        "crossref"
+      ],
+      "psm_source_results": {
+        "crossref": 25,
+        "arxiv": 0
+      },
+      "psm_errors": {},
+      "psm_raw_path": "raw/psm/concepts.json"
+    },
+    {
+      "paper_id": "10.1109/kimas.2005.1427048",
+      "title": "A new formal model of collaboration by multi-agent systems",
+      "authors": [
+        "N. Khezami",
+        "S. Otmane",
+        "M. Mallem"
+      ],
+      "abstract": "",
+      "doi": "10.1109/kimas.2005.1427048",
+      "published_date": "1970-01-01T00:00:00",
+      "pdf_url": "",
+      "url": "https://doi.org/10.1109/kimas.2005.1427048",
+      "source": "crossref",
+      "updated_date": "",
+      "categories": "proceedings-article",
+      "keywords": "",
+      "citations": 13,
+      "references": "",
+      "extra": "{'publisher': 'IEEE', 'container_title': 'International Conference on Integration of Knowledge Intensive Multi-Agent Systems, 2005.', 'volume': '', 'issue': '', 'page': '32-37', 'issn': [], 'isbn': [], 'crossref_type': 'proceedings-article', 'member': '263', 'prefix': '10.1109'}",
+      "record_id": "10.1109/kimas.2005.1427048",
+      "psm_authors": "N. Khezami; S. Otmane; M. Mallem",
+      "year": 1970,
+      "query_id": "concepts",
+      "query": "data visualization multi-scenario collaboration multi-agent systems human-machine collaboration collaborative analysis",
+      "query_hash": "22516a83a7e2bdb4b3c92d55d7bc5ccbffc0dbf983e34651565469ef13ed0e4d",
+      "psm_source_order": [
+        "arxiv",
+        "crossref"
+      ],
+      "psm_source_results": {
+        "crossref": 25,
+        "arxiv": 0
+      },
+      "psm_errors": {},
+      "psm_raw_path": "raw/psm/concepts.json"
+    },
+    {
+      "paper_id": "10.1109/kimas.2005.1427042",
+      "title": "Session TM1: autonomy and collaboration in agent systems",
+      "authors": [],
+      "abstract": "",
+      "doi": "10.1109/kimas.2005.1427042",
+      "published_date": "2005-01-01T00:00:00",
+      "pdf_url": "",
+      "url": "https://doi.org/10.1109/kimas.2005.1427042",
+      "source": "crossref",
+      "updated_date": "",
+      "categories": "proceedings-article",
+      "keywords": "",
+      "citations": 0,
+      "references": "",
+      "extra": "{'publisher': 'IEEE', 'container_title': 'International Conference on Integration of Knowledge Intensive Multi-Agent Systems, 2005.', 'volume': '', 'issue': '', 'page': '1-2', 'issn': [], 'isbn': [], 'crossref_type': 'proceedings-article', 'member': '263', 'prefix': '10.1109'}",
+      "record_id": "10.1109/kimas.2005.1427042",
+      "psm_authors": "",
+      "year": 2005,
+      "query_id": "concepts",
+      "query": "data visualization multi-scenario collaboration multi-agent systems human-machine collaboration collaborative analysis",
+      "query_hash": "22516a83a7e2bdb4b3c92d55d7bc5ccbffc0dbf983e34651565469ef13ed0e4d",
+      "psm_source_order": [
+        "arxiv",
+        "crossref"
+      ],
+      "psm_source_results": {
+        "crossref": 25,
+        "arxiv": 0
+      },
+      "psm_errors": {},
+      "psm_raw_path": "raw/psm/concepts.json"
+    },
+    {
+      "paper_id": "10.4324/9780203305607_chapter_9",
+      "title": "Collaboration, Task Decomposition and Allocation",
+      "authors": [],
+      "abstract": "",
+      "doi": "10.4324/9780203305607_chapter_9",
+      "published_date": "1970-01-01T00:00:00",
+      "pdf_url": "",
+      "url": "https://doi.org/10.4324/9780203305607_chapter_9",
+      "source": "crossref",
+      "updated_date": "",
+      "categories": "book-chapter",
+      "keywords": "",
+      "citations": 0,
+      "references": "",
+      "extra": "{'publisher': 'Taylor & Francis', 'container_title': 'Multi-Agent Systems for Concurrent Intelligent Design and Manufacturing', 'volume': '', 'issue': '', 'page': '', 'issn': [], 'isbn': ['9780203351833', '9780203305607'], 'crossref_type': 'book-chapter', 'member': '301', 'prefix': '10.4324'}",
+      "record_id": "10.4324/9780203305607_chapter_9",
+      "psm_authors": "",
+      "year": 1970,
+      "query_id": "concepts",
+      "query": "data visualization multi-scenario collaboration multi-agent systems human-machine collaboration collaborative analysis",
+      "query_hash": "22516a83a7e2bdb4b3c92d55d7bc5ccbffc0dbf983e34651565469ef13ed0e4d",
+      "psm_source_order": [
+        "arxiv",
+        "crossref"
+      ],
+      "psm_source_results": {
+        "crossref": 25,
+        "arxiv": 0
+      },
+      "psm_errors": {},
+      "psm_raw_path": "raw/psm/concepts.json"
+    },
+    {
+      "paper_id": "10.1007/978-3-642-01665-3_73",
+      "title": "Distributed Data Reduction through Agent Collaboration",
+      "authors": [
+        "Ireneusz Czarnowski"
+      ],
+      "abstract": "",
+      "doi": "10.1007/978-3-642-01665-3_73",
+      "published_date": "2009-01-01T00:00:00",
+      "pdf_url": "",
+      "url": "https://doi.org/10.1007/978-3-642-01665-3_73",
+      "source": "crossref",
+      "updated_date": "",
+      "categories": "book-chapter",
+      "keywords": "",
+      "citations": 2,
+      "references": "",
+      "extra": "{'publisher': 'Springer Berlin Heidelberg', 'container_title': 'Lecture Notes in Computer Science', 'volume': '', 'issue': '', 'page': '724-733', 'issn': ['0302-9743', '1611-3349'], 'isbn': ['9783642016646', '9783642016653'], 'crossref_type': 'book-chapter', 'member': '297', 'prefix': '10.1007'}",
+      "record_id": "10.1007/978-3-642-01665-3_73",
+      "psm_authors": "Ireneusz Czarnowski",
+      "year": 2009,
+      "query_id": "concepts",
+      "query": "data visualization multi-scenario collaboration multi-agent systems human-machine collaboration collaborative analysis",
+      "query_hash": "22516a83a7e2bdb4b3c92d55d7bc5ccbffc0dbf983e34651565469ef13ed0e4d",
+      "psm_source_order": [
+        "arxiv",
+        "crossref"
+      ],
+      "psm_source_results": {
+        "crossref": 25,
+        "arxiv": 0
+      },
+      "psm_errors": {},
+      "psm_raw_path": "raw/psm/concepts.json"
+    },
+    {
+      "paper_id": "10.1109/icmsci62561.2025.10894052",
+      "title": "Multi-Modal Analysis of Presentation Media Data",
+      "authors": [
+        "Xiaoyuan Li"
+      ],
+      "abstract": "",
+      "doi": "10.1109/icmsci62561.2025.10894052",
+      "published_date": "2025-01-20T00:00:00",
+      "pdf_url": "",
+      "url": "https://doi.org/10.1109/icmsci62561.2025.10894052",
+      "source": "crossref",
+      "updated_date": "",
+      "categories": "proceedings-article",
+      "keywords": "",
+      "citations": 0,
+      "references": "",
+      "extra": "{'publisher': 'IEEE', 'container_title': '2025 International Conference on Multi-Agent Systems for Collaborative Intelligence (ICMSCI)', 'volume': '', 'issue': '', 'page': '1311-1316', 'issn': [], 'isbn': [], 'crossref_type': 'proceedings-article', 'member': '263', 'prefix': '10.1109'}",
+      "record_id": "10.1109/icmsci62561.2025.10894052",
+      "psm_authors": "Xiaoyuan Li",
+      "year": 2025,
+      "query_id": "concepts",
+      "query": "data visualization multi-scenario collaboration multi-agent systems human-machine collaboration collaborative analysis",
+      "query_hash": "22516a83a7e2bdb4b3c92d55d7bc5ccbffc0dbf983e34651565469ef13ed0e4d",
+      "psm_source_order": [
+        "arxiv",
+        "crossref"
+      ],
+      "psm_source_results": {
+        "crossref": 25,
+        "arxiv": 0
+      },
+      "psm_errors": {},
+      "psm_raw_path": "raw/psm/concepts.json"
+    },
+    {
+      "paper_id": "10.62791/20403",
+      "title": "Multi-agent collaboration toolkit tested with simulated real-world physics",
+      "authors": [
+        "Balakrishna Vardhineni"
+      ],
+      "abstract": "<jats:p>Multi-agent collaboration and coordination have been studied across various domains, yet challenges persist, particularly when applied to real-world dynamic environments. These challenges are exacerbated when dealing with physical agents, or robots, which face additional constraints such as limited moving speed and communication ranges. Moreover, the complexity increases with the deployment of heterogeneous agent teams, each possessing distinct capabilities, necessitating a balance between independence and adaptability in task scheduling based on the immediate presence of other agents. To address these challenges, a general multi-agent collaboration and coordination toolkit is designed and developed in this work. Our approach significantly enhances multi-agent collaboration and coordination, optimizing resource utilization, minimizing downtime, and boosting task execution efficiency. This toolkit allows agents to generate collaboration requests for task execution, aimed at minimizing the overall completion time of a set of given tasks. These requests are evaluated based on the receiving agent’s current task queue, along with the time and cost necessary to undertake the task and potential task execution quality. After receiving responses from other agents, the requesting agent selects the most suitable candidate based on a comprehensive assessment of total effectiveness and the potential for the earliest completion. Consequently, tasks are allocated to the most efficient agents, ensuring optimal task distribution and execution within the network. This collaboration and coordination toolkit is designed based on Taems. This domain-independent task modeling language allows the description of complicated relationships among tasks and sub-tasks and multiple-dimension criteria of task execution. This toolkit is tested with collaborative virtual robots developed on an innovative platform, which simulates a physical world environment and supports modeling of each robot’s sensory and actuator capabilities. This research aims to study and refine multi-agent communication and collaboration within simulated environments, focusing on task assignment and scheduling to elevate overall task performance and reduce periods of inactivity. A proof-of-concept demonstration presented within this thesis showcases the effectiveness of our methodologies in achieving these objectives.</jats:p>",
+      "doi": "10.62791/20403",
+      "published_date": "1970-01-01T00:00:00",
+      "pdf_url": "",
+      "url": "https://doi.org/10.62791/20403",
+      "source": "crossref",
+      "updated_date": "",
+      "categories": "dissertation",
+      "keywords": "",
+      "citations": 0,
+      "references": "",
+      "extra": "{'publisher': 'University of Massachusetts Dartmouth', 'container_title': '', 'volume': '', 'issue': '', 'page': '', 'issn': [], 'isbn': [], 'crossref_type': 'dissertation', 'member': '12709', 'prefix': '10.62791'}",
+      "record_id": "10.62791/20403",
+      "psm_authors": "Balakrishna Vardhineni",
+      "year": 1970,
+      "query_id": "concepts",
+      "query": "data visualization multi-scenario collaboration multi-agent systems human-machine collaboration collaborative analysis",
+      "query_hash": "22516a83a7e2bdb4b3c92d55d7bc5ccbffc0dbf983e34651565469ef13ed0e4d",
+      "psm_source_order": [
+        "arxiv",
+        "crossref"
+      ],
+      "psm_source_results": {
+        "crossref": 25,
+        "arxiv": 0
+      },
+      "psm_errors": {},
+      "psm_raw_path": "raw/psm/concepts.json"
+    },
+    {
+      "paper_id": "10.1007/978-3-030-69178-3_1",
+      "title": "Human–Robot Collaboration in Manufacturing: A Multi-agent View",
+      "authors": [
+        "Zsolt Kemény",
+        "József Váncza",
+        "Lihui Wang",
+        "Xi Vincent Wang"
+      ],
+      "abstract": "",
+      "doi": "10.1007/978-3-030-69178-3_1",
+      "published_date": "2021-01-01T00:00:00",
+      "pdf_url": "",
+      "url": "https://doi.org/10.1007/978-3-030-69178-3_1",
+      "source": "crossref",
+      "updated_date": "",
+      "categories": "book-chapter",
+      "keywords": "",
+      "citations": 17,
+      "references": "",
+      "extra": "{'publisher': 'Springer International Publishing', 'container_title': 'Advanced Human-Robot Collaboration in Manufacturing', 'volume': '', 'issue': '', 'page': '3-41', 'issn': [], 'isbn': ['9783030691776', '9783030691783'], 'crossref_type': 'book-chapter', 'member': '297', 'prefix': '10.1007'}",
+      "record_id": "10.1007/978-3-030-69178-3_1",
+      "psm_authors": "Zsolt Kemény; József Váncza; Lihui Wang; Xi Vincent Wang",
+      "year": 2021,
+      "query_id": "concepts",
+      "query": "data visualization multi-scenario collaboration multi-agent systems human-machine collaboration collaborative analysis",
+      "query_hash": "22516a83a7e2bdb4b3c92d55d7bc5ccbffc0dbf983e34651565469ef13ed0e4d",
+      "psm_source_order": [
+        "arxiv",
+        "crossref"
+      ],
+      "psm_source_results": {
+        "crossref": 25,
+        "arxiv": 0
+      },
+      "psm_errors": {},
+      "psm_raw_path": "raw/psm/concepts.json"
+    },
+    {
+      "paper_id": "10.1109/tkde.2026.3735040",
+      "title": "MASK: Multi-Agent Collaboration for Optimizing Adversarial Attacks on Multi-Agent Systems",
+      "authors": [
+        "Zhiyin Yu",
+        "Bo Zhang",
+        "Chong Chen",
+        "Zhonghai Wu",
+        "Xiao Luo"
+      ],
+      "abstract": "",
+      "doi": "10.1109/tkde.2026.3735040",
+      "published_date": "2026-01-01T00:00:00",
+      "pdf_url": "",
+      "url": "https://doi.org/10.1109/tkde.2026.3735040",
+      "source": "crossref",
+      "updated_date": "",
+      "categories": "journal-article",
+      "keywords": "",
+      "citations": 0,
+      "references": "",
+      "extra": "{'publisher': 'Institute of Electrical and Electronics Engineers (IEEE)', 'container_title': 'IEEE Transactions on Knowledge and Data Engineering', 'volume': '', 'issue': '', 'page': '1-16', 'issn': ['1041-4347', '1558-2191', '2326-3865'], 'isbn': [], 'crossref_type': 'journal-article', 'member': '263', 'prefix': '10.1109'}",
+      "record_id": "10.1109/tkde.2026.3735040",
+      "psm_authors": "Zhiyin Yu; Bo Zhang; Chong Chen; Zhonghai Wu; Xiao Luo",
+      "year": 2026,
+      "query_id": "concepts",
+      "query": "data visualization multi-scenario collaboration multi-agent systems human-machine collaboration collaborative analysis",
+      "query_hash": "22516a83a7e2bdb4b3c92d55d7bc5ccbffc0dbf983e34651565469ef13ed0e4d",
+      "psm_source_order": [
+        "arxiv",
+        "crossref"
+      ],
+      "psm_source_results": {
+        "crossref": 25,
+        "arxiv": 0
+      },
+      "psm_errors": {},
+      "psm_raw_path": "raw/psm/concepts.json"
+    },
+    {
+      "paper_id": "10.1016/j.jmsy.2025.09.011",
+      "title": "Multi-scenario digital twin-driven human-robot collaboration multi-task disassembly process planning based on dynamic time petri-net and heterogeneous multi-agent double deep Q-learning network",
+      "authors": [
+        "Jinhua Xiao",
+        "Zhiwen Zhang",
+        "Sergio Terzi",
+        "Fei Tao",
+        "Nabil Anwer",
+        "Benoit Eynard"
+      ],
+      "abstract": "",
+      "doi": "10.1016/j.jmsy.2025.09.011",
+      "published_date": "2025-12-01T00:00:00",
+      "pdf_url": "",
+      "url": "https://doi.org/10.1016/j.jmsy.2025.09.011",
+      "source": "crossref",
+      "updated_date": "",
+      "categories": "journal-article",
+      "keywords": "",
+      "citations": 40,
+      "references": "",
+      "extra": "{'publisher': 'Elsevier BV', 'container_title': 'Journal of Manufacturing Systems', 'volume': '83', 'issue': '', 'page': '284-305', 'issn': ['0278-6125'], 'isbn': [], 'crossref_type': 'journal-article', 'member': '78', 'prefix': '10.1016'}",
+      "record_id": "10.1016/j.jmsy.2025.09.011",
+      "psm_authors": "Jinhua Xiao; Zhiwen Zhang; Sergio Terzi; Fei Tao; Nabil Anwer; Benoit Eynard",
+      "year": 2025,
+      "query_id": "concepts",
+      "query": "data visualization multi-scenario collaboration multi-agent systems human-machine collaboration collaborative analysis",
+      "query_hash": "22516a83a7e2bdb4b3c92d55d7bc5ccbffc0dbf983e34651565469ef13ed0e4d",
+      "psm_source_order": [
+        "arxiv",
+        "crossref"
+      ],
+      "psm_source_results": {
+        "crossref": 25,
+        "arxiv": 0
+      },
+      "psm_errors": {},
+      "psm_raw_path": "raw/psm/concepts.json"
+    },
+    {
+      "paper_id": "10.1109/cts.2012.6261030",
+      "title": "Multi-agent coordination techniques for multi-robot task allocation and multi-robot area coverage",
+      "authors": [
+        "Prithviraj Dasgupta"
+      ],
+      "abstract": "",
+      "doi": "10.1109/cts.2012.6261030",
+      "published_date": "2012-05-01T00:00:00",
+      "pdf_url": "",
+      "url": "https://doi.org/10.1109/cts.2012.6261030",
+      "source": "crossref",
+      "updated_date": "",
+      "categories": "proceedings-article",
+      "keywords": "",
+      "citations": 11,
+      "references": "",
+      "extra": "{'publisher': 'IEEE', 'container_title': '2012 International Conference on Collaboration Technologies and Systems (CTS)', 'volume': '', 'issue': '', 'page': '75-75', 'issn': [], 'isbn': [], 'crossref_type': 'proceedings-article', 'member': '263', 'prefix': '10.1109'}",
+      "record_id": "10.1109/cts.2012.6261030",
+      "psm_authors": "Prithviraj Dasgupta",
+      "year": 2012,
+      "query_id": "concepts",
+      "query": "data visualization multi-scenario collaboration multi-agent systems human-machine collaboration collaborative analysis",
+      "query_hash": "22516a83a7e2bdb4b3c92d55d7bc5ccbffc0dbf983e34651565469ef13ed0e4d",
+      "psm_source_order": [
+        "arxiv",
+        "crossref"
+      ],
+      "psm_source_results": {
+        "crossref": 25,
+        "arxiv": 0
+      },
+      "psm_errors": {},
+      "psm_raw_path": "raw/psm/concepts.json"
+    },
+    {
+      "paper_id": "10.1109/cts.2016.0085",
+      "title": "Social Modeling for Multi-agent Systems",
+      "authors": [
+        "Gita Sukthankar"
+      ],
+      "abstract": "",
+      "doi": "10.1109/cts.2016.0085",
+      "published_date": "2016-10-01T00:00:00",
+      "pdf_url": "",
+      "url": "https://doi.org/10.1109/cts.2016.0085",
+      "source": "crossref",
+      "updated_date": "",
+      "categories": "proceedings-article",
+      "keywords": "",
+      "citations": 0,
+      "references": "",
+      "extra": "{'publisher': 'IEEE', 'container_title': '2016 International Conference on Collaboration Technologies and Systems (CTS)', 'volume': '', 'issue': '', 'page': '454-454', 'issn': [], 'isbn': [], 'crossref_type': 'proceedings-article', 'member': '263', 'prefix': '10.1109'}",
+      "record_id": "10.1109/cts.2016.0085",
+      "psm_authors": "Gita Sukthankar",
+      "year": 2016,
+      "query_id": "concepts",
+      "query": "data visualization multi-scenario collaboration multi-agent systems human-machine collaboration collaborative analysis",
+      "query_hash": "22516a83a7e2bdb4b3c92d55d7bc5ccbffc0dbf983e34651565469ef13ed0e4d",
+      "psm_source_order": [
+        "arxiv",
+        "crossref"
+      ],
+      "psm_source_results": {
+        "crossref": 25,
+        "arxiv": 0
+      },
+      "psm_errors": {},
+      "psm_raw_path": "raw/psm/concepts.json"
+    },
+    {
+      "paper_id": "10.20944/preprints202511.1370.v1",
+      "title": "Multi-Agent LLM Systems: From Emergent Collaboration to Structured Collective Intelligence",
+      "authors": [
+        "Feng Chen"
+      ],
+      "abstract": "<jats:p>Large language models (LLMs) are usually developed and evaluated as solitary agents: a single, monolithic network trained on static corpora and queried one prompt at a time. This single-agent paradigm has produced impressive capabilities, yet it fundamentally mismatches the structure of many real-world problems in science, engineering, and governance, which are inherently multi-actor, iterative, and argumentative. In this Perspective, we argue that the next scaling frontier for LLMs is not simply “bigger models with more data”, but societies of models and tools designed as structured collective intelligences. We first outline why classical scaling laws, which relate performance primarily to parameter counts, token volume, and compute, are insufficient for tasks that require debate, division of labor, and long-horizon coordination. We then introduce a conceptual framework based on three interaction regimes—competition, collaboration, and coordination—and show how different task families naturally demand different regime designs, incentives, and communication protocols. Building on emerging multi-agent LLM systems in reasoning, code generation, and autonomous science, we sketch a research programmer for “multi-agent pretraining”, in which agents jointly learn not only language and world models, but also norms of discourse, peer review, and self-correction. We further discuss how multi-agent architectures reshape scaling laws, evaluation methodology, and safety: performance becomes a function not only of model size and data, but also of team composition, interaction topology, and institutional memory. Finally, we argue that carefully engineered artificial communities may approximate the epistemic dynamics of real scientific communities more faithfully than any single, static model, opening a path toward more robust, transparent, and controllable AI systems.</jats:p>",
+      "doi": "10.20944/preprints202511.1370.v1",
+      "published_date": "2025-11-18T00:00:00",
+      "pdf_url": "",
+      "url": "https://doi.org/10.20944/preprints202511.1370.v1",
+      "source": "crossref",
+      "updated_date": "",
+      "categories": "posted-content",
+      "keywords": "",
+      "citations": 1,
+      "references": "",
+      "extra": "{'publisher': 'MDPI AG', 'container_title': '', 'volume': '', 'issue': '', 'page': '', 'issn': [], 'isbn': [], 'crossref_type': 'posted-content', 'member': '1968', 'prefix': '10.20944'}",
+      "record_id": "10.20944/preprints202511.1370.v1",
+      "psm_authors": "Feng Chen",
+      "year": 2025,
+      "query_id": "concepts",
+      "query": "data visualization multi-scenario collaboration multi-agent systems human-machine collaboration collaborative analysis",
+      "query_hash": "22516a83a7e2bdb4b3c92d55d7bc5ccbffc0dbf983e34651565469ef13ed0e4d",
+      "psm_source_order": [
+        "arxiv",
+        "crossref"
+      ],
+      "psm_source_results": {
+        "crossref": 25,
+        "arxiv": 0
+      },
+      "psm_errors": {},
+      "psm_raw_path": "raw/psm/concepts.json"
+    },
+    {
+      "paper_id": "10.1109/enabl.2004.6",
+      "title": "Agent-based computing for enterprise collaboration - human-agent and agent-agent collaboration",
+      "authors": [
+        "F. Bergenti",
+        "M.B. Blake",
+        "G. Cabri"
+      ],
+      "abstract": "",
+      "doi": "10.1109/enabl.2004.6",
+      "published_date": "1970-01-01T00:00:00",
+      "pdf_url": "",
+      "url": "https://doi.org/10.1109/enabl.2004.6",
+      "source": "crossref",
+      "updated_date": "",
+      "categories": "proceedings-article",
+      "keywords": "",
+      "citations": 0,
+      "references": "",
+      "extra": "{'publisher': 'IEEE Comput. Soc', 'container_title': '13th IEEE International Workshops on Enabling Technologies: Infrastructure for Collaborative Enterprises', 'volume': '', 'issue': '', 'page': '11-12', 'issn': [], 'isbn': [], 'crossref_type': 'proceedings-article', 'member': '263', 'prefix': '10.1109'}",
+      "record_id": "10.1109/enabl.2004.6",
+      "psm_authors": "F. Bergenti; M.B. Blake; G. Cabri",
+      "year": 1970,
+      "query_id": "concepts",
+      "query": "data visualization multi-scenario collaboration multi-agent systems human-machine collaboration collaborative analysis",
+      "query_hash": "22516a83a7e2bdb4b3c92d55d7bc5ccbffc0dbf983e34651565469ef13ed0e4d",
+      "psm_source_order": [
+        "arxiv",
+        "crossref"
+      ],
+      "psm_source_results": {
+        "crossref": 25,
+        "arxiv": 0
+      },
+      "psm_errors": {},
+      "psm_raw_path": "raw/psm/concepts.json"
+    }
+  ]
+}

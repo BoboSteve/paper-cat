@@ -1,0 +1,71 @@
+
+### 2026-11-24T12:30:16+00:00 preflight.py --require tools --allow-degraded --out /Users/bobo/05_Project/06_curiosity/paper-cat/test_mac/deep/final_actual_test/preflight.json
+PREFLIGHT degraded required_ok=True -> /Users/bobo/05_Project/06_curiosity/paper-cat/test_mac/deep/final_actual_test/preflight.json
+  env_file: degraded
+  tools: ok
+  disk: ok
+  openreview: degraded
+  jev: blocked
+  semantic: degraded
+  openalex: blocked
+(exit 0)
+
+### 2026-11-24T12:30:16+00:00 plan.py --brief /Users/bobo/05_Project/06_curiosity/paper-cat/test_mac/deep/final_actual_test/brief.json --queries /Users/bobo/05_Project/06_curiosity/paper-cat/test_mac/deep/final_actual_test/queries.jsonl --path B --tier quick --out /Users/bobo/05_Project/06_curiosity/paper-cat/test_mac/deep/final_actual_test/plan.json
+PLAN_FINISHED path=B queries=1 requested=25 K=5 -> /Users/bobo/05_Project/06_curiosity/paper-cat/test_mac/deep/final_actual_test/plan.json
+(exit 0)
+
+### 2026-11-24T12:30:16+00:00 progress_dashboard.py --task /Users/bobo/05_Project/06_curiosity/paper-cat/test_mac/deep/final_actual_test --stage alignment --status waiting_user --completed 1 --total 1 --message Waiting for plan confirmation
+PROGRESS stage=alignment completed=1/1 -> /Users/bobo/05_Project/06_curiosity/paper-cat/test_mac/deep/final_actual_test/dashboard.html
+(exit 0)
+
+### 2026-11-24T12:30:35+00:00 psm_search.py --queries /Users/bobo/05_Project/06_curiosity/paper-cat/test_mac/deep/final_actual_test/queries.jsonl --out-dir /Users/bobo/05_Project/06_curiosity/paper-cat/test_mac/deep/final_actual_test --progress-task /Users/bobo/05_Project/06_curiosity/paper-cat/test_mac/deep/final_actual_test
+PSM_QUERY concepts status=partial papers=24
+PSM_FINISHED papers=24 -> /Users/bobo/05_Project/06_curiosity/paper-cat/test_mac/deep/final_actual_test/psm_candidates.jsonl
+(exit 0)
+
+### 2026-11-24T12:30:35+00:00 merge_candidates.py --input psm=/Users/bobo/05_Project/06_curiosity/paper-cat/test_mac/deep/final_actual_test/psm_candidates.jsonl --out /Users/bobo/05_Project/06_curiosity/paper-cat/test_mac/deep/final_actual_test/candidates.jsonl --report /Users/bobo/05_Project/06_curiosity/paper-cat/test_mac/deep/final_actual_test/merge_report.json
+MERGE_FINISHED input=24 candidates=24 merged=0 possible_duplicates=0 near_duplicates=0
+(exit 0)
+
+### 2026-11-24T12:30:56+00:00 metadata_repair.py --input /Users/bobo/05_Project/06_curiosity/paper-cat/test_mac/deep/final_actual_test/candidates.jsonl --out /Users/bobo/05_Project/06_curiosity/paper-cat/test_mac/deep/final_actual_test/candidates_metadata.jsonl --report /Users/bobo/05_Project/06_curiosity/paper-cat/test_mac/deep/final_actual_test/metadata_report.json --only-fields abstract
+METADATA_FINISHED records=24 filled=9 abstracts -> /Users/bobo/05_Project/06_curiosity/paper-cat/test_mac/deep/final_actual_test/candidates_metadata.jsonl
+(exit 0)
+
+### 2026-11-24T12:30:56+00:00 scope_filter.py --input /Users/bobo/05_Project/06_curiosity/paper-cat/test_mac/deep/final_actual_test/candidates_metadata.jsonl --out /Users/bobo/05_Project/06_curiosity/paper-cat/test_mac/deep/final_actual_test/candidates_scoped.jsonl --start 2023-01-01 --end 2026-11-24 --drop-out --report /Users/bobo/05_Project/06_curiosity/paper-cat/test_mac/deep/final_actual_test/scope_report.json
+SCOPE_FILTER output=11 counts={'in_window': 11, 'out_of_window': 13} dropped={'out_of_window': 13}
+(exit 0)
+
+### 2026-11-24T12:31:05+00:00 venue_resolve.py --input /Users/bobo/05_Project/06_curiosity/paper-cat/test_mac/deep/final_actual_test/jev_scored.jsonl --out /Users/bobo/05_Project/06_curiosity/paper-cat/test_mac/deep/final_actual_test/jev_venue.jsonl --report /Users/bobo/05_Project/06_curiosity/paper-cat/test_mac/deep/final_actual_test/venue_report.json
+VENUE_RESOLVE records=11 openalex_formal=6 openalex_repository_only=4 unresolved=5
+(exit 0)
+
+### 2026-11-24T12:31:05+00:00 rank.py --candidates /Users/bobo/05_Project/06_curiosity/paper-cat/test_mac/deep/final_actual_test/jev_venue.jsonl --cache-dir /Users/bobo/.cache/paper-cat --plan /Users/bobo/05_Project/06_curiosity/paper-cat/test_mac/deep/final_actual_test/plan.json --out /Users/bobo/05_Project/06_curiosity/paper-cat/test_mac/deep/final_actual_test/ranked.jsonl --allow-missing-registry
+标注完成 → /Users/bobo/05_Project/06_curiosity/paper-cat/test_mac/deep/final_actual_test/ranked.jsonl（轨道策略 main_only）
+  等级命中 0｜等级待核实轨道 0｜预印本 0（其中声称已发表 0）｜未解析 11｜期刊分区 3｜按轨道策略排除 0
+(exit 0)
+
+### 2026-11-24T12:31:05+00:00 calibrate_k.py sample --ranked /Users/bobo/05_Project/06_curiosity/paper-cat/test_mac/deep/final_actual_test/ranked.jsonl --k 5 --out-dir /Users/bobo/05_Project/06_curiosity/paper-cat/test_mac/deep/final_actual_test/calibration
+CALIBRATION_SAMPLE records=11 bands=['top_quarter', 'rest_of_k', 'k_to_2k', 'tail'] -> /Users/bobo/05_Project/06_curiosity/paper-cat/test_mac/deep/final_actual_test/calibration
+(exit 0)
+
+### 2026-11-24T12:31:46+00:00 download.py --ranked /Users/bobo/05_Project/06_curiosity/paper-cat/test_mac/deep/final_actual_test/ranked.jsonl --idx 0,1,2,3,4 --out-dir /Users/bobo/05_Project/06_curiosity/paper-cat/test_mac/deep/final_actual_test/pdfs --skip-existing
+[0] ok open_access_pdf 开放获取版本（OA 元数据） (attempts=1)
+[1] failed  所有开放渠道均失败 → 进入人工取全文清单 (attempts=0)
+[2] failed  所有开放渠道均失败 → 进入人工取全文清单 (attempts=0)
+[3] failed  所有开放渠道均失败 → 进入人工取全文清单 (attempts=0)
+[4] failed  所有开放渠道均失败 → 进入人工取全文清单 (attempts=0)
+DOWNLOAD_FINISHED ok=1 failed=4 -> /Users/bobo/05_Project/06_curiosity/paper-cat/test_mac/deep/final_actual_test/pdfs/manifest.json
+(exit 0)
+
+### 2026-11-24T12:31:46+00:00 fulltext_verify.py --task /Users/bobo/05_Project/06_curiosity/paper-cat/test_mac/deep/final_actual_test --progress-task /Users/bobo/05_Project/06_curiosity/paper-cat/test_mac/deep/final_actual_test
+FULLTEXT_FINISHED ok=1 unverified=0 failed=0 -> /Users/bobo/05_Project/06_curiosity/paper-cat/test_mac/deep/final_actual_test/fulltext_manifest.json
+(exit 0)
+
+### 2026-11-24T12:31:46+00:00 judgment_sheet.py --ranked /Users/bobo/05_Project/06_curiosity/paper-cat/test_mac/deep/final_actual_test/ranked.jsonl --plan /Users/bobo/05_Project/06_curiosity/paper-cat/test_mac/deep/final_actual_test/plan.json --idx 0,1,2,3,4 --out-csv /Users/bobo/05_Project/06_curiosity/paper-cat/test_mac/deep/final_actual_test/judgment_sheet.csv --out-md /Users/bobo/05_Project/06_curiosity/paper-cat/test_mac/deep/final_actual_test/judgment_sheet.md
+JUDGMENT_SHEET rows=5 -> /Users/bobo/05_Project/06_curiosity/paper-cat/test_mac/deep/final_actual_test/judgment_sheet.csv
+(exit 0)
+
+### 2026-11-24T12:31:46+00:00 reading.py plan --task /Users/bobo/05_Project/06_curiosity/paper-cat/test_mac/deep/final_actual_test
+READING_PLAN new_papers=1 new_batches=1 kept_batches=0 -> /Users/bobo/05_Project/06_curiosity/paper-cat/test_mac/deep/final_actual_test/reading
+  B1: 1 papers, 9 pages -> assignment_B1.md
+(exit 0)

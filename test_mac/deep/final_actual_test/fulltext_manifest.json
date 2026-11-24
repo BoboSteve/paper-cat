@@ -1,0 +1,58 @@
+{
+  "created_at": "2026-11-24T12:31:46.881238+00:00",
+  "queries": [
+    "method",
+    "experiment",
+    "result",
+    "ablation",
+    "limitation"
+  ],
+  "records": [
+    {
+      "idx": 0,
+      "title": "Human-AI collaboration in Hybrid Multi-Agent Systems",
+      "pdf_path": "/Users/bobo/05_Project/06_curiosity/paper-cat/test_mac/deep/final_actual_test/pdfs/0_open_access_pdf.pdf",
+      "text_path": "/Users/bobo/05_Project/06_curiosity/paper-cat/test_mac/deep/final_actual_test/pdf_text/0_humanaicollaborationinhybridmultiagentsystems.txt",
+      "status": "ok",
+      "pages": 9,
+      "extractor": "pymupdf",
+      "empty_pages": 0,
+      "characters": 56313,
+      "title_token_recall": 1.0,
+      "identifier_match": true,
+      "sha256": "17426a7ab481fea00c5ddd7579bcde24e4465bc41179015f95e1197e86c172d2",
+      "evidence": [
+        {
+          "query": "method",
+          "page": 1,
+          "snippet": "ginal definitions for intelligent agents, artificial intelligent agents, Multi-Agent Systems, and Hybrid Multi-Agent Systems, using these as a foundation to discuss the implications of HyMAS for management research. II. METHOD To address the diverse issues surrounding HyMAS, includ- ing intelligent agents, MAS, NLP, and management, I adopted a narrative literature review approach. While this method lacks the methodological rigor of a systemat"
+        },
+        {
+          "query": "method",
+          "page": 1,
+          "snippet": "ations of HyMAS for management research. II. METHOD To address the diverse issues surrounding HyMAS, includ- ing intelligent agents, MAS, NLP, and management, I adopted a narrative literature review approach. While this method lacks the methodological rigor of a systematic literature review, it provides a broad and comprehensive overview of the research topic [8]. As part of the traditional review family, the narrative literature review, desp"
+        },
+        {
+          "query": "experiment",
+          "page": 8,
+          "snippet": ". 7753, pp. 477–486, Apr. 2019. [Online]. Available: https://www.nature.com/ articles/s41586-019-1138-y [39] H. Shirado and N. A. Christakis, “Locally Noisy Autonomous Agents Improve Global Human Coordination in Network Experiments,” Nature, vol. 545, no. 7654, pp. 370–374, May 2017. [Online]. Available: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5912653/ [40] R. Jain, N. Garg, and S. N. Khera, “Effective human–AI work design for collaborative"
+        },
+        {
+          "query": "experiment",
+          "page": 9,
+          "snippet": "i? eid=2-s2.0-85153532721&doi=10.1080%2f1359432X.2023.2200172& partnerID=40&md5=aa44582a54605f3ab7c7332904e38f7e [49] L. Ciechanowski, A. Przegalinska, M. Magnuski, and P. Gloor, “In the shades of the uncanny valley: An experimental study of human–chatbot interaction,” Future Generation Computer Systems, vol. 92, pp. 539–548, Mar. 2019. [Online]. Available: https: //linkinghub.elsevier.com/retrieve/pii/S0167739X17312268 [50] A. Przegalinska, L. C"
+        },
+        {
+          "query": "result",
+          "page": 1,
+          "snippet": "ent system? RQ3 Can humans be a part of a multi-agent system? RQ4 What are the implications of multi-agent systems composed of both human and non-human agents for the scientific research in the field of management? III. RESULTS A. Intelligent Agent Although the term ”intelligent agent” has been widely used in scientific literature for many years, it’s quite challenging to © The Author(s). This is an open-access article distributed under the t"
+        },
+        {
+          "query": "result",
+          "page": 2,
+          "snippet": "gent (RQ1)? It’s an entity, either artificial - non-human [13], [16], [19], [20], or natural - human [15], [17], [21]–[23] that 1) is autonomous, 2) perceives its environment, 3) undertakes rational actions that are the result of this perception, its internal desires, available means and resources, as well as social constraints, and 4) learns from these actions to improve itself. Intelligent agents can be classified according to the type of e"
+        }
+      ]
+    }
+  ]
+}

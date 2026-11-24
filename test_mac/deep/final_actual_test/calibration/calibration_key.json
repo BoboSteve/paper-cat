@@ -1,0 +1,94 @@
+{
+  "seed": 20261115,
+  "k": 5,
+  "bands": [
+    {
+      "name": "top_quarter",
+      "from": 1,
+      "to": 1
+    },
+    {
+      "name": "rest_of_k",
+      "from": 2,
+      "to": 5
+    },
+    {
+      "name": "k_to_2k",
+      "from": 6,
+      "to": 10
+    },
+    {
+      "name": "tail",
+      "from": 11,
+      "to": 11
+    }
+  ],
+  "samples": [
+    {
+      "sample_id": 1,
+      "band": "k_to_2k",
+      "rank_position": 8,
+      "record_id": "doi:10.20944/preprints202511.1370.v1"
+    },
+    {
+      "sample_id": 2,
+      "band": "k_to_2k",
+      "rank_position": 6,
+      "record_id": "doi:10.1145/3749421.3749432"
+    },
+    {
+      "sample_id": 3,
+      "band": "k_to_2k",
+      "rank_position": 7,
+      "record_id": "doi:10.1016/j.jmsy.2025.09.011"
+    },
+    {
+      "sample_id": 4,
+      "band": "rest_of_k",
+      "rank_position": 1,
+      "record_id": "doi:10.1109/tkde.2026.3735040"
+    },
+    {
+      "sample_id": 5,
+      "band": "tail",
+      "rank_position": 10,
+      "record_id": "doi:10.2139/ssrn.5236721"
+    },
+    {
+      "sample_id": 6,
+      "band": "rest_of_k",
+      "rank_position": 3,
+      "record_id": "doi:10.1109/icmsci67830.2026.11469659"
+    },
+    {
+      "sample_id": 7,
+      "band": "top_quarter",
+      "rank_position": 0,
+      "record_id": "doi:10.24425/ijet.2025.155474"
+    },
+    {
+      "sample_id": 8,
+      "band": "k_to_2k",
+      "rank_position": 9,
+      "record_id": "doi:10.1109/icmsci62561.2025.10894052"
+    },
+    {
+      "sample_id": 9,
+      "band": "rest_of_k",
+      "rank_position": 2,
+      "record_id": "doi:10.3390/drones10100770"
+    },
+    {
+      "sample_id": 10,
+      "band": "k_to_2k",
+      "rank_position": 5,
+      "record_id": "doi:10.36227/techrxiv.172902764.41177581/v1"
+    },
+    {
+      "sample_id": 11,
+      "band": "rest_of_k",
+      "rank_position": 4,
+      "record_id": "doi:10.2139/ssrn.5371788"
+    }
+  ]
+}

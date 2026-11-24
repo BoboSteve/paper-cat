@@ -1,0 +1,14 @@
+{
+  "query_statuses": {
+    "partial": 1
+  },
+  "source_results": {
+    "crossref": 25,
+    "arxiv": 0
+  },
+  "source_errors": {},
+  "stderr_events": {},
+  "empty_sources": {
+    "arxiv": 1
+  }
+}

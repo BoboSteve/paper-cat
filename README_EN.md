@@ -162,7 +162,7 @@ Claude Code, Codex, Huawei Cloud CodeArts (`install_skill.py --target .codeartsd
 
 > **A small confession about platforms 😅**<br>
 > Limited both **physically** (the author owns exactly one Windows machine) and **financially** (a moth just flew out of the wallet), the full workflow has so far been tested end to end on Windows only. macOS and Linux are supported in theory (paths, encodings and process handling are all written to be cross-platform), so they should be fine～<br>
-> **Mac platform testing confirmed**: BoboSteve successfully ran the quick search workflow on macOS, confirming cross-platform compatibility.<br>
+> **Mac platform testing confirmed**: BoboSteve successfully ran the quick search and deep search workflows on macOS, confirming cross-platform compatibility.<br>
 > If you get it running on a Mac or Linux box, or it blows up on you, please tell the author: you'd be this project's first cross-platform tester 🎖️
 
 ---

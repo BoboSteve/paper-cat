@@ -1,0 +1,68 @@
+[
+  {
+    "idx": 0,
+    "record_id": "doi:10.24425/ijet.2025.155474",
+    "title": "Human-AI collaboration in Hybrid Multi-Agent Systems",
+    "status": "ok",
+    "channel": "open_access_pdf",
+    "version_label": "开放获取版本（OA 元数据）",
+    "file": "/Users/bobo/05_Project/06_curiosity/paper-cat/test_mac/deep/final_actual_test/pdfs/0_open_access_pdf.pdf",
+    "sha256": "17426a7ab481fea0",
+    "note": "",
+    "attempts": [
+      {
+        "channel": "open_access_pdf",
+        "url": "http://journals.pan.pl/Content/136923/21_5114_Labedzki_L_sk.pdf",
+        "status": "ok"
+      }
+    ]
+  },
+  {
+    "idx": 1,
+    "record_id": "doi:10.1109/tkde.2026.3735040",
+    "title": "MASK: Multi-Agent Collaboration for Optimizing Adversarial Attacks on Multi-Agent Systems",
+    "status": "failed",
+    "channel": null,
+    "version_label": null,
+    "file": null,
+    "sha256": null,
+    "note": "所有开放渠道均失败 → 进入人工取全文清单",
+    "attempts": []
+  },
+  {
+    "idx": 2,
+    "record_id": "doi:10.3390/drones10100770",
+    "title": "Beyond Optimization: A Multi-Agent Systems and Human–Agent Collaboration Perspective on Decentralized Multi-UAV Task All",
+    "status": "failed",
+    "channel": null,
+    "version_label": null,
+    "file": null,
+    "sha256": null,
+    "note": "所有开放渠道均失败 → 进入人工取全文清单",
+    "attempts": []
+  },
+  {
+    "idx": 3,
+    "record_id": "doi:10.1109/icmsci67830.2026.11469659",
+    "title": "Generative and Cognitive Artificial Intelligence for Adaptive Human-Machine Collaboration",
+    "status": "failed",
+    "channel": null,
+    "version_label": null,
+    "file": null,
+    "sha256": null,
+    "note": "所有开放渠道均失败 → 进入人工取全文清单",
+    "attempts": []
+  },
+  {
+    "idx": 4,
+    "record_id": "doi:10.2139/ssrn.5371788",
+    "title": "Ai-Centric Design 2.0: Orchestrating Human-Ai Collaboration Through Multi-Agent Systems for Scalable and Ethical Design ",
+    "status": "failed",
+    "channel": null,
+    "version_label": null,
+    "file": null,
+    "sha256": null,
+    "note": "所有开放渠道均失败 → 进入人工取全文清单",
+    "attempts": []
+  }
+]

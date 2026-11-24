@@ -1,0 +1,51 @@
+{
+  "status": "degraded",
+  "started_at": "2026-11-24T12:30:16.876557+00:00",
+  "env_file": "/Users/bobo/.config/paper-search-mcp/.env",
+  "required_ok": true,
+  "failed_requirements": [],
+  "components": {
+    "env_file": {
+      "status": "degraded",
+      "reason": "env file missing"
+    },
+    "tools": {
+      "status": "ok",
+      "uv": {
+        "status": "ok",
+        "path": "/Users/bobo/.local/bin/uv"
+      },
+      "uvx": {
+        "status": "ok",
+        "path": "/Users/bobo/.local/bin/uvx"
+      },
+      "pdftotext": {
+        "status": "ok",
+        "path": "/opt/homebrew/bin/pdftotext"
+      }
+    },
+    "disk": {
+      "status": "ok",
+      "free_gb": 575.84
+    },
+    "openreview": {
+      "status": "degraded",
+      "configured": false,
+      "reason": "credentials missing"
+    },
+    "jev": {
+      "status": "blocked",
+      "error_type": "URLError"
+    },
+    "semantic": {
+      "status": "degraded",
+      "configured": false,
+      "reason": "SEMANTIC_SCHOLAR_API_KEY missing"
+    },
+    "openalex": {
+      "status": "blocked",
+      "configured": false,
+      "error_type": "HTTPError"
+    }
+  }
+}

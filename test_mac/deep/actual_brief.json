@@ -1,0 +1,18 @@
+{
+  "topic": "面向数据可视化的多场景协同、多智能体与人机协同分析",
+  "topic_description": "Data visualization for multi-scenario collaboration, multi-agent systems, and human-machine collaborative analysis",
+  "time_window": "2023-01-01 to 2026-11-24",
+  "concepts": [
+    ["data visualization", "information visualization"],
+    ["multi-scenario collaboration", "cross-domain collaboration"],
+    ["multi-agent systems", "multi-agent collaboration"],
+    ["human-machine collaboration", "human-computer interaction"],
+    ["collaborative analysis", "cooperative analysis"]
+  ],
+  "selected_k": 5,
+  "pack": "general",
+  "inclusion": [],
+  "exclusion": [],
+  "sources": ["openalex", "arxiv"],
+  "desired_paper_profile": "Focus on recent top conferences and journals in computer science, particularly in visualization, human-computer interaction, and multi-agent systems."
+}

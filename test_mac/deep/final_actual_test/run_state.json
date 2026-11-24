@@ -1,0 +1,25 @@
+{
+  "stages": {
+    "init": {
+      "finished_at": "2026-11-24T12:30:16+00:00",
+      "queries": 1
+    },
+    "search": {
+      "finished_at": "2026-11-24T12:30:56+00:00",
+      "candidates": 11,
+      "search_exit": 0
+    },
+    "rank": {
+      "finished_at": "2026-11-24T12:31:05+00:00",
+      "ranked": 11,
+      "k": 5,
+      "ranker": "lexical",
+      "prefilter_dropped": 0
+    },
+    "fetch": {
+      "finished_at": "2026-11-24T12:31:46+00:00",
+      "selected": 5,
+      "readable": 1
+    }
+  }
+}
