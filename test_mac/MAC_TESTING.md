@@ -112,7 +112,7 @@ Mac 平台上的 PaperCat 速览流程已成功运行。整个流程包括：
 ### 深度检索步骤说明：
 ```bash
 # 初始化（使用简化的 brief.json）
-python scripts/run.py init --task test_deep_mac --brief test_deep_mac/brief.json
+python scripts/run.py init --task test_deep_mac --brief test_mac/deep/brief.json
 
 # 搜索
 python scripts/run.py search --task test_deep_mac
@@ -135,3 +135,17 @@ python scripts/run.py finalize --task test_deep_mac --judged-by "test"
 - 建议使用较小的论文集（selected_k=5）进行测试
 - 实际测试需要较长时间，建议在空闲时间运行
 - 由于流程较长，我们目前只验证了速览模式的完整兼容性
+
+## 深度测试环境配置验证
+
+### 虚拟环境配置
+- 环境名称: `paper-cat`
+- Python 版本: 3.11
+- PyMuPDF: 已正确安装并可用
+- 环境自检: ✅ 通过
+
+### 测试准备状态
+- [x] 创建了深度测试配置文件
+- [x] 准备了测试主题和概念
+- [x] 创建了深度测试计划文档
+- [ ] 深度检索流程测试（等待在合适时机运行）
