@@ -124,3 +124,39 @@ Mac 平台上的 PaperCat 速览流程已成功运行。整个流程包括：
 4. 报告生成 - 成功生成 HTML 格式的报告文件
 
 测试表明 PaperCat 在 Mac 平台上完全兼容，可以正常运行速览流程。
+
+## 深度检索测试计划
+
+由于深度检索流程较长（通常需要 30-60 分钟），我们制定了以下测试计划：
+
+### 测试方法：
+1. **小规模测试**：使用 `selected_k: 5` 设置来减少处理的论文数量
+2. **简化流程**：只运行部分关键步骤，而不是完整流程
+3. **参数优化**：使用更高效的配置来缩短测试时间
+
+### 深度检索步骤说明：
+```bash
+# 初始化（使用简化的 brief.json）
+python scripts/run.py init --task test_deep_mac --brief test_deep_mac/brief.json
+
+# 搜索
+python scripts/run.py search --task test_deep_mac
+
+# 排序
+python scripts/run.py rank --task test_deep_mac
+
+# 获取全文（可选，因为这会比较耗时）
+python scripts/run.py fetch --task test_deep_mac
+
+# 阅读（可选）
+python scripts/reading.py status --task test_deep_mac
+
+# 最终处理
+python scripts/run.py finalize --task test_deep_mac --judged-by "test"
+```
+
+### 注意事项：
+- 深度检索完整流程通常需要 30-60 分钟
+- 建议使用较小的论文集（selected_k=5）进行测试
+- 实际测试需要较长时间，建议在空闲时间运行
+- 由于流程较长，我们目前只验证了速览模式的完整兼容性
