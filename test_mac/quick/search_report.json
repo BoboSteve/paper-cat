@@ -1,0 +1,18 @@
+{
+  "sources": {
+    "openalex": {
+      "status": "ok",
+      "records": 150
+    },
+    "arxiv": {
+      "status": "ok",
+      "records": 150
+    }
+  },
+  "raw": 300,
+  "unique_in_window": 283,
+  "full_coverage": 202,
+  "shortlist": 40,
+  "warnings": [],
+  "suggestions": []
+}
