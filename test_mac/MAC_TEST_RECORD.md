@@ -7,7 +7,7 @@
 - 操作系统: macOS
 - Python 版本: 3.11
 - 硬件架构: Apple Silicon (M系列芯片)
-- 虚拟环境: paper-cat
+- python虚拟环境: paper-cat
 
 ## 测试步骤
 
